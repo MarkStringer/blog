@@ -169,7 +169,7 @@ push (@file_list, $BLOG_DIRECTORY.$slash."index.htm");
 ## ftp everything up to the blog site
 my $ftp = Net::FTP->new("www.mumbly.co.uk", Debug => 0)
 or die "Cannot connect to some.host.name: $@";
-$ftp->login("strimaa",'4at7EVAD')
+$ftp->login($username,$password)
 or die "Cannot login ", $ftp->message;
 
 $ftp->cwd("/".$FTP_BLOG_DIRECTORY )
