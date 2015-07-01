@@ -1,4 +1,3 @@
-use strict;
 use warnings;    
 use Text::Markdown 'markdown';
 use Net::FTP;
@@ -128,9 +127,10 @@ foreach my $file (@text_files)
 		 close FILE;
 		 
 		 ## encode all the entities
-		 my	 $html = encode_entities($string, '^\n\x20-\x25\x27-\x7e\x00-\x08\x0B\x0C\x0E-\x1F\x80-\x{1FFFFF}');
+		 ##my	 $html = encode_entities($string, '^\n\x20-\x25\x27-\x7e\x00-\x08\x0B\x0C\x0E-\x1F\x80-\x{1FFFFF}');
+		##my $html=$string;
 		## encode_entities($string);
-		##my	 $html =	encode_entities($string, "\200-\377");
+		my	 $html =	encode_entities($string, "\226\227");
 		## convert to markdown
 		$html = markdown($html);
 		 
