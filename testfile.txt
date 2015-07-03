@@ -1,0 +1,15 @@
+﻿This is a single quote '
+
+This is a doubple quote "
+
+This is a dash -
+
+This is opening smart double quotes“
+
+This is closing smart double quotes ”
+
+This  is opening smart quotes‘
+
+This is closing smart quotes ’
+
+These are dashes ‐ ‑ — ―
