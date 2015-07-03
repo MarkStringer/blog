@@ -10,18 +10,6 @@ use HTML::Entities;
 use Getopt::Long;
 use Blog;
 
-## decide whether we're on windows or linux
-my $OperatingSystem= $^O;
-my $slash;
-
-if ($OperatingSystem =~ /linux/)
-{
-    $slash='/';
-}
-else
-{
-    $slash='\\';
-}
 
 my $slash = getOsSlash();
 my $tweet='';
