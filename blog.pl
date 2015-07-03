@@ -143,7 +143,7 @@ foreach my $file (@text_files)
 }
 
 
-## create and index file
+## create an index file
 open FILE, ">".$BLOG_DIRECTORY.$slash."index.htm";
 print FILE $header.$ul_frag1.$index_string.$ul_frag2.$rss_frag.$footer;
 close FILE;
