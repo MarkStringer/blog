@@ -10,7 +10,6 @@ use HTML::Entities;
 use Getopt::Long;
 use Blog;
 
-
 my $slash = getOsSlash();
 my $tweet='';
 my $username='';
@@ -31,7 +30,7 @@ print "Username $username\n";
 print "Password $password\n";
 print "Tweet $tweet\n";
 
-opendir (DIR,  $BLOG_DIRECTORY) or die $!;
+##opendir (DIR,  $BLOG_DIRECTORY) or die $!;
 
 my $header = <<HEAD;
 <html>
@@ -74,10 +73,7 @@ FOOT
 my @file_list = $BLOG_DIRECTORY.$slash.$STYLE_SHEET;
 my $dir = $BLOG_DIRECTORY;
 ## Sort the files chronoligcally
-opendir (DIR, $dir);
-     my @dir=readdir(DIR);
-        closedir(DIR);
-         @dir = sort { -M "$dir/$a" <=> -M "$dir/$b" } (@dir);
+my @dir = sortFilesChronologically($dir);
 	
 my @text_files;
 my @text_file_prefixes;
