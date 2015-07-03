@@ -8,6 +8,7 @@ use URI::Escape;
 use XML::RSS::SimpleGen;
 use HTML::Entities;
 use Getopt::Long;
+use Blog;
 
 ## decide whether we're on windows or linux
 my $OperatingSystem= $^O;
@@ -22,7 +23,7 @@ else
     $slash='\\';
 }
 
-
+my $slash = getOsSlash();
 my $tweet='';
 my $username='';
 my $password='';
