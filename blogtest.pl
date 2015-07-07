@@ -35,3 +35,4 @@ unlink "testdir".getOsSlash()."NumberThree.txt";
 unlink "testdir".getOsSlash()."NumberTwo.txt";
 unlink "testdir".getOsSlash()."NumberOne.txt";
 rmdir("testdir") || die "failed to remove test directory";
+

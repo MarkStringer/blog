@@ -111,9 +111,6 @@ foreach my $file (@text_files)
 		 my $string = <FILE>;
 		 close FILE;
 		 
-		 ## encode all the entities
-		 ##my	 $html = encode_entities($string, '^\n\x20-\x25\x27-\x7e\x00-\x08\x0B\x0C\x0E-\x1F\x80-\x{1FFFFF}');
-		##my $html=$string;
 		## encode_entities($string);
 		my	 $html =	encode_entities($string, "\226\227");
 		## convert to markdown
@@ -182,11 +179,8 @@ rss_webmaster( 'mark.stringer@mumbly.co.uk' );
 rss_twice_daily();
 get_url( $BLOG_URL );
 
-##while(
 ## just put the most recent article in the RSS feed
 m{<li><a href="(.*?)">(.*?)</a></li>}sg;
-## <li><a href="Hungry Ghost.htm">Hungry Ghost</a></li>
-##) {
 
 my $content_file = $1;
 my $content_title = $2;
