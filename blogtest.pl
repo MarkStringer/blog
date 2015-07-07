@@ -1,6 +1,6 @@
 use Blog;
 use Data::Compare;
-use Test::Simple tests => 3;
+use Test::Simple tests => 4;
 
 ok(getOsSlash(), "Get os slash is returning... : ".getOsSlash()); ## does it return anything?
 ##ok(getOsSlash()eq'/', "should pass if on linux");
@@ -36,3 +36,4 @@ unlink "testdir".getOsSlash()."NumberTwo.txt";
 unlink "testdir".getOsSlash()."NumberOne.txt";
 rmdir("testdir") || die "failed to remove test directory";
 
+ok(getFilePrefix("test.txt", "txt")=~/test/, "testing getFilePrefix");

@@ -76,14 +76,13 @@ my $dir = $BLOG_DIRECTORY;
 my @dir = sortFilesChronologically($dir);
 	
 my @text_files;
-my @text_file_prefixes;
+##my @text_file_prefixes;
 my @image_files;
 
 foreach my $file (@dir)
 {
 	if ($file=~ /(.*)\.txt$/)
 	{
-		@text_file_prefixes = (@text_file_prefixes, $1);
 		@text_files = (@text_files, $file);
 	}
 	if ($file=~/(.*)\.(png|jpg|gif)$/)
@@ -95,8 +94,7 @@ my $file_index = 0;
 
 foreach my $file (@text_files)
 {		
-		$file=~ /(.*)\.txt$/;
-		my $file_prefix = $1;
+		my $file_prefix = getFilePrefix($file,"txt");
 		## read in the whole file
 		 local $/=undef;
 		 $file = $BLOG_DIRECTORY.$slash.$file;
@@ -117,7 +115,7 @@ foreach my $file (@text_files)
 		$html = markdown($html);
 		 
 		 my $html_file = $BLOG_DIRECTORY.$slash.$file_prefix."\.htm";
-		 $index_string = $index_string.$li_frag1.$link_frag1.$file_prefix."\.htm".$link_frag2.$file_prefix.$link_frag3.$li_frag2;
+		 $index_string = $index_string.$li_frag1.$link_frag1.$file_prefix.".htm".$link_frag2.$file_prefix.$link_frag3.$li_frag2;
 		 
 		 ## create an html file
 		 open FILE, ">"."$html_file" or die "Cannot create file: $!";
@@ -125,11 +123,13 @@ foreach my $file (@text_files)
 		 print FILE $index_frag;
 		 if ($file_index > 0)
 		 {
-			 print FILE $nav_frag1.$link_frag1.$text_file_prefixes[$file_index-1].".htm".$link_frag2."Next".$link_frag3.$nav_frag2;
+			print FILE $nav_frag1.$link_frag1.getFilePrefix($text_files[$file_index-1],"txt").".htm".$link_frag2."Next".$link_frag3.$nav_frag2;
+			print "DEBUG: Next: ".getFilePrefix($text_files[$file_index-1],"txt")."\n";
 		 }
 		 if ($file_index < $#text_files)
 		 {
-			  print FILE $nav_frag1.$link_frag1.$text_file_prefixes[$file_index+1].".htm".$link_frag2."Previous".$link_frag3.$nav_frag2;
+			print FILE $nav_frag1.$link_frag1.getFilePrefix($text_files[$file_index+1],"txt").".htm".$link_frag2."Previous".$link_frag3.$nav_frag2;
+			print "DEBUG: Previous: ".getFilePrefix($text_files[$file_index-1],"txt")."\n";
 		 }
 		 ## write the date
 		 print FILE $date_frag1.$mdy.$date_frag2;
@@ -138,7 +138,6 @@ foreach my $file (@text_files)
 		 close FILE;
 		 $file_index++;
 }
-
 
 ## create an index file
 open FILE, ">".$BLOG_DIRECTORY.$slash."index.htm";

@@ -13,10 +13,18 @@ package Blog;
   use HTML::Entities;
 
   use Exporter 'import'; # gives you Exporter's import() method directly
-  our @EXPORT = qw(doBlog getOsSlash sortFilesChronologically);  # symbols to export on request
+  our @EXPORT = qw(doBlog getOsSlash sortFilesChronologically getFilePrefix);  # symbols to export on request
   
   sub doBlog {
       return 1;
+  }
+  
+  sub getFilePrefix
+  {
+	  my $filename = $_[0];
+	  my $suffix = $_[1];
+	  $filename=~ /\W*(.*)\.$suffix$/;
+	  return $1;
   }
   
   sub getOsSlash
