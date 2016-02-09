@@ -1,0 +1,36 @@
+﻿/*PURPLE THEME*/
+/*MEDIA OVERRIDE
+This stylesheet can be used to override existing media styles used in the selected/configured theme that is used
+to change the layout of page elements for different viewport sizes used in different devices such as tablets and mobiles.
+Add styles to this stylesheet file if you want to change the look and feel of page elements in different viewport sizes.
+A responsive css strategy has been used in the join@home application. This means that there is one base template file that is
+modified by the css. The layout relies upon an underlying liquid grid (blueprint framework) that uses % values on all containers & em values on all text./*
+
+NOTE:
+**********DO NOT**********
+change other css files in the themes directory, as the changes will not be persisted when a new version of the software is installed.
+**********DO NOT**********
+add styles that effect the grid layout and positioning of page elements.
+ONLY change text (family, size(em), color), border(width,colour) and image backgrounds(reference styles from custom.css) if required.
+*/
+
+/*VIEWPORT SIZES
+-------------------------------------------------------------------------------*/
+
+
+    /* If the viewport width <= 1000 pixels ...  (LESS THEN 1000 pixels wide)  */
+    @media only screen and (max-width: 999px) 
+    {
+}
+
+    /* If the viewport width <= 700 pixels ...  (LESS THEN 700 pixels wide) */
+    @media only screen and (max-width: 699px) {
+}
+
+    /* If the viewport width <= 480 pixels ...  (LESS THEN 480 pixels wide)  */
+    @media only screen and (max-width: 480px) {
+}
+
+    /* If the viewport width <= 320 pixels ...  (LESS THEN 320 pixels wide) */
+    @media only screen and (max-width: 320px) {
+}

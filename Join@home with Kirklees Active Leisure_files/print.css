@@ -1,0 +1,256 @@
+/* Purple Theme - Gladstone join@home - CSS Document ------------*/
+/* --------------------------------------------------------------
+ Blueprint CSS Framework 1.0.1
+ http://blueprintcss.org
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+   print.css
+   * Gives you some sensible styles for printing pages.
+   * See Readme file in this directory for further instructions.
+
+   Some additions you'll want to make, customized to your markup:
+   #header, #footer, #navigation { display:none; }
+-------------------------------------------------------------- */
+
+body {
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color:#000;
+  background: none;
+  font-size: 10pt;
+}
+
+/* Layout
+-------------------------------------------------------------- */
+
+.container {
+  background: none;
+}
+
+.right {
+	float:right;
+}
+
+hr {
+  background:#ccc;
+  color:#ccc;
+  width:100%;
+  height:2px;
+  margin:2em 0;
+  padding:0;
+  border:none;
+}
+hr.space {
+  background: #fff;
+  color: #fff;
+  visibility: hidden;
+}
+
+/*Direct debit Guarantee - Print Layout
+-----------------------------------------------*/
+/*DD Guarantee - Fixed width container settings*/
+#printableDiv {
+	width:19.7cm;
+	padding:0.2cm;
+}
+
+/*DD Guarantee - Main outer container*/
+#direct-debit-instruction-outer-container {
+	margin:0cm;
+	padding:0cm;
+}
+
+/*DDG - Top Columnx2 container*/
+#ddprint-1-2col-container {
+	width:100%;
+	margin:0cm;
+	padding:0cm 0cm 0cm 0.7cm;
+}
+
+/*DDG - Column 1 container*/
+#direct-debit-instruction-col1-container {
+	width:7.2cm;
+	margin:0cm 0cm 0cm 0cm;
+	padding:0cm;
+}
+
+/*DDG - Column 2 container*/
+#direct-debit-instruction-col2-container {
+	width:7.4cm;
+	margin:0cm;
+	padding:0cm;
+}
+
+/*DDG - Name of Account Holders - Input box - Set a fixed width */
+.txtAccountHolderNameInput {
+	width:6.5cm;
+	height:1cm;
+}
+
+/*DDG - Bank/Building Society account number - Input box - Set a fixed width */
+.txtBSANumberInput {
+	width:6.5cm;
+	height:1cm;
+}
+
+/*Sort Code Box style*/
+.SortCodeBox {
+	width:5cm;
+	height:1cm;	
+}
+
+/*Bank.BS Address Title*/
+.lblBankNameAddressTitle {
+	width:6.5cm;
+	font-style:normal;
+	font-weight:bold;
+	padding-bottom:0.2cm;
+}
+
+/*To Manager Bank/Building Society Box*/
+.ToManagerBBS-Box {
+	width:6.5cm;
+	height:1cm;
+}
+/*Address Box for Bank or Building Society*/
+.DDGAddressBox {
+	width:6.3cm;
+	height:4cm;
+	text-align:left;
+	vertical-align:top;
+	background-color:#FFF;
+	margin-top:0.2cm;
+	padding-left:0.2cm;
+}
+
+/*Apply to Reference boxes in DDGuarantee printed form*/
+.refcontainer {
+	width:0.5cm;
+	height:0.5cm;
+	background-color:Gray !important;
+}
+/*DDG - Instruction txt container div*/
+#dd-instruction-txt {
+	overflow:auto;
+	width:7.4cm;
+}
+/*Date*/
+.DateBox {
+	height:1cm;
+}
+
+#ddprint-ddguarantee-list-container {
+	padding:0cm 0.2cm 0cm 0cm;
+}
+
+/* Text
+-------------------------------------------------------------- */
+
+
+
+h1,h2,h3,h4,h5,h6 { font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif; }
+code { font:.9em "Courier New", Monaco, Courier, monospace; }
+
+a img { border:none; }
+p img.top { margin-top: 0; }
+
+blockquote {
+  margin:1.5em;
+  padding:1em;
+  font-style:italic;
+  font-size:.9em;
+}
+
+.small  { font-size: .9em; }
+.large  { font-size: 1.1em; }
+.x-large
+{
+    font-size: 1.3em;
+    padding-top: 0.4em;
+}
+.bold { font-weight:bold;}
+.quiet  { color: #999; }
+.hide   { display:none; }
+
+.label-left {
+	text-align:left;
+	font-weight:bold;
+	color:Black;
+}
+.centre {
+	text-align:"centre";
+}
+.right {
+	text-align:right;
+}
+.top {
+	vertical-align:top;
+	text-align:left;
+}
+/*Text Value*/
+.value {
+	text-align:left;
+	color: #000000;
+	font-size: 1.1em;
+}
+
+#direct-debit-guarantee-text-info
+{
+    width:100%;
+    height:100%;
+    azimuth:center;
+    content:inherit;
+}
+
+.column-right {float:right;}
+
+/* The last column in a row needs this class. */
+/*.last 		{ margin-right: 0; } */
+
+
+/*Use on containers to add a black border for print purposes*/
+.border-print{
+	border:1px solid #000000 !important;
+	zoom: 1;
+}
+
+/* Links
+-------------------------------------------------------------- */
+
+a:link, a:visited {
+  background: transparent;
+  font-weight:700;
+  text-decoration: underline;
+}
+
+/* 
+	This has been the source of many questions in the past. This 
+	snippet of CSS appends the URL of each link within the text. 
+	The idea is that users printing your webpage will want to know 
+	the URLs they go to. If you want to remove this functionality, 
+	comment out this snippet and make sure to re-compress your files.
+ */
+a:link:after, a:visited:after {
+ /* content: " (" attr(href) ")";*/
+  font-size: 90%;
+}
+
+/* If you're having trouble printing relative links, uncomment and customize this:
+   (note: This is valid CSS3, but it still won't go through the W3C CSS Validator) */
+
+/* a[href^="/"]:after {
+  content: " (http://www.yourdomain.com" attr(href) ") ";
+} */
+
+/* Image Resizing
+------------------------------------------------------------------------------*/
+/*The maximum width of the image is set to 100% of the screen or browser width,
+ so when that 100% becomes narrower, so does the image*/
+img { max-width: 100%;}
+
+img,
+object {max-width: 100%;}

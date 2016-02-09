@@ -29,8 +29,7 @@ GetOptions ('username=s' => \$username, 'password=s' => \$password, 'tweet' => \
 print "Username $username\n";
 print "Password $password\n";
 print "Tweet $tweet\n";
-
-##opendir (DIR,  $BLOG_DIRECTORY) or die $!;
+print "Slash $slash\n";
 
 my $header = <<HEAD;
 <html>
@@ -103,7 +102,7 @@ foreach my $file (@text_files)
 		  my $modified = (stat($file))[9];
 		  my ($d,$m,$y) = (localtime($modified))[3,4,5];
 		  my $mdy = sprintf '%d/%d/%d', $d, $m+1,  $y+1900;
-		  ##print $mdy." \n";
+		  
 		 
 		 open FILE,  $file or die "Couldn\'t open file: $file";
 		 my $string = <FILE>;
@@ -124,12 +123,10 @@ foreach my $file (@text_files)
 		 if ($file_index > 0)
 		 {
 			print FILE $nav_frag1.$link_frag1.getFilePrefix($text_files[$file_index-1],"txt").".htm".$link_frag2."Next".$link_frag3.$nav_frag2;
-			print "DEBUG: Next: ".getFilePrefix($text_files[$file_index-1],"txt")."\n";
 		 }
 		 if ($file_index < $#text_files)
 		 {
 			print FILE $nav_frag1.$link_frag1.getFilePrefix($text_files[$file_index+1],"txt").".htm".$link_frag2."Previous".$link_frag3.$nav_frag2;
-			print "DEBUG: Previous: ".getFilePrefix($text_files[$file_index-1],"txt")."\n";
 		 }
 		 ## write the date
 		 print FILE $date_frag1.$mdy.$date_frag2;
@@ -165,7 +162,6 @@ foreach my $put_file (@file_list)
 }
  (my $sec, my$min, my $hour,my $mday, my $mon, my $year, my $wday, my $yday, my $isdst) =
 localtime(time);
-my @abbr = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec);
 ## make an entry in the dropbox public folder, so we can do a post on IFTTT 
 open FILE, ">$PUBLIC_DIRECTORY$slash$year$mon$mday$sec\.txt";
 print FILE $header.$ul_frag1.$index_string.$ul_frag2.$footer;

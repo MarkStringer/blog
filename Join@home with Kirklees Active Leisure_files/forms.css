@@ -1,0 +1,424 @@
+/* Purple Theme - Gladstone join@home - CSS Document             */
+/* Form Styles ------------------------------------------------- */
+
+label {
+	font-weight:bold;
+	font-size: 1.1em;
+	margin-top: 1.1em;
+	top:0;/*Override ie.css setting to centre label with radio button*/
+}
+/*Checkbox style for the input*/
+p.chkRdoList input{
+	float:left;
+}
+/*Checkbox style for the label*/
+p.chkRdoList label
+ {
+  vertical-align:middle;
+  padding-top:3px;
+  padding-left:2em;
+  display:block; 
+ }
+
+fieldset {
+	padding:0 1.4em 1.4em 1.4em;
+	margin:0 0 1.5em 0;
+	border:none;
+}
+
+legend {
+	font-weight:bold;
+	font-size:1.2em;
+	margin-top:-0.2em;
+	margin-bottom:1em;
+}
+.gladstone-legend {
+	font-weight:bold;
+	font-size:1.2em;
+	margin-top:0.3em;
+	margin-bottom:1em;
+}
+
+
+fieldset, #IE8#HACK {
+	padding-top:1.4em;
+}
+
+.field_title {
+	font-size: 1.1em;
+	font-weight:bold;
+}
+
+.value {
+	color: #154D72;
+}
+
+legend, #IE8#HACK {
+	margin-top:0.2;
+	margin-bottom:0.3em;
+}
+
+select {
+	background-color:#fff;
+	border-width:1px;
+	border-style:solid;
+}
+/*---------------------------------------------------------------------------------*/
+/*Input Field Styles*/
+
+input[type=text], input[type=password], input[type=url], input[type=email], input.text, input.title, textarea {
+	background-color:#fff;
+	border:1px solid #bbb;
+	color:#000;
+	width:90%;/*Force the input to fill % width of container*/
+	padding-bottom:0.5em;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=url]:focus, input[type=email]:focus, input.text:focus, input.title:focus, textarea:focus {
+	border:1px solid #666;
+}
+input[type=text], input[type=password], input[type=url], input[type=email], input.text, input.title, textarea, select {
+	margin:0.1em 0 0 0;
+	line-height: 1.2em;
+}
+
+/*INPUT FIELDS - Style to control the default width of input fields.*/
+input.text, input.title {
+	/*width:95%;*/
+	padding:0.3em;
+}
+
+/*INPUT - SORT CODE - Style used to control the width of
+input fields for the sort code entry on the DD page.*/
+input.text, input.sorttitle {
+	width:4em;
+	padding:5px;
+}
+
+
+/*Style for title on top of input fields*/
+input.title {
+	font-weight:bold;
+	font-size: 1.0em;
+	color:#003;
+	vertical-align:middle;
+	border:1px solid #999999;
+}
+
+/*Input field style*/
+Label.title {
+	font-weight:bold;
+	font-size: 1.0em;
+	color:#003;
+	line-height: 1.6em;
+	vertical-align:middle;
+}
+
+/*Dropdown list style*/
+.DropDownList {
+	border:1px solid #999999;
+	margin-bottom: 0.2em;
+}
+
+/*REQUIRED - This style is applied to an "*"
+ to denote that the data for a field is required
+  ther asterix should always be added to the left of field titles*/
+.required {
+	color:#F00;
+	padding-right: 0.1em;
+	font-size:1.5em;
+}
+
+/* The generic style used on navigation buttons
+  eg. Lookup Button in Add persoanl details page. */
+.default_button {
+	vertical-align:middle;
+	background-color:#F00;
+	background-image:url(images/lookup_button_bactile.png);
+	background-position:0px 0px;
+	background-repeat:repeat-x;
+	padding: 0.2em;
+	margin: 0.1em 0 0 0;
+	background-color:#2891D8;
+	font-size:1.1em;
+	text-transform:capitalize;
+	text-shadow:#FFF;
+	font-weight:900;
+	color: White;
+	-moz-border-radius: 0.3em 0.5em 0.3em 0.5em;
+	border-radius: 0.3em 0.5em 0.3em 0.5em;
+	border-width: 1px;
+	border-color: #333;
+	letter-spacing: 0.11em;
+}
+	
+.default_button:hover {
+	background-image:url(images/lookup_button_bactile.png);
+	background-position:50px 0px;
+	background-repeat:repeat-x;
+	color: #000000;
+	border-color: #75355F;
+}
+
+/* The generic style used on navigation buttons
+  eg. Lookup Button in Add persoanl details page. */
+.lookup-button {
+	vertical-align:middle;
+	background-color:#F00;
+	background-image:url(images/lookup_button_bactile.png);
+	background-position:0px 0px;
+	background-repeat:repeat-x;
+	padding: 0.2em 0.2em 0.4em 0.2em ;
+	margin: 1.0em 0 0 0;
+	font-size:1.1em;
+	text-transform:capitalize;
+	text-shadow:#FFF;
+	font-weight:900;
+	color: #FFF;
+	-moz-border-radius: 0.3em 0.5em 0.3em 0.5em;
+	border-radius: 0.3em 0.5em 0.3em 0.5em;
+	border-width: 1px;
+	border-color: #EEDAE7;
+	letter-spacing: 0.11em;
+	background-color:#2891D8;
+}
+	
+.lookup-button:hover {
+	background-image:url(images/lookup_button_bactile.png);
+	background-position:50px 0px;
+	background-repeat:repeat-x;
+	color: #000000;
+	border-color: #75355F;
+}
+
+
+
+/*Button style for input fields*/
+input.button {
+	vertical-align:middle;
+	background-color:#F00;
+	padding:5px;
+	margin: 6px 0 0 0;
+	background-color:#2891D8;
+	padding: 0.04em 0.04em 0.04em 0.04em;
+	font-size:1.5em;
+	text-transform:capitalize;
+	text-shadow:#FFF;
+	font-weight:900;
+	color:#CCC;
+	width: 6em;
+	-moz-border-radius: 0.3em 0.5em 0.3em 0.5em;
+	border-radius: 0.3em 0.5em 0.3em 0.5em;
+	border-width: 1px;
+	border-color: #333;
+	letter-spacing: 0.11em;
+}
+input.button:hover {
+	background-color: #6F3;
+	color: #000;
+}
+
+
+textarea {
+	width:390px;
+	height:250px;
+	padding:5px;
+}
+
+form.inline {line-height:3;}
+
+form.inline p {margin-bottom:0;}
+/*-----------------------------*/
+/*VALIDATION - Styles - Start */
+
+
+.generalerror
+{
+	line-height:1.4em;
+	padding :0.8em;
+	color:Red;
+	font-size:1.2em;
+	/*background:#fbe3e4;*/
+}
+
+.generalerror, .alert, .notice, .success, .info {
+	
+}
+
+/* style for generic error for whole form */
+.generalerror, .alert {
+
+	line-height:1.5em;
+}
+/*Use on the container span for a validation error.*/
+.error-container {
+		background-color:#fbe3e4;
+}
+
+.error, .alert, .notice, .success, .info {
+	padding:0.5em 0.4em 0.7em 2.8em ;
+	margin-top:0.2em;
+}
+
+.error, .alert {
+	background:#fbe3e4;
+	background-image: url(images/validation-message-arrow.png);
+	background-position:8px 8px ;
+	background-repeat:no-repeat;
+	color:#8a1f11;
+}
+
+.error {
+	text-indent: -5px;
+	padding-left:3em;
+	display:block;
+}
+
+.alert {
+	background:#fbe3e4;
+	background-image: url(images/validation-message-arrow.png);
+	background-position:8px 8px ;
+	background-repeat:no-repeat;
+	color:#8a1f11;
+}
+
+.notice {
+	background:#E2E6FE;
+	color:#000000;
+	border:1px solid #D6A1CC;
+	font-size:1.1em;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	padding-left:0.5em;/*override left hand padding on line 23*/
+}
+
+/*Style for success messaging*/
+.success {
+	background:#e6efc2;
+	color:#264409;
+	border-color:solid #CCC thin;
+	padding:0.6em 0.4em 0.8em 0.4em;
+	font-size: 1.4em;
+}
+
+.info {
+	background:#d5edf8;
+	color:#205791;
+	border-color:#92cae4;
+}
+
+#error-validation-container {
+	min-height: 2em;
+	margin-top:0.8em;
+}
+
+.error a, .alert a {color:#8a1f11;}
+
+.notice a {color:#514721;}
+
+.success a {color:#264409;}
+
+.info a {color:#205791;}
+
+/*Text field label style*/
+.label {
+	text-align:left;
+	font-weight:bold;
+	color:Black;
+}
+.label-left {
+	text-align:left;
+	font-weight:bold;
+	color:Black;
+}
+
+/*Label used next to dropdowns*/
+.dropdownlabel {
+	text-align:right;
+	font-weight:bold;
+	color:Black;
+	padding-top:0.6em;
+}
+
+/*Text Value*/
+.value {
+	text-align:left;
+	color: #000000;
+	font-size: 1.1em;
+}
+
+.value-right {
+	text-align:right;
+	color: #000000;
+	font-size: 1.1em;
+}
+
+/*Use on supporting instruction text such as labels on radio buttons etc.*/
+.inline-help {
+	font-size:1.3em;
+	color: #666666;
+	padding-left:0.5em;
+}
+
+.radio-label {
+	font-size:1.2em;
+	font-weight:bolder;
+}
+
+
+/*********************************************************************/
+/* EXTRA FORM STYLES -  CREATED BY KEVIN POCOCK - Probably wont use */
+/*******************************************************************/
+.gs_inline {line-height:3;} /* to line up form elements */
+.gs_form_background {background-color:#E5E5E5; }
+.gs_button_default {border: 0px solid #bbb; background: #808080;padding: 5px 10px 5px 10px; color: white; margin: 0.5em 0em 0em 0.4em;}
+.gs_button_default:hover { background: #9F9F9F;}
+.gs_height_default {height:60px;}  /* for multi-line textarea */
+
+/*****************************************************************/
+/* FORM LABELS -  CREATED BY KEVIN POCOCK - Probably wont use   */
+/***************************************************************/
+.gs_label01 {font-weight:bold; line-height:1.25; margin-top:0.9em; margin-bottom:0.6em; text-align:right; } /* without margin-bottom there is too much spacing between rows */
+.gs_label02 {font-weight:bold; }
+.gs_notice01 {color: red;}
+
+/*This controls the styling of labels on radio buttons*/
+.radio-label {
+	font-size:1.3em;
+	font-weight:bold;
+	padding-top: -1em;
+	list-style-position:inside;
+	margin-top: 2em;
+	line-height: -2em;
+	vertical-align:middle;
+}
+
+/*Hyperlink - style used on links such as edit on dd details page.*/
+.linkButton-normal
+{
+    color:#154D72;
+	font-size: 1.1em;
+    background-color:transparent; 
+    border:none; 
+    cursor:hand;    
+}
+
+.Green {
+	background-color:Lime;
+}
+	
+/*Text field label style*/
+.label-center {
+	text-align:center;
+	color:Black;
+}
+
+value-center {
+	vertical-align:top;
+    text-align:left;
+	color: #154D72;
+}
+
+.border-black {
+	border:1px solid #000000;
+}

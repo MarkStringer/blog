@@ -1,0 +1,68 @@
+body
+{
+	font-size: 14pt;
+	font-family: garamond, bookman, "times new roman", serif;
+}
+a:link {text-decoration:none;}
+
+#content
+{
+	padding-left: 10pc;
+	width: 800px;
+	float: left;
+	display: inline;
+}
+#sponsor-panel
+{
+	display: inline;
+	float: right;
+}
+#top_banner
+{
+	clear: both;
+	display: inline;
+}
+#indexLink
+{
+	display: inline;
+	padding-right: 100px;
+}
+#mailLink
+{
+	display: inline;
+	padding-right: 100px;
+}
+#archiveLink
+{
+	display: inline;
+	padding-right: 100px;
+}
+#nextLink
+{
+	display: inline;
+	padding-right: 100px;
+}
+
+#link {
+	font-size: 14pt;
+	margin-right: 1em;
+}
+
+#commonplace
+{
+	font-size:10pt;
+	font-style: italic;
+	margin: .83em 0
+}
+
+#index_ul li {
+	list-style: none;
+	font-size: 16pt;
+	line-height: 2;
+	background: white;
+}
+
+#index_ul li:nth-child(odd) 
+{
+	background: #F8F8F8;
+}

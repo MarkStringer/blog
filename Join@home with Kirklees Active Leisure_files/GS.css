@@ -1,0 +1,102 @@
+.bootstrap div .accordion-active .icon-accordion-toggle-indicator {
+  background-position: -313px -119px;
+}
+.bootstrap div .accordion-inactive .icon-accordion-toggle-indicator {
+  background-position: -432px -72px;
+}
+.bootstrap .accordion-group {
+  background-color: #f8eef6;
+}
+.bootstrap .accordion-heading {
+  color: #763168;
+}
+.bootstrap .accordion-heading .accordion-toggle {
+  background-color: #f0ddec;
+}
+.bootstrap .accordion-inner {
+  padding: 4px 10px 6px 10px;
+}
+.bootstrap div .accordion-active .icon-accordion-toggle-indicator {
+  background-image: url("Images/accordian-purple-toggle-btn.png");
+  background-repeat: no-repeat;
+  background-position: 0px -25px;
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+  margin-top: 0.7em;
+}
+.bootstrap div .accordion-active .icon-accordion-toggle-indicator:hover {
+  background-image: url("Images/accordian-purple-toggle-btn.png");
+  background-repeat: no-repeat;
+  background-position: -25px -25px;
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+  margin-top: 0.7em;
+}
+.bootstrap div .accordion-inactive .icon-accordion-toggle-indicator {
+  background-image: url("Images/accordian-purple-toggle-btn.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+  margin-top: 0.7em;
+}
+.bootstrap div .accordion-inactive .icon-accordion-toggle-indicator:hover {
+  background-image: url("Images/accordian-purple-toggle-btn.png");
+  background-repeat: no-repeat;
+  background-position: -25px 0px;
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+  margin-top: 0.7em;
+}
+.bootstrap div .accordion-active {
+  background-color: #f0ddec;
+  /* Css created using http://projects.korrelboom.com/gradient-generator/#top|rgb(222%2C180%2C214)%20|rgba(243%2C228%2C240%2C1) */
+
+  /* SVG fallback(Opera 11.10-, IE9) */
+
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2JhKDIyMiwxODAsMjE0LDEpOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOnJnYmEoMjQzLDIyOCwyNDAsMSk7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+  /* Opera 11.10+ */
+
+  background: -o-linear-gradient(top, #deb4d6, #f3e4f0);
+  /* Firefox 3.6+ */
+
+  background: -moz-linear-gradient(top, #deb4d6, #f3e4f0);
+  /* Chrome 7+ & Safari 5.03+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #deb4d6), color-stop(1, #f3e4f0));
+  /* IE5.5 - IE7 */
+
+  -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFDEB4D6,EndColorStr=#FFF3E4F0)";
+  border: 1px solid #CE8FC2;
+}
+.bootstrap div .accordion-inactive {
+  color: #853875;
+  border: #a6a5fa 1px solid;
+}
+.bootstrap div .accordion-inactive:hover {
+  border: #e7e7fe 1px solid;
+  /* Css created using http://projects.korrelboom.com/gradient-generator/#top|rgb(222%2C180%2C214)%20|rgba(243%2C228%2C240%2C1) */
+
+  /* SVG fallback(Opera 11.10-, IE9) */
+
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2JhKDIyMiwxODAsMjE0LDEpOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOnJnYmEoMjQzLDIyOCwyNDAsMSk7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+  /* Opera 11.10+ */
+
+  background: -o-linear-gradient(top, #deb4d6, #f3e4f0);
+  /* Firefox 3.6+ */
+
+  background: -moz-linear-gradient(top, #deb4d6, #f3e4f0);
+  /* Chrome 7+ & Safari 5.03+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #deb4d6), color-stop(1, #f3e4f0));
+  /* IE5.5 - IE7 */
+
+  -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFDEB4D6,EndColorStr=#FFF3E4F0)";
+}
+.bootstrap .icon-home {
+  background-position: -24px 0px;
+}

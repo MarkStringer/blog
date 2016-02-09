@@ -1,0 +1,83 @@
+.bootstrap .clearfix {
+  *zoom: 1;
+}
+.bootstrap .clearfix:before,
+.bootstrap .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.bootstrap .clearfix:after {
+  clear: both;
+}
+.bootstrap .hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.bootstrap .input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.bootstrap .sidekick-unit {
+  padding: 6px;
+  margin-bottom: 6px;
+  line-height: 27px;
+  color: inherit;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.bootstrap .sidekick-unit h1 {
+  margin-bottom: 0;
+  font-size: 60px;
+  line-height: 1;
+  color: inherit;
+  letter-spacing: -1px;
+}
+.bootstrap .sidekick-unit li {
+  line-height: 27px;
+}
+.bootstrap .btn {
+  color: #000000;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: #d194c4;
+  background-image: -moz-linear-gradient(top, #daa9d0, #c374b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#daa9d0), to(#c374b3));
+  background-image: -webkit-linear-gradient(top, #daa9d0, #c374b3);
+  background-image: -o-linear-gradient(top, #daa9d0, #c374b3);
+  background-image: linear-gradient(to bottom, #daa9d0, #c374b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdaa9d0', endColorstr='#ffc374b3', GradientType=0);
+  border-color: #c374b3 #c374b3 #a44691;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #c374b3;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.bootstrap .btn:hover,
+.bootstrap .btn:focus,
+.bootstrap .btn:active,
+.bootstrap .btn.active,
+.bootstrap .btn.disabled,
+.bootstrap .btn[disabled] {
+  color: #000000;
+  background-color: #c374b3;
+  *background-color: #bb62a9;
+}
+.bootstrap .btn:active,
+.bootstrap .btn.active {
+  background-color: #b4509f \9;
+}
+.bootstrap .btn:hover,
+.bootstrap .btn:focus {
+  color: #000000;
+}

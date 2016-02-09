@@ -1,0 +1,1246 @@
+/* PURPLE THEME - Gladstone join@home - CSS Document */
+/***********************************************/
+/* CUSTOM STYLES - START HERE  */
+/***********************************************/
+/* The following items can be customised for each Gladstone client
+   so they can create a look and feel that matches their brand identity. */
+
+.gs_custom_colour_01_background  {background-color: #160A4B;} 
+
+/***********************************************/
+/* Header - Custom style items  */
+/***********************************************/
+/* This controls the inner container inside the header. */
+#header .header_inner span {
+	margin: -5px 0px 0px 0px;
+	padding: 0.2em 0em 0em 0em;
+	background-color:transparent;
+}
+/*Apply a background branded header image here*/
+.header_inner {
+	float:left;
+	width:100%;
+	background-image:url(images/Ptheme-header-bac3.png);
+	background-repeat:no-repeat;
+	background-position: top left;
+}
+
+/*This is the wrapper container for the branded header elements.
+This could be used to customise this header area.*/
+#company-branding-container {
+	
+	float:left;
+	width:100%;
+	background-color:transparent;
+	padding:0px;
+	margin:0px;
+}
+
+/* This is the Container for the Company Logo in the top left of the header */
+#company-logo {
+	height:46px;
+	width: 25%;
+	background-image:url(images/Ptheme-join-home-logo.png);
+	background-repeat:no-repeat;
+	background-position: 0 0 0 10px;
+	position:relative;
+	top:0;
+	left:0;
+	min-width: 121px;
+	float:left;
+}
+/*Container to hold the Company Name and Strapline */
+#company-name-and-strapline-container {
+	padding: 0.2em 0 0.4em 0em;
+	float:left;
+	width:74%;
+	background-color:transparent;
+}
+
+#company-name {
+	overflow:auto;
+}
+
+/* This is the page title that goes with the company logo. It could be used to
+hold the customers company name or strapline for marketing purposes. */
+/*#company-Name {} - unused currently*/
+#company-name p {
+	font-family: Droid Sans, Trebuchet MS, Sans-Serif;
+	font-style:normal;
+	font-weight: 100;
+	font-size:2.0em;
+	text-align: right;
+	padding-top: 0.01em;
+	color:#401C38;
+}
+
+/*This is the strapline that sits underneath the company name eg. "Join online now"*/
+#company-strapline {
+	text-align:right;
+	font-family:sans-serif, Arial, Helvetica, ;
+	font-size:1.1em;
+	font-weight:bold;
+	text-align:right;
+	color:#000000;
+	overflow:hidden;
+	width:100%;
+}
+
+#company-strapline p {
+	font-family:sans-serif, Arial, Helvetica, ;
+	font-size:1.1em;
+	font-weight:bold;
+	text-align:right;
+	color:#000000;
+	overflow:hidden;
+	padding-right: 10px;
+}
+
+.substrapline {
+	text-align:right;
+}
+
+/***********************************************/
+/* Progress Steps - Custom style items  */
+/***********************************************/
+/* This is the Container for the Progress Steps Boxes */
+.progressbox_container{
+	height: 42px;
+	width: 130px !important; /* IE Win = width - padding */
+	min-width:100px;
+	float:left;
+	margin:4px 0px 0px 4px;
+	background: transparent;
+	background-image: url(images/Ptheme-progress-step-bac.png);
+	background-repeat:no-repeat;
+	background-position: left top;
+	/* intended total box width - padding-right(next) */
+	padding-right:5px; /* use to position the box */
+
+}
+/* This is the Container for the Progress Steps Box Title/Text.
+Use this style to style the text. */
+.progressbox_text{
+	padding: 3px 4px 4px 6px;
+	line-height:1.8em;
+	font-size: 1.15em;
+	font-weight:bold;
+	color: #241200;
+	text-align:left;
+}
+/* This is the Container for the Progress Steps Arrow on the right of the box.
+It is styles using javascript. See style at base of html page.
+NOT USED IN THIS THEME*/
+/*.box_arrow{
+	padding: 0px;
+	background-color: #6699FF;
+	height: 40px;
+	width: 10px;
+	float:left;
+}*/
+
+/***********************************************/
+/* Content - Left hand main content custom style items  */
+/***********************************************/
+/* This controls the styling of all content inside the
+main left hand content container. */
+#content .content_inner {
+  margin: 0px;
+  padding: 0px;
+  background-image:url(images/Ptheme-content-inner-bac-htile.png);
+  background-position:0px 0px;
+  background-repeat:repeat-x;
+  background-color:#FCFAF2;
+  border:solid #CCC 0px;
+}
+/*This is the styling for the top header title for each process step
+ at the top of the content container*/
+#content .content_inner .header{
+  background-image:url(images/Ptheme-content-hd-htile.png);
+  background-position:left top;
+  background-repeat:repeat-x;
+  margin: 0px;
+  padding: 4px 0 4px 4px;
+  background-color:#BDD0D9;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight:bold;
+  color:#2D1600;
+  text-align:left;
+}
+/*This style is for the inline help text "Div" at the top of the content container.*/
+#content .content_inner .helptext_content_top {
+  margin: 0px 0px 0px 10px;
+  padding: 0.4em 0 0.4em 0;
+  text-align:left;
+  font-size: 1em;
+}
+/*This style is for the inline help text "Paragraph" at the top of the content container.
+The blueprint container for all column layouts is put inside this div.*/
+#content .content_inner .helptext_content_top p {
+	font-family: sans-serif, Arial, Helvetica;
+	font-size: 1.2em;
+	font-weight:200;
+	color:#333333;
+	padding-left:0.5em;
+}
+
+.payment-header {
+  background-image:url(images/Ptheme-content-hd-htile.png);
+  background-position:left top;
+  background-repeat:repeat-x;
+  margin: 0px;
+  padding: 4px 0 4px 4px;
+  background-color:#BDD0D9;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight:bold;
+  color:#2D1600;
+  text-align:left;
+  border-bottom:1px solid #CCCCCC;
+  border-right:1px solid #CCCCCC;
+  width:99.5%;
+}
+
+.helptext_content_top {
+	margin: 0px;
+	padding: 0.4em 0 0.4em 0.5em;
+	text-align:left;
+	font-size: 1em;
+	font-family: sans-serif, Arial, Helvetica;
+	font-size: 1.2em;
+	font-weight:200;
+	color:#333333;
+}
+
+/*This style is for the main form elements that sit inside the middle of the content container*/
+#content .content_inner .content_inner_main {
+  margin: 0px;
+  padding: 2px 0 4px 8px;
+}
+
+.header {
+  overflow: hidden;
+  background-color:#FFF;
+  background-image:url(images/Ptheme-headbac_tile.png);
+  background-position:left top;
+  background-repeat:repeat-x;
+  margin: 0px;
+  padding: 4px 0 4px 8px;
+  background-color:#BDD0D9;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight:bold;
+  color:#000;
+  text-align:left;
+  border-bottom: 1px solid #E5C2DE;
+}
+
+.header {
+  overflow: hidden;
+  background-color:#FFF;
+  background-image:url(images/Ptheme-headbac_tile.png);
+  background-position:left top;
+  background-repeat:repeat-x;
+  margin: 0px;
+  padding: 4px 0 4px 8px;
+  background-color:#BDD0D9;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight:bold;
+  color:#000;
+  text-align:left;
+  border-bottom: 1px solid #E5C2DE;
+  width:99.1%;
+}
+
+/***********************************************/
+/* Membership Summary Details - Right hand container custom style items  */
+/***********************************************/
+
+#Reg_MemberDetail_Container {
+	background-image:url(images/Ptheme-sumDetails-htile-bac.png);
+	background-position:left top;
+	background-repeat:repeat-x;
+}
+
+
+/*This is the style for the Membership Details title.*/
+#summarybar .inner .summarybar_title 
+{
+
+	background-image:url(images/Ptheme-summry-header-lft-bac.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#7C346D;
+	padding: 0.2em 0 0.3em 0;
+}
+
+/*This is the style for the Membership Details title.*/
+#summarybar .inner .summarybar_title span {
+	padding: 0.4em;
+}
+/*USERNAME - style for its container in the summary bar*/
+.summary-username-container {
+	background-image:url(images/Ptheme-summry-name-htile-bac.png);
+	background-position:top left;
+	background-repeat:repeat-x;
+	border:1px solid #CE8FC2;
+}
+/*USERNAME - style for the text in the summary bar*/
+.summary-username {
+	font-size: 1.4em;
+}
+/*USERNAME EMAIL ADDRESS - style for its container in the summary bar*/
+.summary-user-email-container {
+	border:1px solid #CE8FC2;
+	background-color:#FFF;
+}
+/*USERNAME EMAIL ADDRESS- style for the email address text in the summary bar*/
+.summary-user-email {
+	font-size: 1.2em;
+}
+
+
+/*This is the style for the sub titles within
+ the Membership Details summary box.*/
+#summarybar .inner .titlebar 
+{
+	background-image:url(images/Ptheme-sumDetails-htile-bac.png);
+	background-position:left top;
+	background-repeat:repeat-x;
+	padding:4px 4px 4px 4px;
+	margin: 0px;
+	font-weight:normal;
+	font-size: 1.1em;
+	text-align:	left;
+	color:#FFF;
+}
+
+/*Membership Details Summary Bar Styles - START */
+
+#Reg_MembershipDetail_Container {
+	border-bottom: 2px solid #B95FA7;
+}
+
+/*Sub content container style*/
+.subcontentleft 
+{
+	font-weight:normal;
+	color:Black;
+	text-align: left;
+	font-size: 1.2em;
+	padding-top: 0.1em;
+	padding-right: 0;
+	padding-bottom: 0.1em;
+	padding-left: 0.4em;
+	background-color:#FCFAF2;
+	border-bottom:1px solid #DEB4D6;
+}
+.subcontentleft hr 
+{
+	vertical-align:middle;
+	noshade:solid 1px;
+	width: 100%;
+}
+
+/*This is the style for the sub content "div" container under the sub title within
+ the Membership Details summary box.*/
+#summarybar .inner .subcontent {
+	padding:4px 4px 4px 4px;
+	
+}
+/*This is the style for the sub content "paragraph" under the sub title within
+ the Membership Details summary box.*/
+#summarybar .inner .subcontent p
+{
+    color: #000;
+}
+
+/*Membership Details Summary Bar Styles - START */
+/*Sub content container style*/
+.subcontentleft 
+{
+	font-weight:normal;
+	color:Black;
+	text-align: left;
+	font-size: 1.2em;
+	padding-top: 0.1em;
+	padding-right: 0;
+	padding-bottom: 0.1em;
+	padding-left: 0.4em;
+	background-image:url(images/semi-transparent-bac-50white.png);
+	background-position:top left;
+	background-repeat:repeat-x repeat-y;
+	border-left: 1px solid #B95FA7;
+}
+
+.subcontentleft hr 
+{
+	vertical-align:middle;
+	noshade:solid 1px;
+	width: 100%;
+}
+
+/*Summary Total style - adds a line above and below the total*/
+.subcontent-Total {
+	border-top:2px solid #B95FA7;
+	border-bottom:3px solid #B95FA7;
+	border-left:1px solid #B95FA7;
+	text-align:left;
+	padding: 0.6em 0 0.8em 0.4em;
+	background-color:White;
+}
+
+/*Subscription Group style*/
+#Reg_SubTypeGroup_Container {
+	color:Black;
+	text-align:left;
+	padding: 0 0 0 0.4em;
+}
+
+/*Membership Details - Summary - Para style used to control the font size.*/
+#summarybar .inner .subcontentleft p {
+	padding: 0 0 0 0.4em;
+	font-size:0.9em;
+}
+
+#ctl00_MainContent_userControlSelectedSubscriptionTypeDetails_lblSubTypeGroup {
+	color:Black;
+    color: #000;
+    text-align:left
+}
+
+#summarybar .inner .subcontentright p {
+    color: #000;
+}
+
+.summary-total {
+	font-size:1.4em;
+}
+
+/***********************************************/
+/* NAVIGATION BAR - Custom style items  */
+/***********************************************/
+
+/*Navigation container styles - use to control
+padding and background color - see style used in MemberRegistration.aspx */
+.navigation-bottom-inner {
+	background-color:#9CF;
+	background-image:url(images/Ptheme-Navbar-bac-htile.png);
+	background-position:left bottom;
+	background-repeat: repeat-x;	
+	padding: 6px;
+	height: 36px;
+	padding: 5px 5px 5px 5px;
+	border-top:2px solid White;
+}
+
+/*Container to hold the Back and Next buttons - style if required*/
+.navigation-button-container{}
+
+/*Navigation Base Buttons*/
+.navigation-bottom {
+	width: inherit;
+	float:left;
+}
+
+/*BACK navigation Button styles*/
+.gs_button_navigate_back {
+	background-image:url(images/Ptheme-nav-back-btn.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	padding: 0.01em 0 0 0;
+	font-size:1.6em;
+	font-weight:900;
+	letter-spacing: 0.11em;
+	color:#FFF;
+	height: 41px;
+	width: 121px;
+	border:0px none;
+	float:left;
+}
+/*BACK navigation Button - Hover state*/
+.gs_button_navigate_back:hover {
+	background-image:url(images/Ptheme-nav-back-btn.png);
+	background-position:0 -43px;
+	background-repeat:no-repeat;
+	height: 41px;
+	width: 121px;
+	border:0px none;
+	color:#F8EF58;
+}
+
+/*NEXT navigation Button styles*/
+.gs_button_navigate_next {
+	background-image:url(images/Ptheme-nav-next-btn.png);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	padding: 0.01em 0 0 0;
+	font-size:1.6em;
+	font-weight:900;
+	letter-spacing: 0.11em;
+	color:#FFF;
+	height: 41px;
+	width: 121px;
+	border:0px none;
+}
+.gs_button_navigate_next:hover {
+	background-image:url(images/Ptheme-nav-next-btn.png);
+	background-position:0 -42px;
+	background-repeat:no-repeat;
+	height: 41px;
+	width: 121px;
+	border:0px none;	
+	color:#F8EF58;
+}
+
+/*Pay & Finish Button - Custom width button*/
+.gs_button_navigate_finish {
+	background-image:url(images/Ptheme-nav-pay-finish-btn.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	padding: 0.02em 0 0 0;
+	font-size:1.2em;
+	font-weight:900;
+	letter-spacing: 0.08em;
+	color:#FFF;
+	height: 41px;
+	width: 172px;
+	border:0px none;
+}
+.gs_button_navigate_finish:hover {
+	background-image:url(images/Ptheme-nav-pay-finish-btn.png);
+	background-position:0 -41px;
+	background-repeat:no-repeat;
+}
+
+/*Continue  Button styles*/
+.button_navigate_continue {
+	background-image:url(images/Ptheme-nav-continue-btn-sprite.png);
+	background-position:0 43;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	padding: 0.02em 0.2em 0.4em 0.2em;
+	font-size:1.4em;
+	font-weight:900;
+	font-style:normal;
+	font-variant:small-caps;
+	letter-spacing: 0.11em;
+	color:#FFF;
+	height: 43px;
+	width: 318px;
+	border:0px none;
+	float: left;
+}
+.button_navigate_continue:hover {
+	background-image:url(images/Ptheme-nav-continue-btn-sprite.png);
+	background-position:0 -43px;
+	background-repeat:no-repeat;
+	border:0px none;	
+	color:#F8EF58;
+}
+
+.button-navigate-continue-disabled {
+	background-image:url(images/Ptheme-nav-continue-btn-disabled.png);
+	background-position:top right;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	padding: 0.02em 0.2em 0.4em 0.2em;
+	font-size:1.4em;
+	font-weight:900;
+	letter-spacing: 0.11em;
+	color:#FFF;
+	height: 43px;
+	width: 318px;
+	border:0px none;
+	float: left;
+}
+
+.gs_button {
+	background-color:#2891D8;
+	background-position:right center;
+	background-repeat:no-repeat;
+	font-size:1.5em;
+	font-weight:900;
+	color:#CCC;
+	height: 2em;
+	-moz-border-radius: 0.3em 0.5em 0.3em 0.5em;
+	border-radius: 0.3em 0.5em 0.3em 0.5em;
+	border-width: 1px;
+	border-color:#FFF;
+	letter-spacing: 0.11em;
+}
+
+
+/* GENERIC STYLES - the following styles are suitable for each client and do not have to be customised */
+
+/***********************************************/
+/* Override existing Blueprint elements  */
+/***********************************************/
+/*h2 {font-size:1.75em;margin-bottom:0em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:0em; }*/
+
+select {
+	background-color:#fff;
+    border:1px solid #bbb;
+    padding:1px;
+}
+
+/* overrides default alternating colours of table rows */
+tbody tr:nth-child(even) td, tbody tr.even td {
+	background:#FFF;
+} 
+
+/***********************************************/
+/* BUTTON Styles - Generic  */
+/***********************************************/
+/*Generic button style used across all pages*/
+.LinkButton {
+	background-color:#2891D8;
+	background-image:url(images/generic_btn_bactile.png);
+	background-position:left center;
+	background-repeat:repeat-x;
+	font-size:1em;
+	text-transform:capitalize;
+	text-shadow:#FFF;
+	font-weight:900;
+	letter-spacing: 0.11em;
+	color:#000033;
+	height: 2em;
+	width: 6em;
+	-moz-border-radius: 0.3em 0.5em 0.3em 0.5em;
+	border-radius: 0.3em 0.5em 0.3em 0.5em;
+	border-width: 1px;
+	border-color:#FFF;
+}
+
+.LinkButton:hover {
+	background-image:url(images/generic_btn_bactile_hover.png);
+	background-position:left center;
+	background-repeat:repeat-x;
+}
+
+/***********************************************/
+/* EXTRA PADDING STYLES  */
+/***********************************************/
+.gs_padding_small  {padding:3px 10px 3px 10px;}
+.gs_padding_small_02  {padding:10px;}
+.gs_padding_small_03  {padding:3px 5px 3px 5px;}
+
+/***********************************************/
+/* Misc */
+/***********************************************/
+.gs_colour_01_background  {background-color: #E5E5E5;}
+.gs_colour_01_font {color: black;}
+
+/*-----------------------------------------------*/
+/*CUSTOM ONLINE REGISTRATION CUSTOM STYLE - START*/
+
+/*INLINE HELP TEXT - used on the help text at the top left of all pages*/
+.dropdown_field_help_text {
+	font-style:italic;
+}
+
+/*-------------------------------*/
+/*Start page - Custom Styles - start*/
+/*-------------------------------*/
+
+/*OR - Start page - Custom Styles - Start*/
+.or {
+	font-size:18px;
+	color:#39C;
+	margin: 0 0 0.2em 0;
+}
+
+/*SELECT YOUR MEMBERSHIP TYPE ----Start*/
+/* - Table grid that holds membership types
+   Go to "table-style.css" to see all custom table styling 
+   Use the ID here for media query targeting for the whole table -*/
+
+#select-membership-type-tablegrid-container {}
+
+/*-END-----------------------------------------*/
+
+/*---------------------------------------------*/
+/*Custom Header Styles - start*/
+/*---------------------------------------------*/
+
+/*Direct Debit Page Custom Styles - start*/
+/*-------------------------------*/
+/*DD Page 1 - styles - start here*/
+.dd_logo{
+	background-image:url(images/dd-logo-onwhite.png);
+	background-position:right 0px;
+	background-repeat:no-repeat;
+}
+
+#your-payment-summary-text{
+	margin-top: -1.2em;
+}
+
+#Company-Title{
+	margin-bottom: -0.9em;
+}
+#Company-Title h4{
+	color:#666;
+}
+
+#Company-Address{
+	font-size:1.4em;
+}
+
+#Originators-ID-Number-title{
+	margin-bottom: -0.9em;
+}
+#Originators-ID-Number-title h4{
+	color:#666;
+}
+
+#Originators-ID-Number{
+	font-size:1.6em;
+	padding-top:0.3em;
+}
+
+#Reference-Number-Title{
+	margin-bottom: -0.9em;
+}
+#Reference-Number-Title h4{
+	color:#666;
+}
+
+#Reference-Number{
+	font-size:1.3em;
+}
+#Reference-Number p{
+	font-size:1.3em;
+}
+
+#safeguards-and-guarantees-text{}
+#safeguards-and-guarantees-text p{}
+
+#instruction-text-to-bank-title{
+	font-weight:bold;
+	font-size: 1.1em;
+	margin-bottom: -0.9em;	
+}
+
+#instruction-text-to-bank-text{}
+#instruction-text-to-bank-text p{
+	font-size:1.2em;
+}
+
+#confirm-to-pay-by-direct-debit-container{}
+
+/*DD Setup - Enter Details - styles - END here*/
+
+/*------------------------------------------------*/
+/*DD Setup - Confirm Details - styles - start here*/
+
+/*Help text at the top of the DD Confirm Details page. */
+#ctl00_MainContent_Wizard1_ctl08_lblSummaryHelp 
+{
+	font-size: 1.1em;
+	padding-left: 1.4em;
+}
+
+/*DDSetup-Confirm - Column 1
+ - Use this to wrap the column for smaller browsers viewports.*/
+.DDConfirm-Details-Column1{}
+
+/*DDSetup-Confirm - Column 2
+- Use this to wrap the column for smaller browsers viewports.*/
+#DD-Confirmation-Details-Container {
+		
+	}
+
+.DD-confirmation-details-title {
+	text-align:right;
+	font-size: 1.2em;
+	font-weight:bold;
+	color:#000;
+	padding: 0 0.2em 0 0;
+	width: 500px;
+}
+
+.DD-confirmation-details {
+	text-align:left;
+	font-size: 1.2em;
+	color:#000;
+	padding: 0 0.2em 0 0;
+}
+
+/*Text at the top of the Confirm details dd page
+- "Please check all the details and then click 'Pay and finish' below:" */
+#confirm-details-please-check-container{
+	padding: 0.2em 0em 0em 0.5em;
+}
+
+
+/*container round name-postal-bank details header in top of box on DD Confirm page*/
+#dd-confirm-to-bank-container {
+	border-bottom:1px solid #000000;
+}
+
+#dd-confirm-bank-address {
+	border-right:1px solid #000000;
+}
+#dd-confirm-bank-address p {
+	padding-left:0.4em;
+}
+
+#dd-confirm-to-person-container {
+	padding-left:0.4em;
+}
+
+/*Total Pay Separator - Div to hold the horizontal rule.*/
+#pay-now-summary-total-line-separator {
+	padding:0 0 0 0em;
+	margin: 0em;
+}
+/*Total to pay now div style -used in the DD Confirm Details page*/
+#pay-now-total-to-pay-now-container {
+	font-weight:bold;
+	font-size: 1.2em;
+}
+
+#pay-now-payment-provider-logos-container {}
+#Payment-Provider-Row2-container {}
+
+#pay-monthly-container {}
+/*Direct Debit logo used in the Pay Monthly section of the
+Confirm details DD screen.*/
+#pay-monthly-Direct-Debit-logo {
+	background-image:url(images/dd-logo-3.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	height:30px;
+	width:80px;
+}
+
+
+#pay-monthly-committing-to-info-container {
+	text-align:left;
+	float:left;		
+}
+
+#pay-monthly-info-container {
+	text-align:left;
+	float:left;
+}
+
+/*force the text in the span to left align*/
+#pay-monthly-info-container p span{
+	text-align:left;
+	float:left;
+}
+
+#The-direct-debit-guarantee-box-inner-container {
+	border:1px solid #000000;
+}
+
+#pay-monthly-summary-container {}
+#pay-monthly-payment-method-container {}
+#pay-monthly-Monthly-Direct-Debit-Payment-container {}
+#pay-monthly-First-Direct-Debit-Payment-container {}
+
+/*DD Setup - Confirm Details - styles - END here*/
+/*------------------------------------------------*/
+
+/* "Pay as you go" or "Contract" membership page - Custom Styles - START*/
+
+
+/*------------------------------------------------*/
+/*Basic Details Submission page styles*/
+
+/*Use this style to change the background colour or image etc
+ to the main content container. (See the MemberEntry.ascx page)*/
+#Member_Main_Container {}
+
+/*------------------------------------------------*/
+/*Subscription Type Groups page styles*/
+
+.lblSubTypeSubHeading 
+{
+	font-style:normal;
+	text-align:left;
+	padding: 0.4em 0 0.8em 0;
+}
+
+/*------------------------------------------------*/
+/*Add your personal details page styles*/
+
+#AddPerDetails-PDetails-Container {
+	padding-top:0.6em;
+	padding-bottom:0.4em;
+}
+
+#addressLookupDiv {
+	width:95%;
+}
+
+/*Lookup Box style - Wrapped around the Postcode lookup fields*/
+#AddPerDetails-Address-Lookup {
+	border: 1px solid #CB87BD;
+	background-color:#F4E4F0;
+	padding: 0.6em 0.2em 0.4em 0.4em;
+	margin-bottom: 1.5em;
+}
+
+/*House Number*/
+#AddPerDetails-Address-Lookup-House-NoName {
+	line-height:1em;
+}
+/*Postcode*/
+#AddPerDetails-Address-Lookup-House-Postcode {
+	line-height:1.0em;
+}
+
+#AddPerDetails-Address-Lookup-House-Button {
+	line-height:1em;
+}
+
+#AddPerDetails-PDetail-Name-Container {
+	height: 3.3em;
+}
+
+#AddPerDetails-PDetail-Name-Title {
+	height: 1.2em;
+	padding-bottom: 0.2em;
+}
+
+#AddPerDetails-PDetail-Name-First-Last {
+	height: 1.8em;
+	color:Blue;
+}
+
+/*User Name style used at top of "Add your persoanl details page"*/
+.User-Title {
+	color:#1D6494;
+	font-size: 1.1em;
+	font-weight:700;
+	padding-top:0.1em;
+}
+
+#AddPerDetails-PDetails-DateBirth-Container {
+	padding-top: 0.5em;
+}
+
+#AddPerDetails-Info-Base-Container {}
+
+/*Privacy Policy style - add a box round it to differentiate element*/
+#AddPerDetails-Privacy-Policy-Container {
+	background-color:#F4E6F1;
+	text-align:center;
+	margin-top:10px;
+	padding: 5px 0 8px 0;
+	border:1px solid #FFF;
+}
+
+/*-----------------------------------------------------*/
+/* Select your membership start date page - Custom styles*/
+
+/*Summary box at base of page - Style*/
+#DD_Summary {
+	border-top: 1px dashed #C67CB7;
+	padding-top:5px;
+}
+
+/*Summary box at base of page - Style*/
+#DD_Summary_Detail {
+	background-color:#FCFAF2;
+}
+
+#DD_Summary_Detail h3 {
+	text-align:left;
+}
+#DD_Summary_Detail p {
+	text-align:left;
+}
+
+.lblSummary {
+	font-size: 1.2em;
+	color: #055183;
+}
+
+/*'Pay Monthly' - header*/
+/*#membership-start-date-pay-monthly-container {}*/
+
+/*'Payment Method'
+---------------------------------------------------*/
+/*#Membership-Start-Date-Payment-Method-Container{}
+#membership-start-date-payment-method-label {}
+#membership-start-date-payment-method-value {}*/
+
+/*'Monthly Direct Debit Payment'
+---------------------------------------------------*/
+/*#monthly-direct-debit-payment-container {}
+#monthly-direct-debit-payment-label {}
+#monthly-direct-debit-payment-value {}*/
+
+/*'First Payment'*/
+/*#member-start-date-first-payment-container {}
+#member-start-date-first-payment-label {}
+#member-start-date-first-payment-value {}*/
+
+
+/*'Pay Now Payment Method'
+---------------------------------------------------*/
+/*#pay-now-payment-method-container {}
+#pay-now-payment-method-label {}
+#pay-now-payment-method-value {}*/
+
+/*'Start Up Fee'
+---------------------------------------------------*/
+/*#membership-start-date-start-Up-fee-container {}
+#membership-start-date-start-Up-fee-label {}
+#membership-start-date-start-Up-fee-value {}*/
+
+
+/*'Membership Initial Fee' 
+---------------------------------------------------*/
+/*#rest-of-membership-initial-fee-container {}
+#rest-of-membership-initial-fee-label {}
+#rest-of-membership-initial-fee-value {}*/
+
+/*Use to target 'Total to Pay Now' elements
+-------------------------------*/
+/*#total-paynow-container {}*/
+/*increase width to fill container width*/
+/*#total-paynow-label {}*/
+/*increase width to fill container width*/
+/*#total-paynow-value {}*/
+
+/*Confirm Your Details*/
+.payment-logos {
+	display:block;
+	height:70px;
+}
+
+/*-----------------------------------------------------*/
+/*FINISH PAGE - start*/
+
+/*Top level finish page container*/
+#finish-message-links-topcontainer {
+	padding-top:10px;
+	background-color:#FFF;
+}
+
+#divPrint {
+	background-color:#FFF;
+}
+
+#finish-reg-header {
+	background-image:url(images/Ptheme-finish-hd-htile.png);
+	background-repeat:repeat-x;
+	background-position:left top;
+	height:35px;
+	font-family:Trebuchet MS, Sans-Serif;
+	font-size:2em;
+	text-align:left;
+	color:Black;
+	padding: 0.4em;
+}
+
+/*-----------------------------------------------------*/
+/*FOOTER - Custome Styling items - Start*/
+
+/*Inner Footer container for styling - Use footer in main.css for positional styling*/
+#footer-inner-container {
+	background-image:url(images/Ptheme-foot-vtile-bac.png);
+	background-position:left top;
+	background-repeat:repeat-y;
+	width:100%;
+	height:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#000000;
+}
+
+/*Gladstone Logo for right hand of footer*/
+#footer-gladstone-logo {
+	height:40px;
+	background-image:url(images/Gladstone_Leisure_Corp_ID_onWhite_97x40.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	padding-top: 4px;
+}
+
+/*Telephone No for left hand of footer beneath navigation bar*/
+#footer-support-telephone-no {
+	float:left;
+	font-family:Lucida Sans,Arial,Sans Serif;
+	font-size: 1.2em;
+	font-style:normal;
+	font-weight:normal;
+	color:#C881BA;
+	text-align:left;
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+	min-width:60%;
+	overflow:auto;
+}
+
+/*Privacy policy link on the footer found in Site.Master*/
+#Privacy-Policy-Text {
+	font-family:Lucida Sans,Arial,Sans Serif;
+	font-size: 1.2em;
+	font-style:normal;
+	font-weight:normal;
+	text-align:left;
+	padding-top: 1.5em;
+	padding-left: 0.5em;
+	min-width:60%;
+	overflow:auto;
+	color:#C881BA;
+	height:2em;
+}
+
+#Privacy-Policy-Text a {
+	text-decoration: underline;
+	color:#C881BA;
+}
+#Privacy-Policy-Text a:hover {
+	text-decoration: underline;
+	color:#B14A9C;
+}
+
+/*Captcha control
+--------------------------------------*/
+#captcha-control-container {
+	width: 100%;
+}
+.captcha {
+	margin-top: 10px;
+	color:Red;
+}
+
+/*Calendar Lookup
+--------------------------------------*/
+/*Calendar Background style*/
+.calendarStartDate {
+	background-color: White;
+	padding:0em 0em 0em 0em ;
+	border:1px solid #C67CB7;
+	margin:0em;
+	z-index:1000;
+	font-size:1.0em;
+}
+/*Calendar TOPNAV Header style*/
+.calendarStartDate table {
+	background-color: #DFDFDF;
+}
+/*Calendar text link styles*/
+.calendarStartDate tbody tr td a 
+{
+	color:#097FB5;
+	font-size:1.3em;
+	display:block;
+	border:1px solid #097FB5;
+	padding:0.2em;
+}
+.calendarStartDate tbody tr td a:hover {
+	color:#FFF;
+	display:block;
+	font-size:1.3em;
+	background-color:#097FB5;
+	padding:0.3em;
+}
+/*Calendar DAY header style*/
+.calendarStartDate tr th {
+	background-color:#E8CDE3;
+}
+.calendarStartDate td {
+	padding-top:-0.4em;
+}
+
+/*Privacy Policy page
+----------------------------------------------------------------------------*/
+#Privacy-Policy-Container {
+	background-color:#FFF;
+}
+#privacy-policy-header-inner {
+	margin: 0px 0px 0px 0px;
+	height:50px;
+}
+#privacy-policy-header-inner span {
+	margin: 0px 0px 0px 0px;
+	padding: 0.7em 0em 0em 0.5em;
+	font-size:2em;
+	text-align:left;
+	vertical-align:middle;
+}
+/*Apply a background branded header image here*/
+#privacy-policy-header {
+	background-image:url(images/Ptheme-summry-header-htile-bac.png);
+	background-repeat:repeat-x;
+	background-position: top left;
+	height:40px;
+}
+/*Privacy Policy text block*/
+#privacy-policy-content {
+	padding:0.6em 0 1em 1.5em;
+	font-size:1.1em;
+}
+
+/*Terms and Conditions page
+----------------------------------------------------------------------------*/
+#TermsAndCons-Container {
+	background-color:#FFF;
+}
+#TermsAndCons-header-inner {
+	margin: 0px 0px 0px 0px;
+	height:50px;
+}
+#TermsAndCons-header-inner span {
+	margin: 0px 0px 0px 0px;
+	padding: 0.7em 0em 0em 0.5em;
+	font-size:2em;
+	text-align:left;
+	vertical-align:middle;
+}
+/*Apply a background branded header image here*/
+#TermsAndCons-header {
+	background-image:url(images/Ptheme-summry-header-htile-bac.png);
+	background-repeat:repeat-x;
+	background-position: top left;
+	height:40px;
+}
+/*Privacy Policy text block*/
+#TermsAndCons-content {
+	padding:0.6em 0 1em 1.5em;
+	font-size:1.1em;
+}
+
+/*Health Questionnaire page--------------------------------------------------*/
+#HQuest-Container {
+	background-color:#FFF;
+}
+#HQuest-header-inner {
+	margin: 0px 0px 0px 0px;
+	height:50px;
+}
+#HQuest-header-inner span {
+	margin: 0px 0px 0px 0px;
+	padding: 0.7em 0em 0em 0.5em;
+	font-size:2em;
+	text-align:left;
+	vertical-align:middle;
+}
+/*Apply a background branded header image here*/
+#HQuest-header {
+	background-image:url(images/Ptheme-summry-header-htile-bac.png);
+	background-repeat:repeat-x;
+	background-position: top left;
+	height:40px;
+}
+/*Privacy Policy text block*/
+#HQuest-content {
+	padding:0.6em 0 1em 1.5em;
+	font-size:1.1em;
+}

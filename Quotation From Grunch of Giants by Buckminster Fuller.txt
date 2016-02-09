@@ -1,0 +1,3 @@
+>This family of artifacts leading to such comprehensive human  success I identified as livingry in contradistinction to politics' weaponry. I called it technologically reforming the environment instead of trying politically to reform the people. 
+
+From ["Grunch of Giants" - Buckminster Fuller](http://www.amazon.co.uk/gp/product/0312351941?ie=UTF8&camp=3194&creative=21330&creativeASIN=0312351941&linkCode=shr&tag=theginmum-21&qid=1395052922&sr=8-1&keywords=Buckminster+fuller+grunch+of+giants)

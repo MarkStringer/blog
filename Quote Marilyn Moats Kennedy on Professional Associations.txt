@@ -1,0 +1,3 @@
+>Many of your peers are not plugged into trade or professional association networks.  If they are under thirty they may not have have discovered how valuable these networks can be [...] otherwise savvy people sometimes drop out of their trades and professional society once their career seems to be established.  Usually they let their membership lapse just before they have a desparate need for many strategically placed contacts.
+
+From [Powerbase: How to Build It, How to Keep It](http://www.amazon.co.uk/gp/product/0449207501?ie=UTF8&camp=3194&creative=21330&creativeASIN=0449207501&linkCode=shr&tag=theginmum-21&qid=1388823135&sr=8-1&keywords=powerbase+marilyn+moats+kennedy)

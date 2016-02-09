@@ -33,7 +33,8 @@ package Blog;
 	my $OperatingSystem= $^O;
 	my $slash;
 
-	if ($OperatingSystem =~ /linux/)
+	if (($OperatingSystem =~ /linux/) || 
+                ($OperatingSystem =~ /darwin/)) 
 	{
 		$slash='/';
 	}

@@ -1,0 +1,607 @@
+<?xml version="1.0"?>
+<?xml-stylesheet title="CSS_formatting" type="text/css" href="http://www.interglacial.com/rss/rss.css"?>
+<rss version="2.0"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+><channel>
+<!-- Generated with Perl's XML::RSS::SimpleGen v11.11 -->
+
+<link>http://www.mumbly.co.uk/newblog/</link>
+<title>A Commonplace</title>
+<description>Thoughts about Agile and all Manner of Other Things</description>
+<language>en</language>
+<lastBuildDate>Fri, 20 Feb 2015 16:48:52 GMT</lastBuildDate>
+<skipHours><hour>0</hour><hour>1</hour><hour>2</hour><hour>3</hour><hour>5</hour><hour>6</hour><hour>7</hour><hour>8</hour><hour>9</hour><hour>10</hour><hour>11</hour><hour>12</hour><hour>13</hour><hour>14</hour><hour>15</hour><hour>17</hour><hour>18</hour><hour>19</hour><hour>20</hour><hour>21</hour><hour>22</hour><hour>23</hour></skipHours>
+<sy:updateFrequency>2</sy:updateFrequency>
+<sy:updatePeriod>daily</sy:updatePeriod>
+<sy:updateBase>1970-01-01T04:50+00:00</sy:updateBase>
+<ttl>720</ttl>
+<webMaster>mark.stringer@mumbly.co.uk</webMaster>
+<docs>http://www.interglacial.com/rss/about.html</docs>
+
+<item>
+  <title>Hungry Ghost</title>
+  <link>http://www.mumbly.co.uk/newblog/Hungry%20Ghost.htm</link>
+</item>
+
+<item>
+  <title>Some Thoughts On Presence</title>
+  <link>http://www.mumbly.co.uk/newblog/Some%20Thoughts%20On%20Presence.htm</link>
+</item>
+
+<item>
+  <title>The Hat Game vs The Chair Game</title>
+  <link>http://www.mumbly.co.uk/newblog/The%20Hat%20Game%20vs%20The%20Chair%20Game.htm</link>
+</item>
+
+<item>
+  <title>More Stuff from Clown School - Sitting on a Chair</title>
+  <link>http://www.mumbly.co.uk/newblog/More%20Stuff%20from%20Clown%20School%20-%20Sitting%20on%20a%20Chair.htm</link>
+</item>
+
+<item>
+  <title>Note to Self Stop Arguing with People on Facebook</title>
+  <link>http://www.mumbly.co.uk/newblog/Note%20to%20Self%20Stop%20Arguing%20with%20People%20on%20Facebook.htm</link>
+</item>
+
+<item>
+  <title>Quote from Humble Inquiry - Asking the Right Questions</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20from%20Humble%20Inquiry%20-%20Asking%20the%20Right%20Questions.htm</link>
+</item>
+
+<item>
+  <title>Quote from Humble Inquiry - Bearing Bad News</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20from%20Humble%20Inquiry%20-%20Bearing%20Bad%20News.htm</link>
+</item>
+
+<item>
+  <title>Quote from Humble Inquiry by Edgar H Schein</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20from%20Humble%20Inquiry%20by%20Edgar%20H%20Schein.htm</link>
+</item>
+
+<item>
+  <title>Now we are talking - some thoughts on Second Circle</title>
+  <link>http://www.mumbly.co.uk/newblog/Now%20we%20are%20talking%20-%20some%20thoughts%20on%20Second%20Circle.htm</link>
+</item>
+
+<item>
+  <title>Fear Itself</title>
+  <link>http://www.mumbly.co.uk/newblog/Fear%20Itself.htm</link>
+</item>
+
+<item>
+  <title>Another Thing I Learned at Clown School Ask</title>
+  <link>http://www.mumbly.co.uk/newblog/Another%20Thing%20I%20Learned%20at%20Clown%20School%20Ask.htm</link>
+</item>
+
+<item>
+  <title>Noses Off What I Learned In Clown School</title>
+  <link>http://www.mumbly.co.uk/newblog/Noses%20Off%20What%20I%20Learned%20In%20Clown%20School.htm</link>
+</item>
+
+<item>
+  <title>Towards A Mildly Sentient Shed</title>
+  <link>http://www.mumbly.co.uk/newblog/Towards%20A%20Mildly%20Sentient%20Shed.htm</link>
+</item>
+
+<item>
+  <title>In Praise of Idiocy</title>
+  <link>http://www.mumbly.co.uk/newblog/In%20Praise%20of%20Idiocy.htm</link>
+</item>
+
+<item>
+  <title>Who Wants Dog Food</title>
+  <link>http://www.mumbly.co.uk/newblog/Who%20Wants%20Dog%20Food.htm</link>
+</item>
+
+<item>
+  <title>BehaviouristAgile</title>
+  <link>http://www.mumbly.co.uk/newblog/BehaviouristAgile.htm</link>
+</item>
+
+<item>
+  <title>Destructive Feedback</title>
+  <link>http://www.mumbly.co.uk/newblog/Destructive%20Feedback.htm</link>
+</item>
+
+<item>
+  <title>On Doing Stuff</title>
+  <link>http://www.mumbly.co.uk/newblog/On%20Doing%20Stuff.htm</link>
+</item>
+
+<item>
+  <title>ReadingListForDigitalProjectManagement</title>
+  <link>http://www.mumbly.co.uk/newblog/ReadingListForDigitalProjectManagement.htm</link>
+</item>
+
+<item>
+  <title>Extreme Programming and Accounting</title>
+  <link>http://www.mumbly.co.uk/newblog/Extreme%20Programming%20and%20Accounting.htm</link>
+</item>
+
+<item>
+  <title>Kent Beck on Moving the Constraint out of Development</title>
+  <link>http://www.mumbly.co.uk/newblog/Kent%20Beck%20on%20Moving%20the%20Constraint%20out%20of%20Development.htm</link>
+</item>
+
+<item>
+  <title>Kent Beck on Working at a Sustainable Pace</title>
+  <link>http://www.mumbly.co.uk/newblog/Kent%20Beck%20on%20Working%20at%20a%20Sustainable%20Pace.htm</link>
+</item>
+
+<item>
+  <title>Kent Beck on Theory of Constraints</title>
+  <link>http://www.mumbly.co.uk/newblog/Kent%20Beck%20on%20Theory%20of%20Constraints.htm</link>
+</item>
+
+<item>
+  <title>David Anderson on Process Change</title>
+  <link>http://www.mumbly.co.uk/newblog/David%20Anderson%20on%20Process%20Change.htm</link>
+</item>
+
+<item>
+  <title>Donald Reinertsen on Kanban in Kanban by David Anderson</title>
+  <link>http://www.mumbly.co.uk/newblog/Donald%20Reinertsen%20on%20Kanban%20in%20Kanban%20by%20David%20Anderson%20.htm</link>
+</item>
+
+<item>
+  <title>Fata Morgana</title>
+  <link>http://www.mumbly.co.uk/newblog/Fata%20Morgana.htm</link>
+</item>
+
+<item>
+  <title>Poppendieck On Top Down Design</title>
+  <link>http://www.mumbly.co.uk/newblog/Poppendieck%20On%20Top%20Down%20Design.htm</link>
+</item>
+
+<item>
+  <title>Poppendiek on Documentation Oh Yeah</title>
+  <link>http://www.mumbly.co.uk/newblog/Poppendiek%20on%20Documentation%20Oh%20Yeah%20.htm</link>
+</item>
+
+<item>
+  <title>Poppendiek on Large Organizations and Contracts</title>
+  <link>http://www.mumbly.co.uk/newblog/Poppendiek%20on%20Large%20Organizations%20and%20Contracts.htm</link>
+</item>
+
+<item>
+  <title>Poppendiek on Metaphors for Software Development</title>
+  <link>http://www.mumbly.co.uk/newblog/Poppendiek%20on%20Metaphors%20for%20Software%20Development.htm</link>
+</item>
+
+<item>
+  <title>Quote from Mary Poppendieck</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20from%20Mary%20Poppendieck.htm</link>
+</item>
+
+<item>
+  <title>Quote from Aubrey Daniels on Teamwork</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20from%20Aubrey%20Daniels%20on%20Teamwork.htm</link>
+</item>
+
+<item>
+  <title>What I Read on My Holidays</title>
+  <link>http://www.mumbly.co.uk/newblog/What%20I%20Read%20on%20My%20Holidays%20.htm</link>
+</item>
+
+<item>
+  <title>Managing Agile by Managing the Box</title>
+  <link>http://www.mumbly.co.uk/newblog/Managing%20Agile%20by%20Managing%20the%20Box.htm</link>
+</item>
+
+<item>
+  <title>Plan For August</title>
+  <link>http://www.mumbly.co.uk/newblog/Plan%20For%20August.htm</link>
+</item>
+
+<item>
+  <title>Me Talking about the Basics of Training From the Back of the Room</title>
+  <link>http://www.mumbly.co.uk/newblog/Me%20Talking%20about%20the%20Basics%20of%20Training%20From%20the%20Back%20of%20the%20Room.htm</link>
+</item>
+
+<item>
+  <title>Book Review Wil Wheaton Just a Geek</title>
+  <link>http://www.mumbly.co.uk/newblog/Book%20Review%20Wil%20Wheaton%20Just%20a%20Geek.htm</link>
+</item>
+
+<item>
+  <title>Review of Seven Deadly Sins by David Walsh</title>
+  <link>http://www.mumbly.co.uk/newblog/Review%20of%20Seven%20Deadly%20Sins%20by%20David%20Walsh.htm</link>
+</item>
+
+<item>
+  <title>More Microfiction Just One Look</title>
+  <link>http://www.mumbly.co.uk/newblog/More%20Microfiction%20Just%20One%20Look.htm</link>
+</item>
+
+<item>
+  <title>Marmalade</title>
+  <link>http://www.mumbly.co.uk/newblog/Marmalade.htm</link>
+</item>
+
+<item>
+  <title>Another Quotation from Ken Schwaber on Management in Scrum</title>
+  <link>http://www.mumbly.co.uk/newblog/Another%20Quotation%20from%20Ken%20Schwaber%20on%20Management%20in%20Scrum.htm</link>
+</item>
+
+<item>
+  <title>Quotation from Ken Schwaber Really You think</title>
+  <link>http://www.mumbly.co.uk/newblog/Quotation%20from%20Ken%20Schwaber%20Really%20You%20think%20.htm</link>
+</item>
+
+<item>
+  <title>A Definition of Empirical</title>
+  <link>http://www.mumbly.co.uk/newblog/A%20Definition%20of%20Empirical.htm</link>
+</item>
+
+<item>
+  <title>Quotation from Ken Schwaber on Empirical Process</title>
+  <link>http://www.mumbly.co.uk/newblog/Quotation%20from%20Ken%20Schwaber%20on%20Empirical%20Process.htm</link>
+</item>
+
+<item>
+  <title>Quote from Agile Software Development with Scrum by Ken Schwaber</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20from%20Agile%20Software%20Development%20with%20Scrum%20by%20Ken%20Schwaber.htm</link>
+</item>
+
+<item>
+  <title>My Attempt At Microfiction Soft Boiled</title>
+  <link>http://www.mumbly.co.uk/newblog/My%20Attempt%20At%20Microfiction%20Soft%20Boiled.htm</link>
+</item>
+
+<item>
+  <title>Agile Governance and Safe Part 1</title>
+  <link>http://www.mumbly.co.uk/newblog/Agile%20Governance%20and%20Safe%20Part%201.htm</link>
+</item>
+
+<item>
+  <title>Also was thinking about variants of Agile</title>
+  <link>http://www.mumbly.co.uk/newblog/Also%20was%20thinking%20about%20variants%20of%20Agile.htm</link>
+</item>
+
+<item>
+  <title>Complex Adaptive Systems and Magical Thinking</title>
+  <link>http://www.mumbly.co.uk/newblog/Complex%20Adaptive%20Systems%20and%20Magical%20Thinking.htm</link>
+</item>
+
+<item>
+  <title>Bees</title>
+  <link>http://www.mumbly.co.uk/newblog/Bees.htm</link>
+</item>
+
+<item>
+  <title>London Technology Voices Looking for Technology People in London to Interview</title>
+  <link>http://www.mumbly.co.uk/newblog/London%20Technology%20Voices%20Looking%20for%20Technology%20People%20in%20London%20to%20Interview.htm</link>
+</item>
+
+<item>
+  <title>Agile Scrum and Empirical Process</title>
+  <link>http://www.mumbly.co.uk/newblog/Agile%20Scrum%20and%20Empirical%20Process.htm</link>
+</item>
+
+<item>
+  <title>Free Seminar Verbal Self Defence</title>
+  <link>http://www.mumbly.co.uk/newblog/Free%20Seminar%20Verbal%20Self%20Defence.htm</link>
+</item>
+
+<item>
+  <title>Rant and Raise</title>
+  <link>http://www.mumbly.co.uk/newblog/Rant%20and%20Raise.htm</link>
+</item>
+
+<item>
+  <title>OMG Yes Quote from Agile Testing by Crispin and Gregory</title>
+  <link>http://www.mumbly.co.uk/newblog/OMG%20Yes%20Quote%20from%20Agile%20Testing%20by%20Crispin%20and%20Gregory.htm</link>
+</item>
+
+<item>
+  <title>Some quotations from Impro for Storytellers by Keith Johnstone</title>
+  <link>http://www.mumbly.co.uk/newblog/Some%20quotations%20from%20Impro%20for%20Storytellers%20by%20Keith%20Johnstone.htm</link>
+</item>
+
+<item>
+  <title>The Imaginary Tug of War</title>
+  <link>http://www.mumbly.co.uk/newblog/The%20Imaginary%20Tug%20of%20War.htm</link>
+</item>
+
+<item>
+  <title>Want to Get Better at Verbal Self Defence Get Over Your Self</title>
+  <link>http://www.mumbly.co.uk/newblog/Want%20to%20Get%20Better%20at%20Verbal%20Self%20Defence%20Get%20Over%20Your%20Self%20.htm</link>
+</item>
+
+<item>
+  <title>Verbal Self Defence</title>
+  <link>http://www.mumbly.co.uk/newblog/Verbal%20Self%20Defence.htm</link>
+</item>
+
+<item>
+  <title>On Happiness</title>
+  <link>http://www.mumbly.co.uk/newblog/On%20Happiness.htm</link>
+</item>
+
+<item>
+  <title>More from the big tiny</title>
+  <link>http://www.mumbly.co.uk/newblog/More%20from%20the%20big%20tiny.htm</link>
+</item>
+
+<item>
+  <title>Quote From the Big Tiny</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20From%20the%20Big%20Tiny.htm</link>
+</item>
+
+<item>
+  <title>The Power of Doubt Based Action</title>
+  <link>http://www.mumbly.co.uk/newblog/The%20Power%20of%20Doubt%20Based%20Action.htm</link>
+</item>
+
+<item>
+  <title>Time Shift</title>
+  <link>http://www.mumbly.co.uk/newblog/Time%20Shift.htm</link>
+</item>
+
+<item>
+  <title>Malcolm Gladwell s Article on Albert O Hirschman</title>
+  <link>http://www.mumbly.co.uk/newblog/Malcolm%20Gladwell%20s%20Article%20on%20Albert%20O%20Hirschman.htm</link>
+</item>
+
+<item>
+  <title>The Artefacts of Agile Governance The Ghosts in the Machine</title>
+  <link>http://www.mumbly.co.uk/newblog/The%20Artefacts%20of%20Agile%20Governance%20The%20Ghosts%20in%20the%20Machine.htm</link>
+</item>
+
+<item>
+  <title>Dear Diary</title>
+  <link>http://www.mumbly.co.uk/newblog/Dear%20Diary.htm</link>
+</item>
+
+<item>
+  <title>A System of Names</title>
+  <link>http://www.mumbly.co.uk/newblog/A%20System%20of%20Names.htm</link>
+</item>
+
+<item>
+  <title>Agile Project Governance</title>
+  <link>http://www.mumbly.co.uk/newblog/Agile%20Project%20Governance.htm</link>
+</item>
+
+<item>
+  <title>more on project governance</title>
+  <link>http://www.mumbly.co.uk/newblog/more%20on%20project%20governance.htm</link>
+</item>
+
+<item>
+  <title>Quotation from Kazatzakis</title>
+  <link>http://www.mumbly.co.uk/newblog/Quotation%20from%20Kazatzakis.htm</link>
+</item>
+
+<item>
+  <title>I Don t Want to be Angry Today</title>
+  <link>http://www.mumbly.co.uk/newblog/I%20Don%20t%20Want%20to%20be%20Angry%20Today.htm</link>
+</item>
+
+<item>
+  <title>mini satori</title>
+  <link>http://www.mumbly.co.uk/newblog/mini%20satori.htm</link>
+</item>
+
+<item>
+  <title>An Outline for my Seminar on Time</title>
+  <link>http://www.mumbly.co.uk/newblog/An%20Outline%20for%20my%20Seminar%20on%20Time.htm</link>
+</item>
+
+<item>
+  <title>Quotes from A Geography of Time by Robert Levine</title>
+  <link>http://www.mumbly.co.uk/newblog/Quotes%20from%20A%20Geography%20of%20Time%20by%20Robert%20Levine.htm</link>
+</item>
+
+<item>
+  <title>Quotes from The Gentle Art of Verbal Self Defence</title>
+  <link>http://www.mumbly.co.uk/newblog/Quotes%20from%20The%20Gentle%20Art%20of%20Verbal%20Self%20Defence.htm</link>
+</item>
+
+<item>
+  <title>A Thought About the Hat Game</title>
+  <link>http://www.mumbly.co.uk/newblog/A%20Thought%20About%20the%20Hat%20Game.htm</link>
+</item>
+
+<item>
+  <title>The WIFS Syndrome or Why Developing Software Around Third Party Applications is Different</title>
+  <link>http://www.mumbly.co.uk/newblog/The%20WIFS%20Syndrome%20or%20Why%20Developing%20Software%20Around%20Third%20Party%20Applications%20is%20Different.htm</link>
+</item>
+
+<item>
+  <title>Quotation From Grunch of Giants by Buckminster Fuller</title>
+  <link>http://www.mumbly.co.uk/newblog/Quotation%20From%20Grunch%20of%20Giants%20by%20Buckminster%20Fuller.htm</link>
+</item>
+
+<item>
+  <title>Late and Over Budget Idea Wall</title>
+  <link>http://www.mumbly.co.uk/newblog/Late%20and%20Over%20Budget%20Idea%20Wall.htm</link>
+</item>
+
+<item>
+  <title>The Gervais Principle - Online Seminar 4</title>
+  <link>http://www.mumbly.co.uk/newblog/The%20Gervais%20Principle%20-%20Online%20Seminar%204.htm</link>
+</item>
+
+<item>
+  <title>The CSI Fallacy</title>
+  <link>http://www.mumbly.co.uk/newblog/The%20CSI%20Fallacy.htm</link>
+</item>
+
+<item>
+  <title>Quotation The Gervaise Principle</title>
+  <link>http://www.mumbly.co.uk/newblog/Quotation%20The%20Gervaise%20Principle.htm</link>
+</item>
+
+<item>
+  <title>Late And Over Budget What Is It About</title>
+  <link>http://www.mumbly.co.uk/newblog/Late%20And%20Over%20Budget%20What%20Is%20It%20About.htm</link>
+</item>
+
+<item>
+  <title>Quotation from Hiding The Elephant</title>
+  <link>http://www.mumbly.co.uk/newblog/Quotation%20from%20Hiding%20The%20Elephant.htm</link>
+</item>
+
+<item>
+  <title>Some Books about Conversational Self-Defence</title>
+  <link>http://www.mumbly.co.uk/newblog/Some%20Books%20about%20Conversational%20Self-Defence.htm</link>
+</item>
+
+<item>
+  <title>Software and Moral Hazard</title>
+  <link>http://www.mumbly.co.uk/newblog/Software%20and%20Moral%20Hazard.htm</link>
+</item>
+
+<item>
+  <title>Agile vs The Prime Directive</title>
+  <link>http://www.mumbly.co.uk/newblog/Agile%20vs%20The%20Prime%20Directive.htm</link>
+</item>
+
+<item>
+  <title>Improv and Project Management Part 3 - Yes And</title>
+  <link>http://www.mumbly.co.uk/newblog/Improv%20and%20Project%20Management%20Part%203%20-%20Yes%20And.htm</link>
+</item>
+
+<item>
+  <title>Quote Paul Feyerabend on Unanimity</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20Paul%20Feyerabend%20on%20Unanimity.htm</link>
+</item>
+
+<item>
+  <title>The Difference Between Losers and Sociopaths - An Inkling</title>
+  <link>http://www.mumbly.co.uk/newblog/The%20Difference%20Between%20Losers%20and%20Sociopaths%20-%20An%20Inkling.htm</link>
+</item>
+
+<item>
+  <title>Quote Marilyn Moats Kennedy on Professional Associations</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20Marilyn%20Moats%20Kennedy%20on%20Professional%20Associations.htm</link>
+</item>
+
+<item>
+  <title>In Praise of Moral Hazard</title>
+  <link>http://www.mumbly.co.uk/newblog/In%20Praise%20of%20Moral%20Hazard.htm</link>
+</item>
+
+<item>
+  <title>Quote from Powerbase How to Build It How to Keep It</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20from%20Powerbase%20How%20to%20Build%20It%20How%20to%20Keep%20It.htm</link>
+</item>
+
+<item>
+  <title>About Time</title>
+  <link>http://www.mumbly.co.uk/newblog/About%20Time.htm</link>
+</item>
+
+<item>
+  <title>Quote from A Geography of Time</title>
+  <link>http://www.mumbly.co.uk/newblog/Quote%20from%20A%20Geography%20of%20Time.htm</link>
+</item>
+
+<item>
+  <title>How to Manage Late and Over Budget Projects and Still SUCCEED - The Second Online Seminar</title>
+  <link>http://www.mumbly.co.uk/newblog/How%20to%20Manage%20Late%20and%20Over%20Budget%20Projects%20and%20Still%20SUCCEED%20-%20The%20Second%20Online%20Seminar.htm</link>
+</item>
+
+<item>
+  <title>How to Manage Late and Over Budget Projects and Still SUCCEED - Part 2</title>
+  <link>http://www.mumbly.co.uk/newblog/How%20to%20Manage%20Late%20and%20Over%20Budget%20Projects%20and%20Still%20SUCCEED%20-%20Part%202.htm</link>
+</item>
+
+<item>
+  <title>John Boyd the OODA Loop and the Buttonhook Turn</title>
+  <link>http://www.mumbly.co.uk/newblog/John%20Boyd%20the%20OODA%20Loop%20and%20the%20Buttonhook%20Turn.htm</link>
+</item>
+
+<item>
+  <title>Commitment and Consistency and The Planning Fallacy - What we talked on Tuesday 12th November</title>
+  <link>http://www.mumbly.co.uk/newblog/Commitment%20and%20Consistency%20and%20The%20Planning%20Fallacy%20-%20What%20we%20talked%20on%20Tuesday%2012th%20November.htm</link>
+</item>
+
+<item>
+  <title>About_This_Blog</title>
+  <link>http://www.mumbly.co.uk/newblog/About_This_Blog.htm</link>
+</item>
+
+<item>
+  <title>Improv and Project Management Part 2</title>
+  <link>http://www.mumbly.co.uk/newblog/Improv%20and%20Project%20Management%20Part%202.htm</link>
+</item>
+
+<item>
+  <title>Improvisational Theatre and Project Management What the Hell have THEY got in common</title>
+  <link>http://www.mumbly.co.uk/newblog/Improvisational%20Theatre%20and%20Project%20Management%20What%20the%20Hell%20have%20THEY%20got%20in%20common.htm</link>
+</item>
+
+<item>
+  <title>Applied Improvisation Network Conference 2013</title>
+  <link>http://www.mumbly.co.uk/newblog/Applied%20Improvisation%20Network%20Conference%202013.htm</link>
+</item>
+
+<item>
+  <title>Three_Moments_Of_Clarity</title>
+  <link>http://www.mumbly.co.uk/newblog/Three_Moments_Of_Clarity.htm</link>
+</item>
+
+<item>
+  <title>A_Nearly_Perfect_Day</title>
+  <link>http://www.mumbly.co.uk/newblog/A_Nearly_Perfect_Day.htm</link>
+</item>
+
+<item>
+  <title>Some_Interesting_Quotations</title>
+  <link>http://www.mumbly.co.uk/newblog/Some_Interesting_Quotations.htm</link>
+</item>
+
+<item>
+  <title>Teacher</title>
+  <link>http://www.mumbly.co.uk/newblog/Teacher.htm</link>
+</item>
+
+<item>
+  <title>The_Job_Wont_Save_You</title>
+  <link>http://www.mumbly.co.uk/newblog/The_Job_Wont_Save_You.htm</link>
+</item>
+
+<item>
+  <title>The_Status_We_Are_In</title>
+  <link>http://www.mumbly.co.uk/newblog/The_Status_We_Are_In.htm</link>
+</item>
+
+<item>
+  <title>WittgensteinOnDreaming</title>
+  <link>http://www.mumbly.co.uk/newblog/WittgensteinOnDreaming.htm</link>
+</item>
+
+<item>
+  <title>Ts_And_Cs</title>
+  <link>http://www.mumbly.co.uk/newblog/Ts_And_Cs.htm</link>
+</item>
+
+<item>
+  <title>Finally</title>
+  <link>http://www.mumbly.co.uk/newblog/Finally.htm</link>
+</item>
+
+<item>
+  <title>Not_Yet_Dead_Thats_How_They_Found_Him</title>
+  <link>http://www.mumbly.co.uk/newblog/Not_Yet_Dead_Thats_How_They_Found_Him.htm</link>
+</item>
+
+<item>
+  <title>Introduction</title>
+  <link>http://www.mumbly.co.uk/newblog/Introduction.htm</link>
+</item>
+
+<item>
+  <title>Taking_Time_Off_From_Carpet_Bombing_Cambodia</title>
+  <link>http://www.mumbly.co.uk/newblog/Taking_Time_Off_From_Carpet_Bombing_Cambodia.htm</link>
+</item>
+
+<item>
+  <title>Keith_Johnstone_On_Meetings</title>
+  <link>http://www.mumbly.co.uk/newblog/Keith_Johnstone_On_Meetings.htm</link>
+</item>
+
+
+</channel></rss>

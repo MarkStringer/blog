@@ -1,0 +1,1042 @@
+﻿/* PURPLE THEME - Gladstone join@home - CSS Document */ 
+/* - Styles to change layout based on viewport size */
+/*-------------------------------------------------------------------------------*/
+    /* If the viewport width <= 1000 pixels ...  (LESS THEN 1000 pixels wide)  */
+
+    @media only screen and (max-width: 999px) {
+
+      /* Make the main content a bit wider */
+
+      #content {
+        width: 75%;
+      }
+
+      /* Put the Progress Bar on top of the content body */
+      #progressbar {
+        width: 100%;
+      }
+
+      #summarybar {
+        width: 24%;
+      }
+
+      /* Adjust the sidebar margins */
+
+      #summarybar .inner {
+        margin-right: 0;
+      }
+      
+      /* Adjust the position of the customer name */
+      #company-name {
+      	width:100%;
+      }
+      
+      /* Adjust the position of the customer name */
+      #company-name p {
+      	text-align:right;
+      }
+      
+      /* Adjust the position of the strapline */
+      #company-strapline {
+      	width:100%;
+      }
+      
+      #company-strapline p {
+      	text-align:right;
+      }
+      
+      /*Stop the Total to pay now: wrapping*/
+      #pay-now-total-to-pay-now-label { width: 50%;}
+    }
+
+    /*-------------------------------------------------------------------------------*/
+    /* If the viewport width <= 700 pixels ...  (LESS THEN 700 pixels wide) */
+
+    @media only screen and (max-width: 700px) {
+
+      
+	  #header {
+	  	width:100%;
+	  	margin:0px 0px 0px 0px;
+	  }
+      
+      /* Adjust the position of the customer name */
+      #company-name {
+      	width:100%;
+      }
+
+      /* Adjust the position of the strapline */
+      #company-strapline {
+      	text-align:right;
+      	width:100%;
+      }
+
+      /* Make the main content fill the viewport width */
+      #content {
+        width: 100%;
+      }
+
+      /* Remove the main content right margin */
+      #content .inner {
+        margin-right: 0; 
+      }
+
+      /*Progress Bar - <= 700 pixels
+		Put the progress bar above the main content
+        The Progress bar holds the step by step process titles
+		Hide it in this viewport size-------------------------------*/
+      #progressbar {
+		float: left;
+		width: 100%;
+		height:0px;/*hide the bar by collapsing the height*/
+		display:none;
+		margin: 0px;
+		padding: 0px;
+	    /*background-image: url(images/Ptheme-progress-step-bac-mobile.png);
+	    background-repeat: repeat-x;
+	    background-position: center left;*/
+	    }
+	    
+	  .progressbox_container {
+        height: 22px;
+	    width: 100%;  /*IE Win = width - padding */
+	    margin:0px;
+	    padding:0 0 0.02 0.2em;
+	    line-height:1.5em;
+	    background-image: url(images/Ptheme-progress-step-bac-mobile.png);
+	    background-repeat: repeat-x;
+	    background-position: center left;
+	  }
+	  
+	  /*Change text padding so it fits within thinner bars*/
+	  .progressbox_text {
+		padding:0.2em 0 0.1em 0.4em;
+		height: 22px;
+		width:100%;
+		float:left;
+		line-height:1.35em;
+		color: #753368;
+		text-align:left;
+	  }
+
+      /*Summary Bar -<= 700 pixels
+		Place the summary membership details container below the main content
+		Force to 100% width of the screen and wrap below content*/
+	  #summarybar {
+        float: none;
+        clear: both;
+        position:relative;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        position:relative;
+        right:0px;
+        top:0px;  
+	  }
+	  
+	  /*This is the style for the Membership Details title.
+		Change the bac image to a horizontal tile image.*/
+	  #summarybar .inner .summarybar_title {
+		background-image:url(images/Ptheme-summry-header-tilehbac.png);
+		background-position:left top;
+		background-repeat:repeat-x;
+	  }
+
+      /* Make the titles align left for stack view*/
+      .label {
+      	text-align:left;
+      }
+      
+      /*add extra width*/
+      .DropDownList {
+      	width:91%;
+      }
+      
+      .h2-linetop {
+      	font-size:1.1em;
+      }
+      
+      /*Add your personal details - page elements
+      <= 700 pixels -----------------------------------------------------*/
+      /*force the width */
+      #AddPerDetails-PDetails-MainPhone-No {
+      	width:95%;
+      }
+      /*force the width */
+      #AddPerDetails-PDetails-MainPhone-Phone-Type-Options {
+      	width:90%
+      }
+      /*force the width */
+      #AddPerDetails-PDetails-Secondary-Phone-Value {
+      	width:95%;
+      }
+      /*force the width */
+      #AddPerDetails-PDetails-Secondary-Phone-Option {
+      	width:90%;
+      }
+      /*force the width */
+      #AddPerDetails-Address-Lookup-House-NoName {
+      	width:95%;
+      }
+      /*force the width */
+      #AddPerDetails-Address-Lookup-House-Postcode {
+      	width:100%;
+      	margin-left:5px;
+      }
+      /*force the width */
+      #AddPerDetails-Address-Lookup-House-Button {
+      	width:95%;
+      	margin-left:5px;
+      }
+      
+      /*Finish - page elements - force on to a single column
+		<= 700 pixels---------------------------------------------------------*/
+      /*force full width of container*/
+      #registration-date-label {
+      	width: 100%;
+      }
+      /*force on to next row*/
+      #registration-date-value {
+      	clear:both;
+      }
+      /*MEMBERSHIP DETAILS*/
+      /*force full width of container*/
+      #membership-details-centre-label {
+      	width: 100%;
+      }
+      /*force on to next row*/
+      #membership-details-centre-value {
+      	clear:both;
+      }
+      /*force full width of container*/
+      #membership-details-memtype-label {
+      	width: 100%;
+      }
+      /*force on to next row*/
+      #membership-details-memtype-value {
+      	clear:both;
+      }
+      /*force full width of container*/
+      #membership-details-start-date-label {
+      	width: 100%;
+      }
+      /*force on to next row*/
+      #membership-details-start-date-value {
+      	clear:both;
+      }
+      /*PERSONAL DETAILS*/
+      /*force full width of container*/
+      #personal-details-name-label {
+      	width: 100%;
+      }
+      /*force on to next row*/
+      #personal-details-name-value {
+      	clear:both;
+      }
+      /*force full width of container*/
+      #personal-details-datebirth-label {
+      	width: 100%;
+      }
+      /*force on to next row*/
+      #personal-details-datebirth-value {
+      	clear:both;
+      }
+      /*force full width of container*/
+      #personal-details-email-address-label {
+      	width: 100%;
+      	}
+      /*force on to next row*/
+      #personal-details-email-address-value {
+      	clear:both;
+      }
+      /*force full width of container*/
+      #personal-details-Phone-home-label {
+      	width: 100%;
+      }
+      /*force on to next row*/
+      #personal-details-Phone-home-value {
+      	clear:both;
+      }
+      /*force full width of container*/
+      #personal-details-Phone-mobile-label {
+      	width: 100%;
+      }
+      /*force on to next row*/
+      #personal-details-Phone-mobile-value {
+      	clear:both;
+      }
+      /*force full width of container*/
+      #personal-details-Address-label {
+      	width: 100%;
+      }
+      /*force on to next row*/
+      #personal-details-Address-value {
+      	clear:both;
+      }
+      
+      /*CARD PAYMENTS*/
+      /**/
+      #card-payment-one-off-fee-label {}
+      
+      /*Footer - page elements
+		<= 700 pixels ---------------------------------------------------*/
+      
+      /*Force to 100% width of the screen*/
+      #footer {
+        float: left;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        height:auto;
+      }
+      
+	  #footer-inner-container {
+		background-image:url(images/PTheme-foot-vtile-bac.png);
+		background-position:left top;
+		background-repeat:repeat-y;
+		padding-top:10px;
+		width:100%;
+		height:100%;
+	  }
+	  #footer-gladstone-logo {
+			padding-right: 10px;
+	  }
+      
+    }
+
+    /*-------------------------------------------------------------------------------*/
+    /* If the viewport width <= 480 pixels ...  (LESS THEN 480 pixels wide)  */
+
+    @media only screen and (max-width: 480px) {
+
+	  body {
+        margin: 0;
+	  }
+
+	  #pageBody {
+  	    margin-left : 0px;
+	  }
+
+	  #header {
+	  	width:478px;
+	  	height:60px;
+	  	margin:0px;
+	  }
+
+	  #header .header_inner {
+        padding-top: 0px;
+        padding-bottom: 5px;
+	  }
+	  
+	  #company-name-and-strapline-container {
+	    width:74%;
+	  }
+
+	  #company-name {
+	  	width:100%;
+	  	}
+
+	  #company-name p {
+	  	text-align:right;
+	  }
+
+	  #company-strapline {
+	  	width:100%;
+	  }
+
+	  #company-strapline p {
+	  	text-align:right;
+	  }
+	  
+	  /*Collapse and Hide*/
+	  #progressbar {
+	  	height:0px;/*Hide the progress steps*/
+	  	line-height:0;
+	  }
+	  
+	  /*Change the Progress Steps style to a set of stacked bars*/
+	  .progressbox_container {
+        height: 22px;
+	    /*min-width:456px;*/
+	    width: 473px;  /*IE Win = width - padding */
+	    margin:0px;
+	    padding:0 0 0.02 0.2em;
+	    line-height:1.5em;
+	    background-image: url(images/Ptheme-progress-step-bac-mobile.png);
+	    background-repeat: repeat-x;
+	    background-position: center left;
+	  }
+	  
+	  /*Change text padding so it fits within thinner bars*/
+	  .progressbox_text {
+		padding:0.2em 0 0.1em 0.4em;
+		height: 22px;
+		width:100%;
+		float:left;
+		line-height:1.35em;
+		font-size: 1.2em;
+		font-weight:normal;
+		color: #753368;
+		text-align:left;
+	  }
+	  
+	  /*Force to 100% width of the screen*/
+	  #content {
+	  	width:100%;
+	  }
+	  
+	  /*Captcha - Resize container to fit 320 width*/
+	  #captcha-control-container {
+	  	width:95%;
+	  }
+	  
+	  
+	  /* 'Select Your Membership Start Date' - start
+		------------------------------------------------------------*/
+	  /*Calendar
+	  ---------------------------------------*/
+	  /*change width*/
+	  #Membership-Start-Date-Calendar-Container {
+	  	width:91%;/*change to span-22*/
+	  }
+	  /*Calendar Lookup -Resize- Membership Start Date Container*/
+	  #SubType_Sub_Heading {
+	  	width:83%;/*change to span-20*/
+	  }
+	  /*Increase width*/
+	  #Calendar-Start-Date-Control {
+	  	width:95%;/*change to span-23*/
+	  	padding-left: 4%;/*add prepend-1*/
+	  	padding-top:5px;/*separate from dropdown above*/
+	  	}
+	  #Calendar-Start-Date-Dropdown {
+	  	width:83%;/*change to span-20*/
+	  }
+	    
+	    /*Use to target the 'Pay Now Payment Method' elements
+		---------------------------------------------------*/
+		#pay-now-payment-method-container {}
+		/*increase width*/
+		#pay-now-payment-method-label {
+			width:95%;
+		}
+		/*increase width*/
+		#pay-now-payment-method-value {
+			width:95%;
+		}
+	    
+	    /*Use to target the 'Start Up Fee' elements
+		---------------------------------------------------*/
+		#membership-start-date-start-Up-fee-container {}
+		/*increase width*/
+		#membership-start-date-start-Up-fee-label {
+			width:95%;
+		}
+		/*increase width*/
+		#membership-start-date-start-Up-fee-value {
+			width:95%;
+		}
+		/*Use to target the 'Membership Initial Fee' elements 
+		---------------------------------------------------*/
+		#rest-of-membership-initial-fee-container {}
+		/*Increase width*/
+		#rest-of-membership-initial-fee-label {
+			width:95%;
+		}
+		/*Increase width*/
+		#rest-of-membership-initial-fee-value {
+			width:95%;
+		}
+		/*Use to target 'Total' elements
+		-------------------------------*/
+		#total-paynow-container {}
+		/*increase width to fill container width*/
+		#total-paynow-label {
+			width:95%;
+		}
+		/*increase width to fill container width*/
+		#total-paynow-value {
+			width:95%;
+		}
+	    /*Pay Monthly Container*/
+	    #membership-start-date-pay-monthly-container {}
+	  
+	    /*'Payment Method'
+		-----------------------------------------------*/
+	    #Membership-Start-Date-Payment-Method-Container{}
+	    #membership-start-date-payment-method-label {
+	    	width:95%;
+	    }
+	    #membership-start-date-payment-method-value {
+	    	width:95%;
+	    }
+	 
+	    /*'Monthly Direct Debit Payment'
+		----------------------------------------------*/
+		#monthly-direct-debit-payment-container {}
+		/*increase width*/
+		#monthly-direct-debit-payment-label {
+			width:95%;
+		}
+		/*increase width*/
+		#monthly-direct-debit-payment-value {
+			width:95%;
+		}
+	    
+	    /*'First Payment'
+		----------------------------------------------*/
+		#member-start-date-first-payment-container {}
+		/*increase width*/
+		#member-start-date-first-payment-label {
+			width:95%;
+		}
+		/*increase width*/
+		#member-start-date-first-payment-value {
+			width:95%;
+		}
+	  
+	    /*Overide the span value to widen the House Number field.*/
+	    #AddPerDetails-Address-Lookup-House-NoName {
+	  		width :37%;
+	    }
+	  
+	    /*Overide the span value to widen the Postcode field.*/
+	    #AddPerDetails-Address-Lookup-House-Postcode {
+	  		width:50%;
+	    }
+	  
+	    /*Overide span value and widen button so all text is dsiplayed*/
+	    #AddPerDetails-Address-Lookup-House-Button {
+	  		width:90%;
+	    }
+	  
+	  /*Overide span value to enable full display of text*/
+	  #AddPerDetails-PDetails-MainPhone-Phone-Type-Options {
+	  	width:60%;
+	  }
+	  
+	  #AddPerDetails-PDetails-Secondary-Phone-Option {
+	  	width:60%;	  	
+	  }
+	  
+	  /*Pay As You Go or Sign up for a Membership? - 480
+	  -------------------------------------------------------------*/
+	  /*increase width to fill container*/
+	  #paygosignup-pay-as-you-go-text {
+	  	width:95%;
+	  }
+	  #paygosignup-sign-up-for-a-membership-container {}
+	  #paygosignup-sign-up-for-a-membership-text {
+	  	width:95%;
+	  }
+	  
+	  /*Confirmation of Direct Debit Instruction - 480
+	  -------------------------------------------------------------*/
+	  
+	  /*Force it full width to force the logo on to next row*/
+	  #dd-confirm-contact-details-header-address {
+	  	width:100%;
+	  }
+	  /*Increase width*/
+	  #dd-confirm-DDLogo {
+	  	width:100%;
+	  }
+	  /*reduce width to show logo to the right*/
+	  #The-direct-debit-guarantee-box-header {
+	  	width:55%;
+	  }
+	  /*increse width to reveal logo*/
+	  #The-direct-debit-guarantee-DDlogo {
+	  	width:154px;
+	  }
+	  /*Total Amount Due*/
+	  .payment-header {
+	  	font-size:1.3em;
+	  	font-weight:bold;
+	  	text-align:left;
+	  }
+	  
+	  /*Confirm Your Details*/
+	  .payment-logos {
+		display:block;
+		overflow:visible;
+		float:left;
+		clear:both;
+	  }
+	  
+	  /*Force to 100% width of the screen and wrap below content*/
+	  #summarybar {
+		float:left;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        position:relative;
+        right:0px;
+        top:0px;  
+	  }
+	  
+	  /*This is the style for the Membership Details title.
+		Change the bac image to a horizontal tile image.*/
+	  #summarybar .inner .summarybar_title {
+		background-image:url(images/Ptheme-summry-header-tilehbac.png);
+		background-position:left top;
+		background-repeat:repeat-x;
+	  }
+	  
+	  /*Force to 100% width of the screen*/
+	  #navigation-bottom {
+		width:100%;
+      }
+      
+      /* Make the titles align left for stack view*/
+      .label {
+      	text-align:left;
+      }
+      
+      /*Force to 100% width of the screen*/
+      #footer {
+        float: left;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+      }
+      
+	  #footer-inner-container {
+		background-image:url(images/Ptheme-foot-vtile-bac.png);
+		background-position:left top;
+		background-repeat:repeat-y;
+		padding-top:10px;
+		width:100%;
+		height:100%;
+	  }
+	  #footer-gladstone-logo {
+			padding-right: 10px;
+	  }
+    
+    }
+    
+    /*-------------------------------------------------------------------------------*/
+    /* If the viewport width <= 320 pixels ...  (LESS THEN 320 pixels wide) */
+	
+	@media only screen and (max-width: 320px) {
+	
+	
+	#pageBody {
+		width: 320px;
+	}
+	
+	#header {
+	 	width:100%;
+	  	margin:-10px 0px 10px 0px;
+	  	height:55px;
+	}
+
+	#header .header_inner {
+        padding-top: 5px;
+		padding-bottom: 5px;
+		height:45px;
+		width:100%;
+	}
+
+	#company-name p {
+		font-family: Droid Sans, Trebuchet MS, Sans-Serif;
+		font-style:normal;
+		font-weight: bold;
+		font-size:2.0em;
+		text-align: right;
+		padding-top: 0.01em;
+		padding-right: 1.6em;
+		color:#FFF;
+		overflow:hidden;
+	}
+	#company-name-and-strapline-container {
+		width:55%;
+	}
+	/*Change the text color*/
+	#company-strapline {
+		color:#FFF;
+		text-align:right;
+		width:100%;
+	}
+		
+	/*Force to 320px width*/
+	#progressbar {
+	  	width:301px;
+	  	height:0px;/*hide the progress steps*/
+	  	display:none;/*hide the progress steps*/
+	}
+
+	/*Change the Progress Steps style to a set of stacked bars*/
+	.progressbox_container {
+		height: 24px;
+		width: 316px; /* IE Win = width - padding */
+		/*min-width:299px;*/
+		margin:0px;
+		padding:0.001em 0 0 0.2em;
+		line-height:1.5em;
+		background-image: url(images/Ptheme-progress-step-bac-mobile.png);
+		background-repeat: repeat-x;
+		background-position: center left;
+	  }
+	  
+	  /*Force to 100% width of the screen*/
+	  #content {
+	  	width:100%;
+	  }
+	  
+      /*Sort By label on filter dropdown - on Select your membership type - Stop it collapsing on resize.*/
+      #member-type-sort-filter-title {
+      	min-width: 65px;
+      }
+	  
+	  /*Force the grid to the full width of the window*/
+	  #select-membership-type-tablegrid-container {
+	  	width:100%;
+	  	padding-right: 0%;
+	  	padding-left: 0%;
+	  	margin-right: 0;
+	  }
+	  
+	  /*Resize to 320 width*/
+	  .mytableclass {
+	  	overflow: auto;
+	  	width:310px;
+	  }
+	  /*Change width - First-Last-Email-dateBirth - in Basic personal details*/
+	  #col1-bank-details-container {
+	  	width:90%;
+	  }
+
+	  /*Change width - Container for - No, I am a new member-Yes I have an ID and PIN
+       in Add your personal details page*/
+	  /*.PanelRegisteredMember-Container {}*/
+
+	  /*Change width - Basic details page - Date of birth container*/
+	  #AddPerDetails-PDetails-DateBirth-Container {
+	  	width:90%;
+	  }
+	  
+	  /*Captcha - Resize container to fit 320 width*/
+	  #captcha-control-container {
+	  	width:95%;
+	  }
+	  
+	  /*Change width - basic Details Page - Container for - No, I am a new member-Yes I have an ID and PIN
+       in Add your personal details page*/
+	  #col2-New-member-or-Member-container {
+	  	width:100%;
+	  }
+	  
+	  /*Change width*/
+	  #AddPerDetails-PDetails-DateBirth-Container p {
+	  	width:50%;
+	  }
+	  
+	  .dateBirth-label {
+	  	width:130px;
+	  }
+	  
+	  #AddPerDetails-PDetails-Column1 {
+		width: 100%;
+	  }
+	  
+	  #AddPerDetails-PDetails-Column2 {
+		width: 100%;
+	  }
+	  
+	  /*Change width to a span-21 value*/
+	  #AddPerDetails-Info-Base-Container {
+	  	width:87%;
+	  }
+	  
+	  /*Postcode Lookup container and field*/
+	  /*Resize the lookup container to stretch full width*/
+	  #AddPerDetails-Address-Column {
+	  	width:100%;
+	  }
+	  #AddPerDetails-Address-Lookup-House-Postcode {
+	  	padding-left:1em;
+	  }
+	  #AddPerDetails-Address-Lookup-House-Button {
+		width: 100%;
+	  }
+	  /* end*/
+	  
+	  /*Member Extra Details - Other Information - Reposition*/
+	  #AddPerDetails-Other-Column {
+		margin: 0 -3.333em 0 1.5em; /*push-1*/
+	  }
+	  
+	  /*Overide the prepend setting on this div to shift the button to the middle of the screen.*/
+	  #Continue-Button-Container {
+		padding-left:0%;
+	  }
+		
+	  #pay-now-container {
+		width:100%;
+	  }
+	  
+	  /*Select your membership start date page----320-----------------------------------------*/
+	  /*change width*/
+	  #Membership-Start-Date-Calendar-Container {
+	  	width:91%;/*change to span-22*/
+	}
+	  
+	/*Calendar Lookup -Resize- Membership Start Date Container*/
+	#SubType_Sub_Heading {
+		width:83%;/*change to span-20*/
+	}
+	  
+	/*Increase width*/
+	#Calendar-Start-Date-Control {
+		width:95%;/*change to span-23*/
+		padding-left: 4%;/*add prepend-1*/
+	}
+	#Calendar-Start-Date-Dropdown {
+		width:83%;/*change to span-20*/
+	}
+	/*push right 2 spans*/
+	#membership-start-date-pay-monthly-container {
+		padding-left: 8%;/*add prepend-2*/
+	}
+	
+	/*Direct Debit Setup - confirm details - 320
+	----------------------------------------------------------------------------------------------*/
+	/*Increase width to fill viewport size*/
+	#dd-confirm-details-col1-container {
+		width:91%;/*span-22*/
+	}	
+	
+	/*increase width to span-22*/
+	#confirm-details-column1 {
+		width:91%;
+	}
+	/*increase width to span-22*/
+	#confirm-details-column2 {
+		width:91%;/*span-22*/
+		padding-left:4%;/*append-1*/
+	}
+	/*increase width to span-22*/
+	#dd-confirm-details-col2-container {
+		width:95%;/*span-23*/
+	}
+	#dd-confirm-instruction-to-bank-txtHdr-container {
+		padding-left: 4%;/*prepend-1*/
+	}
+	#dd-confirm-service-user-no-container {
+		padding-left: 4%;/*prepend-1*/
+	}
+	#dd-confirm-reference-container {
+		padding-left: 4%;/*prepend-1*/
+	}
+	#dd-confirm-instruct-BS-txt-container {
+		padding-left: 4%;/*prepend-1*/
+	}
+	#dd-confirm-date-container {
+		padding-left: 4%;/*prepend-1*/
+	}
+	#dd-confirm-details-notification {
+		padding-left: 4%;/*prepend-1*/
+	}
+	
+	/*Confirmation o0f Direct Debit Instruction -320
+	----------------------------------------------------------------------------------------------*/
+	/*stop the container collapsing on resize*/	
+	#dd-confirm-DDLogo {
+		min-width:200px;
+		width:227px;
+	}
+	
+	/*stop the container collapsing on resize*/
+	#The-direct-debit-guarantee-DDlogo {
+		min-width:200px;
+		width:227px;
+	}
+	
+	/*Navigation--320-----------------------------------------------------------------------------*/
+	  /*Continue  Button styles - shorter to fit to 320 width*/
+	  .button_navigate_continue {
+		background-image:url(images/Ptheme-nav-continue-btn-320-normal.png);
+		background-position:top left;
+		background-repeat:no-repeat;
+		width:288px;
+		height:43px;
+		float:left;
+	  }
+	  .button_navigate_continue:hover {
+		background-image:url(images/Ptheme-nav-continue-btn-320-hover.png);
+		background-position:top left;
+		background-repeat:no-repeat;	
+		width:288px;
+		height:43px;
+		float:left;
+	}
+	.button-navigate-continue-disabled {
+		background-image:url(images/Ptheme-nav-continue-btn-320-disabled.png);
+		background-position:top left;
+		background-repeat:no-repeat;
+		width:288px;
+		height:43px;
+		float:left;
+	}
+	
+	/*Force to 100% width of the screen and wrap below content*/
+	#summarybar {
+		float:left;
+        width: 320px;
+        margin: 0px 0px 0px 0px;
+        position:relative;
+        right:0px;
+        top:0px;  
+	}
+
+	/*This is the style for the Membership Details title.
+		Change the bac image to a horizontal tile image.*/
+	 #summarybar .inner .summarybar_title {
+		background-image:url(images/Ptheme-summry-header-tilehbac.png);
+		background-position:left top;
+		background-repeat:repeat-x;
+	}
+
+	/*Footer styling--320-------------------------------------------------*/
+    /*Force to a width of 320px for the mobile portrait screen size*/
+    #footer {
+       width:320px;
+       min-width:300px;
+       padding: 0em;
+       padding-top: 0px;
+       margin:0px;
+       height:auto;
+    }
+
+    /*Resize the Gladstone logo to fit 320px*/
+    #gladstone-logo {
+      	width:97px;
+      	height:40px;
+    }
+      
+	/*Resize the container round the subscription type tabel grid*/
+    #select-membership-type-tablegrid-container {
+      width:100%;
+    }
+    /*Push Pay Monthly container on Select your membership start date page
+	  in to next row and add separation from div above*/
+    #membership-start-date-pay-monthly-container {
+      clear:left;
+      padding-left: 4%;
+      padding-top:15px;
+    }
+      
+    /*Finish page--320-------------------------------------------------------*/
+      
+    #finish-page-container {}
+    
+    /*Force full viewport width - Message*/
+    #finish-page-message-leftcol-container {
+		width:91%;/*change to span-22 so it fits inside 320 width*/
+		background-color:#FFF;/*hide background grad behind to make text more readable*/
+    }
+    
+    /*Push in to next row - Book Now graphic link*/
+    #finish-page-links-rgtcol-container {
+		clear:left;
+      	width:90%;
+    }
+    
+    /*Correct Position and width - Print Membership Button*/
+    #print-membership-details-button-container {
+    	padding-left:8%;/*change prepend-2*/
+    	width:95%;/*change to span-23*/
+    }
+	
+	/*Change header styling*/
+	#your-membership-details-Header {
+		font-size: 1.4em;
+	}
+
+	/*Reduce the font size in the sub heading bar*/
+	.h2-linetop 
+	{
+		font-size:1.2em;
+	}
+
+	/*Change width - Member Details Container*/
+	#member-id-container {
+		width:87%;/*change to span-21*/
+	}
+	
+	/*Your Membership Details-----------------------------------------------*/
+	
+	/*Member ID-----------------------------------------------------*/
+	/*Force full width to make Member ID value wrap below this label*/	
+	#member-id-label {
+		width:100%;/*add a span-24 value*/
+	}
+	#member-id-value {
+		width:91%;/*add a span-22 value*/
+	}
+	
+	
+	/*Registration date-----------------------------------------------------*/
+	/*Force full width to make Registration date value wrap below this label*/
+	#registration-date-label {
+		width:100%;/*add a span-24 value*/
+	}
+	/*Add width for value size*/
+	#registration-date-value {
+		width:91%;/*add a span-22 value*/
+	}
+	/*Personal details------------------------------------------------------*/
+	/*Name label*/
+	/*Force full width to make Name value wrap below this label*/
+	#personal-details-name-label {
+		width:100%;
+	}
+	/*Name value*/
+	#personal-details-name-value {
+		width:100%;
+	}
+	
+	/*Date of Birth - label*/
+	#personal-details-datebirth-label {
+		width:100%;
+	}
+	/*Date of Birth - value*/
+	#personal-details-datebirth-value {
+		width:100%;
+	}
+	
+	/*Email Address - label*/
+	#personal-details-email-address-label {
+		width:100%;
+	}
+	/*Email Address - value*/
+	#personal-details-email-address-value {
+		width:100%;
+	}	
+	
+	/*Home Phone - label*/
+	#personal-details-Phone-home-label {
+		width:100%;
+	}
+	/*Home Phone - value*/
+	#personal-details-Phone-home-value {
+		width:100%;
+	}
+	
+	/*Mobile phone - label*/
+	#personal-details-Phone-mobile-label {
+		width:100%;
+	}
+	/*Mobile phone - value*/
+	#personal-details-Phone-mobile-value {
+		width:100%;
+	}
+	
+	/*Address - label*/
+	#personal-details-Address-label {
+		width:100%;
+	}
+	/*Address - value*/
+	#personal-details-Address-value {
+		width:100%;
+	}
+}

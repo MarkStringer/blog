@@ -1,0 +1,56 @@
+#content
+{
+	padding-left: 10pc;
+	width: 500px;
+	float: left;
+	display: inline;
+}
+#sponsor-panel
+{
+	display: inline;
+	float: right;
+}
+#top_banner
+{
+	clear: both;
+	display: inline;
+}
+#copyright
+{
+	display: inline;
+	padding-right: 100px;
+}
+#footer 
+{
+	display: inline;
+}
+#irrepressibleInfo
+{
+	display: inline;
+	float: left;
+}
+#indexLink
+{
+	display: inline;
+	padding-right: 100px;
+}
+#mailLink
+{
+	display: inline;
+	padding-right: 100px;
+}
+#archiveLink
+{
+	display: inline;
+	padding-right: 100px;
+}
+#nextLink
+{
+	display: inline;
+	padding-right: 100px;
+}
+#bottomStuff
+{
+	clear: both;
+	display: block;
+}

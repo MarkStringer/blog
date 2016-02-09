@@ -1,0 +1,3 @@
+Submit to being called a neurotic. You belong to that splendid and pitiable family which is the salt of the earth. All the greatest things We know have come to us from neurotics. It is they and they only who have founded religions and created great works of art. Never will the world be conscious of how much it owes to them, nor above all of what they have suffered in order to bestow their gifts on it. We enjoy fine music
+
+- Marcel Proust

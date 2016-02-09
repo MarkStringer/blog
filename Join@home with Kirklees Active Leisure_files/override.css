@@ -1,0 +1,634 @@
+﻿/*PURPLE THEME*/
+/*CUSTOM OVERRIDE
+This stylesheet can be used to override all custom.css styles used in the selected/configured theme.
+Add styles to this stylesheet file if you want to change the look and feel of page elements./*
+
+NOTE:
+DO NOT**********
+	Change other css files in the themes directory, as the changes will not be persisted when a new
+	version of the software is installed.
+DO NOT**********
+	Add styles that effect the grid layout and positioning of page elements (if you do, you will break
+	all the grid and complex media query theme settings!!).
+	ONLY change text (family, size(em), color), border(width,colour) and
+	image (Add to Styles/images) backgrounds(reference styles from custom.css) if required.
+*/
+
+/* We suggest that you can add settings to the following styles so you can customise your version of join@home.
+--------------------------------------------------------------------------------------------------------------*/
+
+/*html {font-size:;}*/
+/*body { font-size:; color:; background:; font-family:;}*/
+
+/*--------------------------------------------------------------------------------------*/
+/* TYPOGRAPHY Styles
+----------------------------------------------------------------------------------------*/
+/*h1, h2, h3, h4, h5, h6 {font-weight:;color:;}*/
+/*h1 {font-size:; line-height:; margin-bottom:;}*/
+/*h2 {font-size:; margin-bottom:;}*/
+/*h3 {font-size:; line-height:; margin-bottom:;}*/
+/*h4 {font-size:; line-height:; margin-bottom:; font-weight:;}*/
+/*h5 {font-size:; font-weight:; margin-bottom:; font-weight:;}*/
+/*h6 {font-size:; font-weight:;}*/
+/*h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}*/
+
+
+/* Paragraph Styles
+----------------------------------------------------------------------------------------*/
+/*p {	margin:0.2em 0 0.3em 0;}*/
+/*.left {float:left;}*/
+/*p .left {margin:1.5em 1.5em 1.5em 0; padding:0;}*/
+/*.right {float:right;}*/
+/*p .right {margin:1.5em 0 1.5em 1.5em; padding:0;}*/
+/*.centre {text-align:center;}*/
+
+/* Active Link Styles  */
+/*a:focus, a:hover {color:;}*/
+/*a {color:;text-decoration:;}*/
+
+/*EDIT STYLE - Custom hyperlink style for the edit links on Confirm Details page*/
+/*.edit {font-size:; color:; font-style:; padding:;}*/
+/*.edit:hover {color:;}*/
+
+/*Use for Block Quotes*/
+/*blockquote {margin:; color:; font-style:;}*/
+
+/*Use to bolden text*/
+/*strong, dfn {font-weight:;}*/
+/*.strong, dfn {font-weight:;}*/
+
+/*Use for emphasis*/
+/*em, dfn {font-style:;}*/
+/*Use for emphasis on company name in DD page 1*/
+/*.emphasis {font-size:; font-weight:;}*/
+
+/*Large text size*/
+/*.larger {font-size:; padding-left:;}*/
+
+/*Large text size*/
+/*.large {font-size:large; padding-left:;}*/
+
+/*sup, sub {line-height:;}*/
+
+/*Use for an abreviation*/
+/*abbr, acronym {border-bottom:;}*/
+/*address {margin:; font-style:;}*/
+/*del {color:;}*/
+/*pre {margin:;white-space:pre;}*/
+/*pre, code, tt {font:1em '', '', monospace; line-height:;}*/
+
+/* List Styles */
+/*li ul, li ol {margin:;}*/
+/*ul, ol {margin:; padding-left:;}*/
+/*ul {list-style-type:;}*/
+/*ol {list-style-type:;}*/
+/*dl {margin:;}*/
+/*dl dt {font-weight:;}*/
+/*dd {margin-left:;}*/
+
+/*Makes the text of this element smaller*/
+/*.small {font-size:; margin-bottom:; line-height:;}*/
+
+/*Make the text of this element larger*/
+/*.large {font-size:; line-height:; margin-bottom:;}*/
+/*.large2 {font-size:;}*/
+/*.large3 {font-size:;}*/
+/*.large4 {font-size:;}*/
+
+/*Make text Bold*/
+/*.bold {font-weight:;}*/
+
+/*.warning {color:;}*/
+
+/*.warning-error {font-family:; font-size:; font-style:; font-variant:; font-weight:; color:;}*/
+
+/*Tones down the font color for this element*/
+/*.quiet {color:;}*/
+
+/*.loud {color:;}*/
+
+/*.highlight {background:;}*/
+
+/*.added {background:#060; color:;}
+
+/*.removed {background:; color:;}*/
+
+/* Use this to create a horizontal ruler across a column. */
+/*hr {}*/
+/*hr.space {background:; color:;}*/
+
+
+/*Table Grid - Styling for the purple theme.
+---------------------------------------------------------- */
+/*.mytableclass {
+	font-family:;
+	font-size:;
+	width:;
+	text-align:;
+	border:;
+	background-color:;
+}
+*/
+	
+/*Table Header Style - edit to change column title style*/
+/*.myheaderstyleclass {
+	padding:;
+	font-size:;
+	font-style:;
+	font-weight:;
+	color:;
+	line-height:;
+	background-image: url(images/);
+	background-repeat:;
+	background-position:;
+}*/
+
+/*.myheaderstyleclass myitemstyleclass {
+	padding:;
+	font-weight:;
+	font-size:;
+	color:;
+	text-transform:;
+	border:;
+}*/
+
+/*.rowstyleclass myitemstyleclass
+{color:; line-height:;}*/
+
+/*.myitemstyleclass
+{horizontal-align:; text-align:;}*/
+
+/*Forces the Font size of text on row elements.*/
+/*.rowstyleclass {font-size:;}*/
+
+/*.altern8rowstyleclass
+{background-color:; border-top:; font-size:;}*/
+
+/*.myitemstyleclass {}*/
+
+/*.myfooterclass {}*/
+
+/*--------------------------------------------------------------------------------------*/
+/* FORM Styles
+----------------------------------------------------------------------------------------*/
+
+/*label {}*/
+
+/*Checkbox style for the input*/
+/*p.chkRdoList input {}*/
+
+/*Checkbox style for the label*/
+/*p.chkRdoList label {}*/
+
+/*fieldset {}*/
+
+/*legend {}*/
+
+/*.gladstone-legend {}*/
+
+/*Used on field titles*/
+/*.field_title {}*/
+
+/*.value {}*/
+
+/*select {}*/
+
+
+/*Input Field Styles
+------------------------------------------------*/
+
+/*input[type=text], input[type=password], input[type=url], input[type=email], input.text, input.title, textarea
+{background-color:; border:; color:;}*/
+
+/*input[type=text]:focus, input[type=password]:focus, input[type=url]:focus, input[type=email]:focus, input.text:focus, input.title:focus, textarea:focus
+{border:;}*/
+	
+/*input[type=text], input[type=password], input[type=url], input[type=email], input.text, input.title, textarea, select
+{margin:; line-height:;}*/
+
+/*INPUT FIELDS - Style to control the default width of input fields.*/
+/*input.text, input.title {padding:;}*/
+
+/*INPUT - SORT CODE - Style used to control the width of input fields for the sort code entry on the DD page.*/
+/*input.text, input.sorttitle
+{width:4em; padding:;}*/
+
+/*Title on top of input fields*/
+/*input.title
+{font-weight:; font-size:; color:; vertical-align:; border:;}*/
+
+/*Input field style*/
+/*Label.title
+{font-weight:; font-size:; color:; line-height:; vertical-align:;}*/
+
+/*Dropdown list style*/
+/*.DropDownList {border:; margin-bottom:;}*/
+
+/*REQUIRED - This style is applied to an "*" to denote that the data for a field is required the asterix should always be added to the left of field titles*/
+/*.required
+{color:; font-size:;}*/
+
+/* The generic style used on navigation buttons
+  eg. Lookup Button in Add personal details page. */
+/*.default_button {}*/
+/*.default_button:hover {background-color:; color:;}*/
+
+/* The generic style used on navigation buttons
+  eg. Lookup Button in Add persoanl details page. */
+/*.lookup-button {}*/
+/*.lookup-button:hover {background-color:; color:;}*/
+
+/*Button style for input fields*/
+/*input.button {}*/
+/*input.button:hover {background-color:; color:;}*/
+
+/*textarea
+{width:; height:; padding:;}*/
+
+/*form.inline {line-height:;}*/
+
+/*form.inline p {margin-bottom:;}*/
+
+/*VALIDATION - Styles
+--------------------------------*/
+/*.generalerror {}*/
+
+/*.generalerror, .alert, .notice, .success, .info {}*/
+
+/* style for generic error for whole form */
+/*.generalerror, .alert {}*/
+
+/*Use on the container span for a validation error.*/
+/*.error-container
+{background-color:#fbe3e4;}*/
+
+/*.error, .alert, .notice, .success, .info {}*/
+
+/*.error, .alert {}*/
+
+/*.error {}*/
+
+/*.alert {}*/
+
+/*.notice {}*/
+
+/*.success {}*/
+
+/*.info {}*/
+
+/*#error-validation-container {}*/
+
+/*.error a, .alert a {}*/
+
+/*.notice a {}*/
+
+/*.success a {}*/
+
+/*.info a {}*/
+
+/*.label {}*/
+
+/*.label-left {}*/
+
+/*Label used next to dropdowns*/
+/*.dropdownlabel {}*/
+
+/*Text Value*/
+/*.value {}*/
+
+/*Use on supporting instruction text such as labels on radio buttons etc.*/
+/*.inline-help {}*/
+/*.radio-label {}*/
+
+/*--------------------------------------------------------------------------------------*/
+/* MAIN CONTAINERS
+   Styles used on the base containers that structure the pages.
+----------------------------------------------------------------------------------------*/
+/*#page-container {}*/
+
+/*#pageBody {}*/
+   
+/*The progress bar holds the step by step process titles
+#progressbar {}*/
+
+
+/*--------------------------------------------------------------------------------------*/
+/* HEADER
+   Custom style items
+----------------------------------------------------------------------------------------*/
+
+/* This is the Container for the Company Logo in the top left of the header 
+#company-logo {}*/
+
+/*Container to hold the Company Name and Strapline 
+#company-name-and-strapline-container {}*/
+
+/* This is the page title that goes with the company logo. It could be used to
+hold the customers company name or strapline for marketing purposes.
+#company-name p {}*/
+
+/*This is the strapline that sits underneath the company name eg. "Join online now"
+#company-strapline {}*/
+
+/*.substrapline {}*/
+
+/*--------------------------------------------------------------------------------------*/
+/* PROGRESS STEPS - Custom style items
+----------------------------------------------------------------------------------------*/
+/* This is the Container for the Progress Steps Boxes
+.progressbox_container{}*/
+
+/* This is the Container for the Progress Steps Box Title/Text.
+Use this style to style the text.
+.progressbox_text{}*/
+
+/* This is the Container for the Progress Steps Arrow on the right of the box.
+It is styles using javascript. See style at base of html page. 
+.box_arrow{}*/
+
+/*--------------------------------------------------------------------------------------*/
+/* CONTENT CONTAINER
+   - Left hand main content custom style items
+----------------------------------------------------------------------------------------*/
+/* This controls the styling of all content inside the
+main left hand content container. 
+#content .content_inner {}*/
+
+/*This is the styling for the top header title for each process step
+ at the top of the content container
+#content .content_inner .header{}*/
+
+/*This style is for the inline help text "Div" at the top of the content container.
+#content .content_inner .helptext_content_top {}*/
+
+/*This style is for the inline help text "Paragraph" at the top of the content container.
+The blueprint container for all column layouts is put inside this div.
+#content .content_inner .helptext_content_top p {}*/
+
+/*.helptext_content_top {}*/
+
+/*This style is for the main form elements that sit inside the middle of the content container
+#content .content_inner .content_inner_main {}*/
+
+/*.header {}*/
+
+/*--------------------------------------------------------------------------------------*/
+/* MEMBERSHIP SUMMARY DETAILS
+   - Right hand container custom style items
+----------------------------------------------------------------------------------------*/
+
+/*#Reg_MemberDetail_Container {}*/
+
+/*This is the inner box inside the summary container used
+to style the inner background box
+#summarybar .inner {}*/
+
+/*This is the style for the Membership Details title.
+#summarybar .inner .summarybar_title {}*/
+
+/*This is the style for the Membership Details title.
+#summarybar .inner .summarybar_title span {}*/
+
+/*USERNAME - style for its container in the summary bar
+.summary-username-container {}*/
+
+/*USERNAME - style for the text in the summary bar
+.summary-username {}*/
+
+/*USERNAME EMAIL ADDRESS - style for its container in the summary bar
+.summary-user-email-container {}*/
+
+/*USERNAME EMAIL ADDRESS- style for the email address text in the summary bar
+.summary-user-email {}*/
+
+
+/*This is the style for the sub titles within
+ the Membership Details summary box.
+#summarybar .inner .titlebar {}*/
+
+/*Membership Details Summary Bar Styles - START */
+
+/*#Reg_MembershipDetail_Container {}*/
+
+/*Sub content container style
+.subcontentleft {}*/
+
+/*.subcontentleft hr {}*/
+
+/*This is the style for the sub content "div" container under the sub title within
+ the Membership Details summary box.
+#summarybar .inner .subcontent {}*/
+
+/*This is the style for the sub content "paragraph" under the sub title within
+ the Membership Details summary box.
+#summarybar .inner .subcontent p {}*/
+
+/*Membership Details Summary Bar Styles - START */
+/*Sub content container style
+.subcontentleft {}*/
+
+/*.subcontentleft hr {}*/
+
+/*Summary Total style - adds a line above and below the total
+.subcontent-Total {}*/
+
+/*Subscription Group style
+#Reg_SubTypeGroup_Container {}*/
+
+/*Membership Details - Summary - Para style used to control the font size.
+#summarybar .inner .subcontentleft p {}*/
+
+/*#ctl00_MainContent_userControlSelectedSubscriptionTypeDetails_lblSubTypeGroup {}*/
+
+/*#summarybar .inner .subcontentright p {}*/
+
+/*.summary-total {}*/
+
+
+/*--------------------------------------------------------------------------------------*/
+/* NAVIGATION BAR
+   - Custom style items
+----------------------------------------------------------------------------------------*/
+
+/*Navigation container styles - use to control padding and background color
+.navigation-bottom-inner {}*/
+
+/*Container to hold the Back and Next buttons
+.navigation-button-container{}*/
+
+/*Navigation Base Buttons
+.navigation-bottom {}*/
+
+/*BACK navigation Button*/
+/*.gs_button_navigate_back {}*/
+/*.gs_button_navigate_back:hover {}*/
+
+/*NEXT navigation Button*/
+/*.gs_button_navigate_next {}*/
+/*.gs_button_navigate_next:hover {}*/
+
+/*PAY & FINISH Button*/
+/*.gs_button_navigate_finish {}*/
+/*.gs_button_navigate_finish:hover {}*/
+
+/*CONTINUE  Button*/
+/*.button_navigate_continue {}*/
+/*.button_navigate_continue:hover {}*/
+
+/*.button-navigate-continue-disabled {}*/
+
+/*.gs_button {}*/
+
+
+/*--------------------------------------------------------------------------------------*/
+/* BUTTON Styles - Generic
+----------------------------------------------------------------------------------------*/
+
+/*Generic button style used across all pages
+.LinkButton {}
+.LinkButton:hover {}*/
+
+
+/*--------------------------------------------------------------------------------------*/
+/*FOOTER Styles
+----------------------------------------------------------------------------------------*/
+
+/*Inner Footer container for styling - Use footer in main.css for positional styling
+#footer-inner-container {}*/
+
+/*Gladstone Logo for right hand of footer
+#footer-gladstone-logo {}*/
+
+/*Telephone No for left hand of footer beneath navigation bar
+#footer-support-telephone-no {}*/
+
+/*Privacy policy link on the footer found in Site.Master
+#Privacy-Policy-Text {}*/
+
+/*#Privacy-Policy-Text a {}
+#Privacy-Policy-Text a:hover {}*/
+
+
+/*--------------------------------------------------------------------------------------*/
+/*Privacy Policy Page Styles
+----------------------------------------------------------------------------------------*/
+/*#Privacy-Policy-Container {}*/
+
+/*#privacy-policy-header-inner {}*/
+
+/*#privacy-policy-header-inner span {}*/
+
+/*Privacy Header
+Apply a background branded header image here*/
+/*#privacy-policy-header {}*/
+
+/*Privacy Policy text block*/
+/*#privacy-policy-content {}*/
+
+
+/*--------------------------------------------------------------------------------------*/
+/*Terms and Conditions Page Styles
+----------------------------------------------------------------------------------------*/
+/*#TermsAndCons-Container {}*/
+
+/*#TermsAndCons-header-inner {}*/
+
+/*#TermsAndCons-header-inner span {}*/
+
+/*Apply a background branded header image here*/
+/*#TermsAndCons-header {}*/
+
+/*Privacy Policy text block*/
+/*#TermsAndCons-content {}*/
+
+
+/*--------------------------------------------------------------------------------------*/
+/*Health Questionnaire Page Styles
+----------------------------------------------------------------------------------------*/
+/*#HQuest-Container {}*/
+
+/*#HQuest-header-inner {}*/
+
+/*#HQuest-header-inner span {}*/
+
+/*Apply a background branded header image here*/
+/*#HQuest-header {}*/
+
+/*Privacy Policy text block*/
+/*#HQuest-content {}*/
+
+
+/*--------------------------------------------------------------------------------------*/
+/* For Individual boxes
+----------------------------------------------------------------------------------------*/
+/*
+.border-black-none {
+	border: 0px ;
+	padding-left:0px;
+}
+
+.border-black-individual {
+	border: 1px solid Black;
+	padding-left:4px;
+	padding-right:4px;
+	padding-bottom:1px;
+	padding-top:1px;
+	margin-right:-1px;
+	margin-bottom:1px;
+	margin-top:1px;
+}
+*/
+/*--------------------------------------------------------------------------------------*/
+/* For Single boxes around all four
+----------------------------------------------------------------------------------------*/
+/* 
+.border-black-none {
+	border: 0px ;
+	padding-left:0px;
+}
+
+.border-black-single {
+	border: 1px solid Black;
+	padding-left:4px;
+}
+*/
+
+
+/*
+----------- MARTIN BURTON ADDITIONS BELOW ------------------
+*/
+
+
+div.onlineguide{
+background-color:#33cc66;
+text-align:center;
+padding:3px;
+}
+
+
+div.renew{
+background-color:#33cc66;
+text-align:center;
+padding:3px;
+}
+
+div.renew_party{
+margin:auto
+}
+
+span.renew_karate{
+font-family:arial;
+font-size:1em;color:#FFFFFF;
+}
+
+a.renew_marty{
+text-decoration:none;
+background-color:#cccc00;
+width:50px;
+text-align:center;
+font-family:arial;
+font-size:1em;
+color:#FFFFFF;
+padding:3px;
+}
+
