@@ -90,10 +90,15 @@ foreach my $file (@dir)
 	}		
 }
 my $file_index = 0;
+my $first = 1;
+my $new_text = " [New!] ";
+my $content_file ="";
+my $content_title="";
 
 foreach my $file (@text_files)
 {		
 		my $file_prefix = getFilePrefix($file,"txt");
+			
 		## read in the whole file
 		 local $/=undef;
 		 $file = $BLOG_DIRECTORY.$slash.$file;
@@ -114,7 +119,14 @@ foreach my $file (@text_files)
 		$html = markdown($html);
 		 
 		 my $html_file = $BLOG_DIRECTORY.$slash.$file_prefix."\.htm";
-		 $index_string = $index_string.$li_frag1.$link_frag1.$file_prefix.".htm".$link_frag2.$file_prefix.$link_frag3.$li_frag2;
+		 $index_string = $index_string.$li_frag1.$link_frag1.$file_prefix.".htm".$link_frag2.$new_text.$file_prefix.$link_frag3.$li_frag2;
+		 
+		 if ( $first)
+		 {
+			 $first=0; $new_text="";
+			 $content_file = $file_prefix.".htm";
+			 $content_title = $file_prefix;
+		 }
 		 
 		 ## create an html file
 		 open FILE, ">"."$html_file" or die "Cannot create file: $!";
@@ -174,18 +186,13 @@ rss_webmaster( 'mark.stringer@mumbly.co.uk' );
 rss_twice_daily();
 get_url( $BLOG_URL );
 
-## just put the most recent article in the RSS feed
-m{<li><a href="(.*?)">(.*?)</a></li>}sg;
-
-my $content_file = $1;
-my $content_title = $2;
 local $/=undef;
 
 open CONTENT, "<$content_file" || die "Failed to open $content_file";
 my $content = <CONTENT>;
 rss_item($BLOG_URL.uri_escape($content_file), $content_title, $content);
 close CONTENT;
-##}
+
 die "No items in this content?! {{\n$_\n}}\nAborting"
 unless rss_item_count();
 rss_save( $RSS_FILE, 45 );
@@ -195,7 +202,3 @@ $ftp->put($RSS_FILE)||die "failed to put $RSS_FILE";
 
 $ftp->quit;
 
-if($tweet)
-{
-   ## don't do anything just now until I figure out how to keep the twitter keys secret
-}
