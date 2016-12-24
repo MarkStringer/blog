@@ -23,6 +23,7 @@ my $RSS_FILE = "feed.rss";
 my $BLOG_TITLE = "A Commonplace";
 my $RSS_FEED = $BLOG_URL.$RSS_FILE;
 my $RSS_ICON = "rss-icon-small.png";
+my $last_time = "last_time.dat";
 
 
 GetOptions ('username=s' => \$username, 'password=s' => \$password, 'tweet' => \$tweet );
@@ -69,8 +70,8 @@ my $footer = <<FOOT;
 </html>
 FOOT
 
-my @file_list = $BLOG_DIRECTORY.$slash.$STYLE_SHEET;
-my $dir = $BLOG_DIRECTORY;
+my @file_list = $BLOG_DIRECTORY.$slash.$STYLE_SHEET; ##start the file list with the style sheet
+my $dir = $BLOG_DIRECTORY; ##get all the files in the directory
 ## Sort the files chronoligcally
 my @dir = sortFilesChronologically($dir);
 	
@@ -82,15 +83,14 @@ foreach my $file (@dir)
 {
 	if ($file=~ /(.*)\.txt$/)
 	{
-		@text_files = (@text_files, $file);
+		@text_files = (@text_files, $file); ## put together a list of text files
 	}
 	if ($file=~/(.*)\.(png|jpg|gif)$/)
 	{
-		@image_files = (@image_files, $file);
+		@image_files = (@image_files, $file); ## put together a list of image files
 	}		
 }
 my $file_index = 0;
-my $first = 1;
 my $new_text = " [New!] ";
 my $content_file ="";
 my $content_title="";
@@ -100,34 +100,31 @@ foreach my $file (@text_files)
 		my $file_prefix = getFilePrefix($file,"txt");
 			
 		## read in the whole file
-		 local $/=undef;
-		 $file = $BLOG_DIRECTORY.$slash.$file;
+		local $/=undef;
+		$file = $BLOG_DIRECTORY.$slash.$file;
 		 
-		 ##get the date that the file was last accessed
-		  my $modified = (stat($file))[9];
-		  my ($d,$m,$y) = (localtime($modified))[3,4,5];
-		  my $mdy = sprintf '%d/%d/%d', $d, $m+1,  $y+1900;
-		  
-		 
-		 open FILE,  $file or die "Couldn\'t open file: $file";
-		 my $string = <FILE>;
-		 close FILE;
+		##get the date that the file was last accessed
+		my $modified = (stat($file))[9];
+		my ($d,$m,$y) = (localtime($modified))[3,4,5];
+		my $mdy = sprintf '%d/%d/%d', $d, $m+1,  $y+1900;
+	 
+		open FILE,  $file or die "Couldn\'t open file: $file";
+		my $string = <FILE>;
+		close FILE;
 		 
 		## encode_entities($string);
-		my	 $html =	encode_entities($string, "\226\227");
+		my $html = encode_entities($string, "\226\227");
 		## convert to markdown
 		$html = markdown($html);
 		 
-		 my $html_file = $BLOG_DIRECTORY.$slash.$file_prefix."\.htm";
-		 $index_string = $index_string.$li_frag1.$link_frag1.$file_prefix.".htm".$link_frag2.$new_text.$file_prefix.$link_frag3.$li_frag2;
-		 
-		 if ( $first)
-		 {
-			 $first=0; $new_text="";
-			 $content_file = $file_prefix.".htm";
-			 $content_title = $file_prefix;
-		 }
-		 
+		my $html_file = $BLOG_DIRECTORY.$slash.$file_prefix."\.htm";
+		my $is_new=$new_text;
+		if( -M $file > -M $last_time)
+		{
+			 $is_new=$new_text;
+		}
+		$index_string = $index_string.$li_frag1.$link_frag1.$file_prefix.".htm".$link_frag2.$new_text.$file_prefix.$link_frag3.$li_frag2;
+		
 		 ## create an html file
 		 open FILE, ">"."$html_file" or die "Cannot create file: $!";
 		 print FILE $header;
@@ -198,7 +195,5 @@ unless rss_item_count();
 rss_save( $RSS_FILE, 45 );
 ##put this file on the server
 $ftp->put($RSS_FILE)||die "failed to put $RSS_FILE";
-
-
 $ftp->quit;
 
