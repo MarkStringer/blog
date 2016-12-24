@@ -94,6 +94,7 @@ my $file_index = 0;
 my $new_text = " [New!] ";
 my $content_file ="";
 my $content_title="";
+$last_time = $BLOG_DIRECTORY.$slash.$last_time;
 
 foreach my $file (@text_files)
 {		
@@ -119,11 +120,17 @@ foreach my $file (@text_files)
 		 
 		my $html_file = $BLOG_DIRECTORY.$slash.$file_prefix."\.htm";
 		my $is_new="";
-		if( -M $file > -M $last_time)
+		print "\n";
+		print -M $file || die "something wrong";
+		print " ";
+		print -M $last_time || die "something wrong";
+		print "\n";
+		if( -M $file < -M $last_time)
 		{
 			 $is_new=$new_text;
+			 print "This file is newer";
 		}
-		$index_string = $index_string.$li_frag1.$link_frag1.$file_prefix.".htm".$link_frag2.$new_text.$file_prefix.$link_frag3.$li_frag2;
+		$index_string = $index_string.$li_frag1.$link_frag1.$file_prefix.".htm".$link_frag2.$is_new.$file_prefix.$link_frag3.$li_frag2;
 		
 		 ## create an html file
 		 open FILE, ">"."$html_file" or die "Cannot create file: $!";
