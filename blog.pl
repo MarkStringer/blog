@@ -118,7 +118,7 @@ foreach my $file (@text_files)
 		$html = markdown($html);
 		 
 		my $html_file = $BLOG_DIRECTORY.$slash.$file_prefix."\.htm";
-		my $is_new=$new_text;
+		my $is_new="";
 		if( -M $file > -M $last_time)
 		{
 			 $is_new=$new_text;
