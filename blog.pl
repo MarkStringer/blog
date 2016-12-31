@@ -15,6 +15,7 @@ my $slash = getOsSlash();
 my $tweet='';
 my $username='';
 my $password='';
+my $fast='';
 my $BLOG_DIRECTORY = '.';
 my $PUBLIC_DIRECTORY = "..".$slash."Public";
 my $BLOG_URL = q<http://www.mumbly.co.uk/newblog/>;
@@ -26,11 +27,12 @@ my $RSS_FEED = $BLOG_URL.$RSS_FILE;
 my $RSS_ICON = "rss-icon-small.png";
 
 
-GetOptions ('username=s' => \$username, 'password=s' => \$password, 'tweet' => \$tweet );
+GetOptions ('username=s' => \$username, 'password=s' => \$password, 'tweet' => \$tweet, 'fast=s'=>\$fast );
 print "Username $username\n";
 print "Password $password\n";
 print "Tweet $tweet\n";
 print "Slash $slash\n";
+print "Fast $fast\n";
 
 my $header = <<HEAD;
 <html>
@@ -95,6 +97,7 @@ my $new_text = " [New!] ";
 ##my $content_file ="";
 ##my $content_title="";
 
+
 foreach my $file (@text_files)
 {		
 		my $file_prefix = getFilePrefix($file,"txt");
@@ -146,11 +149,30 @@ foreach my $file (@text_files)
 		 $file_index++;
 }
 
+##shorten the file list so only recent files are push to the server
+my @short_file_list;
+my @short_image_files;
+if ($fast)
+{
+	for( my $i=0; $i<$fast; $i++)
+	{
+		## just put the top n files on the server
+		@short_file_list = (@short_file_list, shift @file_list);
+		@short_image_files = (@short_image_files, shift @image_files);  
+	}
+	@file_list = @short_file_list;
+	@image_files = @short_image_files;
+}
+
+print @file_list;
+
 ## create an index file
 open FILE, ">".$BLOG_DIRECTORY.$slash."index.htm";
 print FILE $header.$ul_frag1.$index_string.$ul_frag2.$rss_frag.$footer;
 close FILE;
 push (@file_list, $BLOG_DIRECTORY.$slash."index.htm");
+
+
 ## add the image files
 @file_list = (@file_list, @image_files);
 
