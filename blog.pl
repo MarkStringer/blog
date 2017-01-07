@@ -177,7 +177,7 @@ push (@file_list, $BLOG_DIRECTORY.$slash."index.htm");
 @file_list = (@file_list, @image_files);
 
 ## ftp everything up to the blog site
-my $ftp = Net::FTP->new("www.mumbly.co.uk", Debug => 0)
+my $ftp = Net::FTP->new("www.mumbly.co.uk", Debug => 1, Passive => 1)
 or die "Cannot connect to some.host.name: $@";
 $ftp->login($username,$password)
 or die "Cannot login ", $ftp->message;
