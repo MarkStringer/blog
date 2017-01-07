@@ -195,9 +195,12 @@ foreach my $put_file (@file_list)
  (my $sec, my$min, my $hour,my $mday, my $mon, my $year, my $wday, my $yday, my $isdst) =
 localtime(time);
 ## make an entry in the dropbox public folder, so we can do a post on IFTTT 
-open FILE, ">$PUBLIC_DIRECTORY$slash$year$mon$mday$sec\.txt";
-print FILE $header.$ul_frag1.$index_string.$ul_frag2.$footer;
-close FILE;
+if (-e $PUBLIC_DIRECTORY)
+{
+	open FILE, ">$PUBLIC_DIRECTORY$slash$year$mon$mday$sec\.txt" || die "No dropbox";
+	print FILE $header.$ul_frag1.$index_string.$ul_frag2.$footer;
+	close FILE;
+}
 
 get_url( $BLOG_URL );
  
