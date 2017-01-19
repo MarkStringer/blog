@@ -28,12 +28,17 @@ my $RSS_ICON = "rss-icon-small.png";
 
 
 GetOptions ('username=s' => \$username, 'password=s' => \$password, 'tweet' => \$tweet, 'fast=s'=>\$fast, 'orderfile=s'=>\$orderfile);
+my $usageString = "perl blog.pl --username <username> --password <password> [fast=<fast>] --orderfile orderfilea";
+
 print "Username $username\n";
 print "Password $password\n";
 print "Tweet $tweet\n";
 print "Slash $slash\n";
 print "Fast $fast\n";
 print "Order File $orderfile\n";
+$username || die "No Username";
+$password || die "No Password";
+$orderfile || die "No order file";
 
 my $header = <<HEAD;
 <html>
