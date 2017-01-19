@@ -27,12 +27,13 @@ my $RSS_FEED = $BLOG_URL.$RSS_FILE;
 my $RSS_ICON = "rss-icon-small.png";
 
 
-GetOptions ('username=s' => \$username, 'password=s' => \$password, 'tweet' => \$tweet, 'fast=s'=>\$fast );
+GetOptions ('username=s' => \$username, 'password=s' => \$password, 'tweet' => \$tweet, 'fast=s'=>\$fast, 'orderfile=s'=>\$orderfile);
 print "Username $username\n";
 print "Password $password\n";
 print "Tweet $tweet\n";
 print "Slash $slash\n";
 print "Fast $fast\n";
+print "Order File $orderfile\n";
 
 my $header = <<HEAD;
 <html>
@@ -81,9 +82,18 @@ my @text_files;
 ##my @text_file_prefixes;
 my @image_files;
 
+if($orderfile && (open (ORDER, "<", $orderfile)))
+{
+     @text_files = <ORDER>;
+}
+else
+{
+     $orderfile="";
+}
+
 foreach my $file (@dir)
 {
-	if ($file=~ /(.*)\.txt$/)
+	if ((!$orderfile)&&($file=~ /(.*)\.txt$/))
 	{
 		@text_files = (@text_files, $file); ## put together a list of text files
 	}
@@ -94,8 +104,6 @@ foreach my $file (@dir)
 }
 my $file_index = 0;
 my $new_text = " [New!] ";
-##my $content_file ="";
-##my $content_title="";
 
 
 foreach my $file (@text_files)
