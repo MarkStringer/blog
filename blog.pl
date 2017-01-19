@@ -2,7 +2,6 @@ use warnings;
 use Text::Markdown 'markdown';
 use Net::FTP;
 use File::Copy;
-use Net::Twitter;
 use Scalar::Util 'blessed';
 use URI::Escape;
 use XML::RSS::SimpleGen;
@@ -27,12 +26,11 @@ my $RSS_FEED = $BLOG_URL.$RSS_FILE;
 my $RSS_ICON = "rss-icon-small.png";
 
 
-GetOptions ('username=s' => \$username, 'password=s' => \$password, 'tweet' => \$tweet, 'fast=s'=>\$fast, 'orderfile=s'=>\$orderfile);
+GetOptions ('username=s' => \$username, 'password=s' => \$password, 'fast=s'=>\$fast, 'orderfile=s'=>\$orderfile);
 my $usageString = "perl blog.pl --username <username> --password <password> [fast=<fast>] --orderfile orderfilea";
 
 print "Username $username\n";
 print "Password $password\n";
-print "Tweet $tweet\n";
 print "Slash $slash\n";
 print "Fast $fast\n";
 print "Order File $orderfile\n";
