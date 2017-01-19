@@ -1,0 +1,9 @@
+#The Toolsets are A-Changing
+
+I was reading one of the books by Buckminster Fuller. Fuller just mentioned casually in passing, that in any given industry the toolsets change about every 25 years. I think this is a big generalisation, and in some industries the toolsets don't change much for hundreds of years. I think Buckminster fuller spent most of his time thinking about engineering and architecture, and for that, he might have been right.
+
+I think in software development the rate of complete change for the toolset might be close to 25 years. I bought my first computer (well, nagged my parents to order it from a form out of the paper) in 1982. So I've see the advent of personal computers and object oriented programming languages, and now, it seems their departure and the advent of the cloud, and maybe functional programming.
+
+I didn't really know what I was buying when I bought into computing in 1982, I made a career out of the PC software development wave, and now I'm thinking that I have to catch the wave that's building - but not yet I think yet broken, around development for cloud.
+
+The reason for doing this is not just the cynical (pretty essential) one of wanting to keep my skills current, it's also that it seems pretty exciting. Some of the thinking around cloud computing also seems to me to involve what I would call "forhead slapping" moments. Gah! Of course the way to make sure that code works on development machines, testing machines and live machines is to build those machines virtually with the same configuration. Gah! Of course those configurations should be under source code control just like any other software.
