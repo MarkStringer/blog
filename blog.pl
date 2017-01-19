@@ -103,17 +103,16 @@ foreach my $file (@dir)
 	}		
 }
 my $file_index = 0;
-my $new_text = " [New!] ";
-
 
 foreach my $file (@text_files)
 {		
 		my $file_prefix = getFilePrefix($file,"txt");
-			
+		$file =~ s/\s*$//g ;
 		## read in the whole file
 		local $/=undef;
-		$file = $BLOG_DIRECTORY.$slash.$file;
-		 
+
+                -r $file or die "File $file isn't readable";
+
 		##get the date that the file was last accessed
 		my $modified = (stat($file))[9];
 		my ($d,$m,$y) = (localtime($modified))[3,4,5];
@@ -129,13 +128,7 @@ foreach my $file (@text_files)
 		$html = markdown($html);
 		 
 		my $html_file = $BLOG_DIRECTORY.$slash.$file_prefix."\.htm";
-		my $is_new="";
-		if( -M $file < 7)
-		{
-			 $is_new=$new_text;
-			## print "This file is newer";
-		}
-		$index_string = $index_string.$li_frag1.$link_frag1.$file_prefix.".htm".$link_frag2.$is_new.$file_prefix.$link_frag3.$li_frag2;
+		$index_string = $index_string.$li_frag1.$link_frag1.$file_prefix.".htm".$link_frag2.$file_prefix.$link_frag3.$li_frag2;
 		
 		 ## create an html file
 		 open FILE, ">"."$html_file" or die "Cannot create file: $!";
