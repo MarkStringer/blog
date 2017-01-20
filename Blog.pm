@@ -6,7 +6,6 @@ package Blog;
   use Text::Markdown 'markdown';
   use Net::FTP;
   use File::Copy;
-  use Net::Twitter;
   use Scalar::Util 'blessed';
   use URI::Escape;
   use XML::RSS::SimpleGen;
