@@ -15,11 +15,11 @@ And in the first couple of weeks I managed to make the chairman of the start-up 
 
 The book that I wanted to write then came out of the realisation that the books that you read about project management such as "Agile Software Development with Scrum", "Extreme Programming Explained" even the good ones like "Scrum and XP from the Trenches" gave the impression that if you followed the practises that were outlined in the books, your projects would be a success.  
 
-I couldn't make the promise that the chairman wanted me to make because I knew from experience (the experience that they hired me for) that I might not be able to deliver. Real projects don't run smoothly. They take longer than expected. They uncover the unexpected. They often end up costing far, far more than they're expected to cost and deliver nowhere near the value that was promised. Whisper it, because although it's obvious it's treated like a dirty secret: software costs a fortune, and very doesn't deliver what's expected of it. 
+I couldn't make the promise that the chairman wanted me to make because I knew from experience (the experience that they hired me for) that I might not be able to deliver. Real projects don't run smoothly. They take longer than expected. They uncover the unexpected. They often end up costing far, far more than they're expected to cost and deliver nowhere near the value that was promised. Whisper it, because although it's obvious it's treated like a dirty secret: software costs a fortune, and very often doesn't deliver what's expected of it. 
 
 I wanted to write a book that not only admitted these dirty secrets, but made project managers feel OK with what they were doing and what they were experiencing. And by project managers, I mean Scrum Masters, Delivery Managers, Product Owners, whoever it is who finds themselves on the hook for managing the delivery of a project and actually takes on that burden of responsibility for delivery. 
 
-But there are project managers and there are *project managers.* There's a kind of project manager who hides what's going on from the bosses using a variety of tactics: "project plans" that are hundreds-of-line-long; "reporting of progress" in terms expenditure; hiding the bad news about the actual progress of a project for as long as possible; and acting surprised as senior stakeholders when deadlines are missed and there is no evidence that anything is produced. This is the kind of project manager who is happy to periodically enter a phase of "crunch": late nights, weekend working and endless emergency meetings.
+But there are project managers and there are *project managers.* There's a kind of project manager who hides what's going on from the bosses using a variety of tactics: "project plans" that are hundreds-of-line-long; "reporting of progress" in terms of expenditure; hiding the bad news about the actual progress of a project for as long as possible; and acting surprised as senior stakeholders when deadlines are missed and there is no evidence that anything is produced. This is the kind of project manager who is happy to periodically enter a phase of "crunch": late nights, weekend working and endless emergency meetings.
 
 My book isn't for those kind of project managers unless, they want to repent of their sins and actually do something to help the projects that they're working on. Rather I'm writing for the kind of project manager who actually feels the need to take responsibility for the delivery of a project. I don't care what their official title is. They might be project managers, they might, if they're in publishing be called editors. They might be called directors. If they are on the hook for the delivery of a project and are trying neither to run-away from that nor deny it. If they're worrying about it: those are the people this book is for. This book is aimed at the people who feel the responsibility for delivery. But it's also a guide for those who try to help those people: agile coaches. 
 
@@ -55,7 +55,8 @@ For example - to use form that Socrates used to express his arguments, known as 
 
     Socrates is a human 
 
-It absolutely does not follow, in classical logic that 
+It absolutely does not follow, in classical logic that:
+
     All humans are Socrates 
 
 Matte Blanco's contention is that sometimes classical asymmetric logic, which forbids contradiction and enforces the asymmetric nature of relations isn't the kind of logic that we use. Rather, we use a form of logic which is symmetrical rather than asymmetrical. What does this mean? This means that in certain circumstances "some" is regarded logically as the same as "all". 
