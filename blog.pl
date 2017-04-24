@@ -27,7 +27,7 @@ my $RSS_ICON = "rss-icon-small.png";
 
 
 GetOptions ('username=s' => \$username, 'password=s' => \$password, 'fast=s'=>\$fast, 'orderfile=s'=>\$orderfile);
-my $usageString = "perl blog.pl --username <username> --password <password> [fast=<fast>] --orderfile orderfilea";
+my $usageString = "perl blog.pl --username <username> --password <password> [fast=<fast>] --orderfile orderfile";
 
 print "Username $username\n";
 print "Password $password\n";
@@ -87,7 +87,14 @@ my @image_files;
 
 if($orderfile && (open (ORDER, "<", $orderfile)))
 {
-     @text_files = <ORDER>;
+     while (<ORDER>)
+	{
+              print;
+              my $orderLine = $_;
+              chomp $orderLine;
+              open(my $fh, '<', $orderLine)|| die "Failed to open $orderLine";
+              push @text_files, $orderLine;
+	}
 }
 else
 {
