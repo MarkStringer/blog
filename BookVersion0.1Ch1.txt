@@ -1,5 +1,5 @@
 ﻿Version - 0.1 - Aristotle
-#Something, Sometime and Soon: Agile as a Cure for Symmetrical Thinking [Working Title]
+#Delivering the Impossible [Working Title]
 
 #Introduction 
 
@@ -108,7 +108,7 @@ Every now and then there is a story in the news of something that has happened i
 
 These stories are interesting, and somehow rewarding because they show similarities between the world of imagination and the world of reality. In the world of waterfall projects, one powerful idea of success of a project was a project that was delivered *exactly* what was in the specification, *exactly* on time and *exactly* to budget: same specification, same duration and same cost equals success. Doesn't it?
 
-Same is very powerful in several other ways.  Same is especially powerful when projects get started. How many iphone apps, or facebook apps were created with an argument of the form "everyone else is getting an app".  As noted by Robert Cialdini in his book "Influence", "We view a behaviour as more correct in a given situation to the degree that we see others performing it." 
+Same is very powerful in several other ways.  Same is especially powerful when projects get started. How many iPhone apps, or Facebook apps were created with an argument of the form "everyone else is getting an app".  As noted by Robert Cialdini in his book "Influence", "We view a behaviour as more correct in a given situation to the degree that we see others performing it." 
 
 ###Always, Now and Forever
 The past comes before present, the present comes before the past. Time isn't symmetrical, it is fundamentally asymmetrical. So it's not surprising that symmetrical thinking about time is very strange.
