@@ -4,20 +4,20 @@ Version - 0.1 - Aristotle
 # Chapter 2 
 
 # What is Agile?
-One of the strange things about social media is that sometimes talk about work and get mixed up with talk with friends. As a result, friends of mine who know nothing of software development get to see me ranting about Agile or SAFE or someone insisting on sitting down in a stand-up meeting. Occasionally they mention to me that they have no idea what I'm talking about. 
+One of the strange things about social media is that sometimes talk about work and talk with friends gets mixed up. As a result, friends of mine who know nothing of software development get to see me ranting about Agile or SAFE or someone behaving badly in a stand-up. Occasionally they mention to me that they have no idea what I'm talking about. 
 
-Some of these friends have actually started to read this book online. As one put it "I read all the way through the the elephant." And I'm wondering if it's possible to keep those people reading through what has to be the next chapter of the book. This is a chapter which explains why these observations about "some" and "all" should be of interest to anyone who's involved in managing projects, but especially software development projects.
+And some of these friends have actually started to read this book. As one put it "I read all the way through the the elephant." And I'm wondering if it's possible to keep those people reading through what has to be the next chapter of the book. This is a chapter which explains why these observations about "some" and "all" should be of interest to anyone who's involved in managing projects, but especially software development projects.
 
 To explain this, we need to talk about the Agile manifesto, and how it encourages a "some" approach to thinking about software development and then we need to talk about the most successful Agile method: Scrum.
 
-But if I am going to have a chance of keeping on board those brave people who know nothing of Agile first of all I'm going to have to write a brief explanation of what Agile is and why we need it. And in order to do that, I'm going to have to back up even further and explain what waterfall.
+But in order to explain what the Agile manifesto is, we need to explain what Agile is.  And in order to explain what Agile is? Well, really to explain what Agile is, we need to explain what Agile *isn't* and how we used to things before Agile. Fortunately, all of this backing up to get a better run at things is totally relevant to the central idea of this book: that things go wrong when you use "all" where you should use "some" and things get better when you use "some" instead of all.  
 
 ### What is Waterfall?
 Until the end of the 21st century it was widely thought that the best way to manage software development was to treat it like the engineering of complex physical structures, like engines or suspension bridges. This type of approach is often called a "Waterfall" approach because of the way that's represented in diagrammatic form.
 
 !["Waterfall Project Management"](waterfall.png)
 
-When a piece of software was required, it was understood that the best way to make sure that that piece of software was delivered "on time" and "to budget" was to make a list of absolutely everything that the piece of software needed to do in a "requirements document".  When that document was complete, and only when it was complete, another document would be written which explained exactly how those requirements would be satisfied. This would probably be called a "design document." 
+When a piece of software was required, it was understood that the best way to make sure that that piece of software was delivered "on time" and "to budget" was to make a list of absolutely everything (*all* of the things) that the piece of software needed to do in a "requirements document".  When that document was complete, and only when it was complete, another document would be written which explained exactly how those requirements would be satisfied. This would probably be called a "design document." 
 
 Eventually, when the design was complete, some software developers could start to write some software. 
 
@@ -34,21 +34,23 @@ The other good thing about waterfall approaches to projects is directly related 
 
 ### What's Bad About Waterfall?
 
-So what's wrong with waterfall? When I started in software development, "waterfall" project management wasn't called "waterfall":it was just called "project management". It was simply the only kind of project management that there was, certainly in the medium-sized software development company that I joined as a trainee. 
+So what's wrong with waterfall? When I started in software development, "waterfall" project management wasn't called "waterfall":it was just called "project management". It was simply the only kind of project management that there was.
 
-The first two projects (an accounting system for an oil company and a weapons simulation system) that I worked on had been through extensive requirements gathering phases. They'd then been through complex design phases, and then, not finally, but after a long, long time, software development had started. Both were multi-million pound development projects. And after the requirements, design, development and testing phases, both projects that had an unexpected, additional phase: *litigation*. Yes, that's right.  On both projects, the client threatened to sue us as suppliers because they were so unhappy with the way that the work was going.
+The first two projects (an accounting system for an oil company and a weapons simulation system) that I worked on had been through extensive requirements gathering phases. They'd then been through complex design phases, and then, after a long, long time, software development had started. Both were multi-million pound development projects. And after the requirements, design, development and testing phases, both projects had had an unexpected, additional phase: *litigation*. Yes, that's right.  On both projects, the clienti had threatened to sue us as suppliers because they were so unhappy with the way that the work was going.
 
-What brought on these crises? Two things really. First of all, getting to the point where the customers could see working software had taken far, far, longer than had been initially estimated. This caused all kinds of our problems for our customers who were betting on the systems being available so they could build service stations, train personnel, start wars. 
+What brought on these crises? Several things. First of all, getting to the point where the customers could see working software had taken far, far, longer than had been initially estimated. This caused all kinds of our problems for our customers who were betting on the systems being available so they could build service stations, train personnel, start wars. 
 
 Secondly, when they customers did get to see the software, it wasn't what they were expecting.The realisation that the software was not only late, but also the wrong thing caused a crisis in the clients so profound that they wanted us as suppliers to really smart. Blame, shame, wounding costs and reparations needed to be handed off onto the people who'd committed this abomination and so the lawyers were called.
 
-So far, so dramatic and catastrophic, but here's an interesting thing. Both projects, when *I* worked on them were making money for the company. Both projects were also delivering software to the customers. In both cases the company had called in a negotiator who specialised in helping out projects that had reached this crisis phases. He was a tiny Glaswegian (I'm 5' 5" and he was a good head shorter than me) called Terry.  
+Finally, by the time our customers got to see the software the world had changed. New territories with new requirements had opened up for the oil. Wars in different parts of the world looked like opportunities for the arms manufacturers. While we'd been beavering away writing the requirements, coming up with the design, writing the software and then finally testing it, the world had changed. A substantial part of why the customers didn't want to pay for software we showed them, and so had called in the lawyers, is that even it was *exactly* what they'd asked for in the requirements document, it wasn't what they wanted anymore. 
+
+But here's an interesting thing. Both projects, when *I* worked on them were making money for the company. Both projects were also delivering software to the customers. In both cases the company had called in a negotiator who specialised in helping out projects that had reached this crisis phases. He was a tiny Glaswegian (I'm 5' 5" and he was a good head shorter than me) called Terry.  
 
 Terry would negotiate with the clients; he would tolerate the their shouting and cursing and recriminations with good grace; he would find out which bit of the software the clients desperately needed most and he would agree to deliver that in a short space of time, say a month or so. 
 
 But part of that agreement would be getting the client to agree to drop the threats of the law suit and pay a little bit more money. Slowly but surely, the client would start to get a system that they could use and were happy with, if still not ecstatic. Slowly but surely they would forget the threat of legal action and concentrate on identifying what the next thing was that they wanted us to work on.
 
-I didn't really understand it then, but to me now, it's obvious what Terry was doing.  In the midst of customer wailing, gnashing of teeth and threats of legal action, Terry was negotiating the replacement of "All" with "Some". Rather than promising "All" of the project, he was agreeing to supply "Some". And this became much easier at the point where the client was really seriously looking at the possibility of ending up with nothing but a long and drawn-out law suit.
+I didn't really understand it then, but to me now, it's obvious what Terry was doing.  In the midst of customer wailing, gnashing of teeth and threats of legal action, Terry was negotiating the replacement of "All" with "Some". Rather than promising "All" of the project, he was agreeing to supply "Some". And this became much easier at the point where the client was really seriously looking at the possibility of ending up with nothing but a long and drawn-out law suit. Focusing on *some* rather than *all* also provide an opportunity to incorporate any changes that the customer wanted that weren't in the original specification.
 
 ### The Need for "Lightweight" Methods
 
