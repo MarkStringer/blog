@@ -29,7 +29,7 @@ As we can see from the brief quotation of the Futurist manifesto, some manifesto
 
 But the Agile manifesto starts out like this: 
 
-	*We are uncovering better ways of developing software by doing it and helping others do it.* 
+*We are uncovering better ways of developing software by doing it and helping others do it.* 
 
 Compared to many other manifestos, the Agile manifesto seems unsure of itself. Notice the ways that are being uncovered are not necessarily the *best* ways. They are merely better ways. They aren't even completely known, they are being discovered. In its very first line the Agile manifesto emphasises the importance of *some* rather than *all*. 
 
