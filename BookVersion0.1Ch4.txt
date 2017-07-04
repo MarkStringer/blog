@@ -54,20 +54,18 @@ One of the main reasons that the product backlog is collected in bits is so that
 
 By doing this the product owner becomes the role in Scrum which conjures most powerfully with "some" and "all". All of the work that might be done on a Scrum development project is kept in the product backlog. But one of the most powerful aspects of Scrum is that at the beginning of every sprint the product owner needs to decide on *some* of these things that should be planned to be worked on by the development team. 
 
-Most product owners find this extremely difficult, at least at first. Looking at things from the point of view of symmetry and asymmetry we get an idea of why. The act of prioritising what needs to be done is "all destroying." 
+Most product owners find this extremely difficult, at least at first. Looking at things from the point of view of symmetry and asymmetry we get an idea of why. The act of prioritising what needs to be done is "all destroying." Once we break ground on a project and actually start to do it, there's a strong possibility that we will find problems with vision. Once we start to do a project, there's a strong possibility that we will realise that the whole of the project could take much longer than was initially predicted.
 
-And this is an important point that we will come back to:
-
-**Thinking about *some* is very often more difficult thank thinking about *all***
+Again, it is often the Scrum Master who is left with the job of persuading the Product Owner to articulate which items should be a priority.
 
 ### Help with Prioritisation
-One strange thing about this resistance to the prioritisation of the product backlog is that often many of the people involved in the project know which bits of the product backlog are the most important.
+One strange thing about this resistance to the prioritisation of the product backlog is that often people know which bits of the product backlog are the most important and should be the priority.
 
 I worked on a fraud detection project that estimated to take nearly two years.  Even so, the bit that everyone knew was the most important was an algorithm that detected false positive indications of fraud.  This was perhaps only five percent of the whole project and could have been delivered in just a few months.
 
-One of the questions that it can be useful to ask the product owner is just what that small part of the project is it that everyone knows is the most useful bit.
+It can be useful to ask the product owner which small part of the project it is that everyone knows should be done first. Or having talked to other people who know about the project, the Scrum Master might suggest this as the bit that should be given highest priority.
 
-Another way to help the product owner is to explain that even though everything in the product backlog may need doing, the development team can't do *all* of the things in the product backlog at the same time. So the question of prioritisation then become a *slightly* easier question: where should we start?
+Another way to help the product owner is to explain that even though everything in the product backlog may need doing, the development team can't do *all* of the things in the product backlog at the same time. So the question of prioritisation then becomes a *slightly* easier question: even if we agree that we're going to everything in the product backlog, where should we start?
 
 Once the team has started, there's then an obvious, easier follow-up question than explicitly pushing for prioritisation: what should we do next?
 
@@ -96,11 +94,11 @@ Scrum dictates that at the end of every sprint there should be a meeting where t
 
 My own experience is that the “Show and Tell” can be one of the most difficult meetings in Scrum and the reason is because of this relationship between “some” and “all.” In the show and tell, the people who are paying for the project get to see what they're getting for their money. Certainly in the early days of a project, this isn't much. 
 
-The people who are looking at this “working software” are the people who have bought into this project because of some dream: some big, simplified, easy to state, attractive, “all” and the gap between what has been promised and what needs to be delivered, is unbearable.
+The people who are looking at this “working software” are the people who have bought into this project because of some dream: some big, simplified, easy to state and attractive “all”. Sometimes being faces with the gap between what has been promised and what needs to be delivered, is unbearable.
 
-That is possible why getting the right people who need to come to the showcase, senior stakeholders and even the product owner can be difficult. A lot of the time they won't like what they see, or they won't feel that what they see is near enough being a finished product to be worth their attention. Often, like the joke about the elderly ladies staying at a hotel, not only is the food terrible but it's in such small portions.
+That is possibly why getting the people who need to come to the showcase: senior stakeholders and even the product owner can be difficult. A lot of the time they won't like what they see, or they won't feel that what they see is near enough being a finished product to be worth their attention. Often, like the joke about the elderly ladies complaining about their staying in a hotel, not only is the food terrible, it's in such small portions.
 
-Again it often falls to the Scrum Master to ensure the continuing engagement between the development team and the stakeholders - offering some explanation
+Again it often falls to the Scrum Master to ensure the continuing engagement between the development team and the stakeholders - offering some explanation of what the Product Owner is actually looking at and also explaining to stakeholders what the value is of some small piece of working software, especially at a stage before it is obviously viable as releasable software.
 
 ## The Perfect Product Owner
 
@@ -112,7 +110,7 @@ On a project where are there are lots of big beasts (i.e. important stakeholders
 ### Anti-Pharaohs on Elastic
 The Pharoah in book of Exodus in the bible asked the children of Israel to make bricks without straw.  Pharaoh wasn't an idiot, he knew what he was doing, he knew that making bricks without straw was impossible and he did it as a punishment. 
 
-Unfortunately, the Pharaohs that we encounter on modern projects often don't know that they're asking for the impossible. They are asking for software that talks to a database that doesn't exist, or they're asking for software using a technology that doesn't work properly yet or they're asking for something, but totally refuse to give the requisite detail of what it is that they want.
+Unfortunately, the Pharaohs that we encounter on modern projects often don't know that they're asking for the impossible. They ask for software that talks to a database that doesn't exist, or they ask for software using a technology that doesn't work properly yet or they ask for something, but totally refuse to give the requisite detail of what it is that they want.
 
 One of the things that Scrum does is that it acts as a way of testing hypotheses, of trying out ideas like “We can connect to this database” or “this cool new technology actually works” and we'll talk about this in the next chapter. 
 
@@ -126,19 +124,21 @@ So, although the stealth product owner and the elasticated non-Pharoah product o
 
 “Fully invested” suggest that someone has put all of their resources into this single project, possibly they have also put the full weight of their reputation behind a project. Given the chances of success of *any* software project, putting your whole reputation behind a project probably isn't that smart a move. A much better way of thinking about a project is that it is one of many.
 
-An “ego project” (“ego” is the Latin for “I”) is a project that someone is directly and closely associated with. Again, this isn't a sane way of thinking about software projects because even with well-specified, well-managed software projects, there is still a large amount of uncertainty and a chance that they will go wrong. What's important to highlight here is that associating the ego with a project is *symmetrical* thinking. It's thinking that associates success with there being a symmetry between what's in the mind of the product owner and the software that's produced. In very bad cases it's also taking any problems that are identified in the project as personal criticisms.
+An “ego project” (“ego” is the Latin for “I”) is a project that someone is directly and closely associated with. Again, this isn't a sane way of thinking about software projects because even with well-specified, well-managed software projects, there is still a large amount of uncertainty and a chance that they will go wrong. What's important to highlight here is that associating the ego with a project is *symmetrical* thinking. It's thinking that associates success with there being a symmetry between what's in the mind of the product owner and the software that's produced. In very bad cases this can also mean taking any bricks-without-straw problems that are identified in the project as personal criticisms.
+
+The best product owners don't do this. They have *some* attachment to the project (especially when it's going well) but they do not identify with it completely.
 
 ## Retrospective
 
 The retrospective is a short meeting where the team get together and discuss what went well, what didn't go so well, and what they might do differently to improve the performance of the team. 
 
-The retrospective also enforces a *some* perspective because, although there might be discussion of what an ideal, perfect situation would look like, one of the main purposes of the retro is to identify specific next actions to improve the way that the team is working.
+The retrospective also enforces a *some* perspective because, although there might be discussion of what an ideal situation would look like, one of the main purposes of the retro is to identify specific next actions to improve the way that the team is working.
 
 For product owners who aren't Pharoah (i.e. they're interesting in giving their workers the tools they need to do the job) the retrospective is also full of vital information because it gives a list of the problems that are stopping the team from doing their work.
 
 I've been facilitating retrospectives now for about 8 years, and from the very beginning I instinctively felt that, although it was a good idea to capture all the points that arose at the retro, it was also a good idea to boil those points down to just two or three points which would get reported more widely: just *some* of the issues.
 
-If this effort isn't made, to focus on just some of the issues, the retrospective can easily fall prey to unhelpful “all” thinking. For instance there can  be the idea that *all* of the actions that come out of a retrospective should be completed before the next retrospective. This can be made even worse by making each action a commitment (we'll talk about commitment and consistency in a separate chapter). It took me quite a while to realise that the natural cadence of resolution for actions from retrospectives isn't the same as the cadence of Scrum sprints (typically every two weeks).
+If this effort isn't made, to focus on just *some* of the issues, the retrospective can easily fall prey to unhelpful “all” thinking. For instance there can  be the idea that *all* of the actions that come out of a retrospective should be completed before the next retrospective. This can be made even worse by making each action a commitment (we'll talk about commitment and consistency in a separate chapter). It took me quite a while to realise that the natural cadence of resolution for actions from retrospectives isn't the same as the cadence of Scrum sprints (which are typically every two weeks).
 
 Since this has finally dawned on me I've started to dedicate every third or fourth retrospective completely to looking over the actions that arise out of the retrospectives.
 
@@ -150,7 +150,7 @@ But Scrum isn't just about "some". Scrum is also about "all". One way that Scrum
 
 Scrum also focuses on completeness. The aim of the Sprint is to complete all the work that was planned in the Sprint and that work is not counted as being "Done" until the working software has passed its tests and it has been accepted by the product owner.
 
-A substantial part of the power of Scrum is in its approach to attacking symmetrical thinking and replacing it with asymmetrical, rational, logical thinking.  But, Scrum being a human endeavour, it is in itself is vulnerable to symmetric thinking. Below are some of the ways in which Scrum can fall prey to symmetrical thinking: insisting on “all” where it would be better to think more carefully about “some”. 
+A substantial part of the power of Scrum is in its approach to attacking symmetrical thinking and replacing it with asymmetrical, rational, logical thinking.  But, Scrum being a human endeavour, it is in itself is vulnerable to inappropriate and unhelpful symmetric thinking. Below are some of the ways in which Scrum can fall prey to symmetrical thinking: insisting on “all” where it would be better to think more carefully about “some”. 
 
 ### Fallacy No. 1: Scrum is a general framework that can be applied to anything 
 Scrum works very well for software development, where once work is started on a product backlog item, it usually can continue until the item is done. Scrum is less well-suited to managing other kinds of tasks.
@@ -168,25 +168,28 @@ The false idea that everything can be broken down into smaller and smaller tasks
 
 One of the “Scrum values” which is outlined in the admirably brief “Scrum Guide” is commitment. Commitment and consistency is a powerful psychological principle, which aligns well with “all-ness thinking” and “symmetry”. In the introduction, we've already seen how dumb this kind of thinking can be and it's such a powerful way of behaving badly using symmetry that we'll devote a later chapter to it.
 
-From the point of view of “some” and “all” it's interesting that if too much emphasis is placed on the idea of completion of everything that was planned for the sprint, both of which are absolute demands, then the “all”-ness can spread. The development team will start to insist that stories that are committed to in planning are completely (“all”) detailed. When vagueness or uncertainty is unearthed in the stories when they are being worked on in the sprint, the team may down tools on the stories; mark them as blocked; and stop work on them until the uncertainty is removed.  They might also disavow any committment to a story which they said they would do, but which then turned out to be “incomplete.”
+From the point of view of “some” and “all” it's interesting that if too much emphasis is placed on the idea of completion of everything that was planned for the sprint, “all”-ness can spread. The development team might begin to insist that stories that are committed to in planning are completely (“all”) detailed. When any vagueness or uncertainty is unearthed the team may down tools on the stories; mark them as blocked; and stop work on them until the uncertainty is removed.  They might also disavow any committment to a story which they said they would do, but which then turned out to be “incomplete.”
 
 ## Scrum Master
-So what does the Scrum Master do? One way to think of the Scrum Master is that they are the keepers of the “some” perspective. The Scrum Master is the “some” master (oh dear).  In the daily stand-up they try to keep the team focused on what happened yesterday, what's happening today and anything that's immediately stopping that from happening.
+So what does the Scrum Master do? One way to think of the Scrum Master is that they are the keepers of the “some” perspective. The Scrum Master is in many ways the “some” master (oh dear).  In the daily stand-up they try to keep the team focused on what happened yesterday, what's happening today and anything that's immediately stopping that from happening.
+
 In planning and backlog refinement, they help the team and the product owner agree to take on *some* of the work from the product backlog. And reassure the team and product owner that the work they take on does not need to be completely (all) detailed, but can be planned when it is detailed enough (some).  
 
-During the sprint, they help the team focus on getting *some* of the work done and here they also focus on the absolute requirement of Scrum to only count work as done when it has produced working software.
+During the sprint, they help the team focus on getting *some* of the work done but here they also focus on the absolute requirement of Scrum to only count work as done when it has produced working software.
 
 ## Conclusion
 
 In this chapter I've looked at the ways that the Scrum method encourages, even forces a “some” perspective on the work that needs doing in software development. This focus on some is powerful for at least three reasons.
 
 ### Something starts happening
-The stasis and paralysis that can afflict projects that insist on *all* requirements being *completely* ready before they can proceed to the next stage is avoided by the willingness of Scrum to start working on *some* of the requirements when they are *good enough*. This perhaps the most powerful aspect of Scrum. 
+The stasis and paralysis that can afflict projects that insist on *all* requirements being *completely* ready before they can proceed is avoided by the willingness of Scrum to start working on *some* of the requirements when they are *good enough*. This perhaps the most powerful aspect of Scrum. 
 
 ### Working Software
-The focus on getting *some* of the work in the product backlog working produces working software which could potentially be valuable to the customer. Providing customer feedback, clarifying in the customer's mind, once they've see the working software, what it really was they they wanted, and even, possibly actually delivering revenue.
+The focus on getting *some* of the work in the product backlog working produces working software which could potentially be valuable to the customer: providing customer feedback; clarifying in the customer's mind, once they've see the working software, what it really was they they wanted; and even, possibly actually delivering revenue.
 
 ### A Better Idea of Obstacles
-By trying to do *some* of the work in the product backlog, Scrum provides us very quickly with a far more informed idea of what obstacles there might be which could prevent us from doing what we want to do.  This aspect of Scrum as a method for making explicit and testing the hypotheses about the project which are implicit in the work in the product backlog is what we will talk about in the next chapter.  
+By trying to do *some* of the work in the product backlog, Scrum provides us very quickly with a far more informed idea of what obstacles there might be which could prevent us from doing what we want to do. 
+
+My doing this Scrum is also checking the vision and the dream of “all” of the items which constitute a project against the “some” of what has actually been achieved. In this way Scrumo as a method for making explicit and testing the hypotheses about the project which are implicit in the work in the product backlog and it's this hypothesis testing aspect of Scrum that we'll look at in more detail in the next chapter.  
 
 
