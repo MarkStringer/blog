@@ -17,8 +17,9 @@ my $password='';
 my $fast='';
 my $BLOG_DIRECTORY = '.';
 my $PUBLIC_DIRECTORY = "..".$slash."Public";
+my $BLOG_PATH = 'newblog';
 my $BLOG_URL = q<http://www.mumbly.co.uk/newblog/>;
-my $FTP_BLOG_DIRECTORY = "newblog";
+my $FTP_BLOG_DIRECTORY = 'www/newblog';
 my $STYLE_SHEET="blogstyle.css";
 my $RSS_FILE = "feed.rss";
 my $BLOG_TITLE = "A Commonplace";
@@ -54,7 +55,7 @@ $BLOG_TITLE
 HEAD
 my $nav_frag1 = "<span id=\"link\">";
 my $nav_frag2 = "</span>";
-my $index_frag = $nav_frag1."<a href=\"/".$FTP_BLOG_DIRECTORY."\">Index</a>".$nav_frag2;
+my $index_frag = $nav_frag1."<a href=\"/".$BLOG_PATH."\">Index</a>".$nav_frag2;
 my $link_frag1 = "<a href=\"";
 my $link_frag2 = "\">";
 my $link_frag3 = "</a>";
@@ -188,7 +189,7 @@ push (@file_list, $BLOG_DIRECTORY.$slash."index.htm");
 @file_list = (@file_list, @image_files);
 
 ## ftp everything up to the blog site
-my $ftp = Net::FTP->new("www.mumbly.co.uk", Debug => 0, Passive => 1)
+my $ftp = Net::FTP->new("ftp.mumbly.co.uk", Debug => 0, Passive => 1)
 or die "Cannot connect to some.host.name: $@";
 $ftp->login($username,$password)
 or die "Cannot login ", $ftp->message;
