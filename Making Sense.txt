@@ -1,4 +1,4 @@
-# I Don't Want Your Love/Money/Esteem Baby I Just Want You to Talk Sense
+# Stop Making Sense - The System as Imagined vs The System as Found
 
 So this week I've been writing a bid proposal. And I find it very difficult to write bid proposals.  Part of the reason is that it's just impossible to tell it how it really is. If you told how it really was, it would scare the horses. And as a result, I've been reaching for the Scaled Agile Framework as a way of talking about what will happen.
 
@@ -18,4 +18,16 @@ But from the point of view of senior management, I *think* what's going on is th
 
 We have the idea. We have no doubt that the idea is a great idea that is technologically possible and there will be no delays, problems or complications. The idea can be broken down into discrete tasks that can then be divided up between teams. The teams will work steadily through the work.  There will be no issues with technology not performing as advertised, there will be hardly any need to communicate between teams except to confirm that they have done what they promised. The idea when implemented will be universally  loved.
 
-What it made me think is that I need to talk to some people who've actually made Agile work at scale.  I need to interview a bunch of them and then maybe come up with a grounded theory approach to Agile at Scale.  This reminds me of all the discussions.
+What it made me think is that I need to talk to some people who've actually made Agile work at scale.  I need to interview a bunch of them and then maybe come up with a grounded theory approach to Agile at Scale.
+
+And thinking about all of this reminded me of [*this* video](https://www.youtube.com/watch?v=2S0k12uZR14&feature=youtu.be) where Richard Cook draws a distinction between systems as imagined vs systems as found. Remember that phrase.
+
+> Systems as imagined vs systems as found.
+
+Here's a still from that video of Richard Cook's of a system as imagined.
+
+![The System as Imagined](SystemAsImagined.png "The System As Imagined")
+
+And here's a still from a the same video of a system as found.
+
+![The System as Imagined](SystemAsFound.png "The System As Found")
