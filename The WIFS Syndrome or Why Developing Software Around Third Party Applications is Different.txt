@@ -4,7 +4,7 @@ Most of the projects that I seem to get involved with these days involve third p
 
 The first problem is choosing the third party application (TPA?).  How do you decide which one to use?  I've tried to assess Kanban-style project management systems and it's a very difficult and painful process.  One company that I was doing some work for recently was going spare because they had the contract to maintain all the IT for another company.  The client company was a partnership, so if one of the partners asked to have some software installed on their computer, they couldn't really refuse.  But at the same time, they had no idea what that particular piece of software might do, how it would interact with other pieces of software.
 
-There are some other weird things that happen as a result of this shift towards using TPA's.
+There are some other weird things that happen as a result of this shift towards using TPAs.
 
 * The order that requirements flow through testers, BA's and developers (and Product Owners, and other stakeholders) is massively disturbed.  I have my colleague [Ben Schofield](https://www.linkedin.com/pub/ben-schofield/16/525/628) to thank for this idea. Now he's pointed out it's so obvious.
 * Because the flow of requirements through BA's, testers, developers and stakeholders is different, this causes stresses and strains.
@@ -36,7 +36,7 @@ And of course, because software is tractable.  The answer is always:
 The developers start to get excited about how they could use the crop-spraying simulation and put weed-killer in the tanks of the crop-sprayer and therefore make brown marks on yellow cornfields and then by simply switching to the space-shuttle simulator we can view these cornfields from space as letters (yes, I know, something like this actually happened with [PostScript](http://en.wikipedia.org/wiki/PostScript) - which started off as a way of capturing three-dimensional objects, like ships and buildings around New York Harbour - do we really want to go through *that* again?). This project is already starting to look **expensive**, **error-prone** and **disastrously** difficult to maintain (how is this stuff going to work with the next update to Flight Simulator? Thought so).  This project is looking pretty bad, especially compared to good old Microsoft Word which can actually write letters *out of the box*! I've worked on a project like this.
 
 ##What needs to happen to stop this?
-Testers, analysts, developers and product owners need to pick some minimum viable product requirements, and ideally pick the TPA based on those.  In order to do that, they probably need to implement some stories in *several* TPA's.  The selection of these stories should help coalesce the idea of what the minimum viable product is.  But the stories should also test what it's like to customise the TPA and push it a bit beyond its boundaries.
+Testers, analysts, developers and product owners need to pick some minimum viable product requirements, and ideally pick the TPA based on those.  In order to do that, they probably need to implement some stories in *several* TPAs.  The selection of these stories should help coalesce the idea of what the minimum viable product is.  But the stories should also test what it's like to customise the TPA and push it a bit beyond its boundaries.
 
 OK - let's try this.  What's the customer's archetypal story?
 
@@ -64,13 +64,13 @@ How about Story 2?
 
 Some other things that I'm realising about this process as I'm writing.
 
-* Understanding what your MVP is becomes even more important if you're dealing with TPA's.
+* Understanding what your MVP is becomes even more important if you're dealing with TPAs.
 
 * Getting these stories onto a final environment (unless of course it becomes obvious that implementing these things in the TPA is too expensive) is really important as a way of understanding what the TPA can actually do. 
 
 * And testing it with users, load testing it, exploratory testing it.  This is a point I picked up from [Liz Keogh](http://lunivore.com/) - testers are really good at telling you why things won't work and how they're going to break - listen to them.
 
-* One of the values that you want to choose for these initial candidate/archetype stories is *orthogonality* - although this is 0slightly at cross-purposes (no pun intended) with the idea of an MVP.
+* One of the values that you want to choose for these initial candidate/archetype stories is *orthogonality* - although this is slightly at cross-purposes (no pun intended) with the idea of an MVP.
 
 * Get an expert on the TPA in right from the start, if it's a new TPA these will probably have to be people from the company that wrote the TPA.  They'll seem expensive, but it's better to find out what magic needs to be wrought to make the TPA do what you want it to do now rather when you've bet the farm on Flight Simulator as a document solution.  That's when it's going to get **really expensive**.
 
