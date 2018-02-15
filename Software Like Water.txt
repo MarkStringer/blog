@@ -19,7 +19,7 @@ But you also need someone who's job it is to crawl all over the battlefield and 
 
 Let me go back to Boyd for a moment. 
 
-The generals wanted *faster* planes - even though what country's defence needed was more manoeuvrable planes as Boyd demonstrated. The generals wanted planes that would do Mach 3. Even though air-to-air combat rarely happens at speeds faster than Mach 1.5 and miles per gallon when you're flooring the accelerator and taking it to Mach 3 means that you can do it for a bout 10 minutes, then you have to go home.
+The generals wanted *faster* planes - even though what country's defence needed was more manoeuvrable planes as Boyd demonstrated. The generals wanted planes that would do Mach 3. Even though air-to-air combat rarely happens at speeds faster than Mach 1.5 and miles per gallon when you're flooring the accelerator and taking it to Mach 3 means that you can do it for about 10 minutes, then you have to go home.
 
 In software development, the generals seem to want something similar - they want to see software developed according to plans - on time and to budget and complying with standards.
 
