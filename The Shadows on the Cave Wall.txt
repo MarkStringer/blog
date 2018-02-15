@@ -7,7 +7,7 @@ Boyd has this idea called the OODA loop - Observe, Orient, Decide, Act. I'm not 
 
 ![Boyd's OODA Loop]( OODA.Boyd.svg.png)
 
-But I'm not sure to what degree Boyd thought about his own perceptions.  Looking at the diagram - it looks like he thought about it *a lot*.  And so I suppose what I'm reacting to is a lot of people who talk about the OODA loop and don’t think about what goes on in the O's quite so much.  So this is what this article is about - what goes on in the O's.
+But I'm not sure to what degree Boyd thought about his own perceptions.  Looking at the diagram - it looks like he thought about it *a lot*.  And so I suppose what I'm reacting to is a lot of people who talk about the OODA loop and don't think about what goes on in the O's quite so much.  So this is what this article is about - what goes on in the O's.
 
 What I'm trying to show in my diagram is that when you do the first of the O's (Observe) very often, the process is so immediate that we don't notice it happening (we don't observe the observing). This is what Kahneman calls "Thinking Fast".  And of course, this kind of of observing without thinking, in fact, not just stopping there, but ripping through the whole of the loop - Observing, Orienting, Deciding, Acting, is exactly what we need to happen for so many things in our lives.  When the big red noisy thing is hurtling toward you, without thinking, you identify it as a bus and you get out of its way. Even though there weren't many buses in prehistoric times, the fact that we can't make this decisions so fast is the reason we're still here as a species.
 
@@ -20,7 +20,7 @@ Here are some examples of "Thinking Fast" that I'm constantly struggling with.
 * Detailed plans (and contracts) are the only way to deliver complex projects
 * Same - in a multitude of forms e.g. All the projects in a program should have the same architecture, same approach, start at the same time or two projects are doing the "same" kind of work, so their productivity can be compared(actually, I think "Same" might be a book all by itself).
 
-Fast thinking is never going to go away. The human brain likes a certain set of clean, simple ideas which are "wrong." And it also *needs* fast thinking.  Slow thinking is exhausting. There literally aren’t enough hours in the day to think through rationally all of the the perceptions and decisions that we have to make.
+Fast thinking is never going to go away. The human brain likes a certain set of clean, simple ideas which are "wrong." And it also *needs* fast thinking.  Slow thinking is exhausting. There literally aren't enough hours in the day to think through rationally all of the the perceptions and decisions that we have to make.
 
 Another great thinker, Alfred Hirschman referred to these ideas as "Fata Morgana" - which is Italian for "Deceiving Fairy" and refers to a mirage that sailors sometime see on the horizon that creates the impression that there is land when in fact they are in the middle of an ocean. But he also indicated that if we didn't, as a fundamental part of our nature find ourselves attracted to fatae morganae almost *nothing* would ever get done. And Fast thinking sells everything.  And of course, fast thinking is most definitely being used when you call your development method SAFE, or you claim that development teams who use your framework can be thousands of times faster than "ordinary" washing powder, sorry, development teams.
 
