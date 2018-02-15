@@ -1,4 +1,5 @@
-use warnings;    
+use warnings; 
+use List::Util qw(shuffle);   
 use Text::Markdown 'markdown';
 use Net::FTP;
 use File::Copy;
@@ -83,7 +84,7 @@ my $dir = $BLOG_DIRECTORY; ##get all the files in the directory
 my @dir = sortFilesChronologically($dir);
 	
 my @text_files;
-##my @text_file_prefixes;
+my @random_files;
 my @image_files;
 
 if($orderfile && (open (ORDER, "<", $orderfile)))
@@ -101,6 +102,7 @@ else
 {
      $orderfile="";
 }
+@random_files = shuffle(@text_files);
 
 foreach my $file (@dir)
 {
@@ -153,6 +155,8 @@ foreach my $file (@text_files)
 		 {
 			print FILE $nav_frag1.$link_frag1.getFilePrefix($text_files[$file_index+1],"txt").".htm".$link_frag2."Previous".$link_frag3.$nav_frag2;
 		 }
+                 ## write a link to a random blog file here
+                 print FILE $nav_frag1.$link_frag1.getFilePrefix($random_files[$file_index],"txt").".htm".$link_frag2."Random".$link_frag3.$nav_frag2;
 		 ## write the date
 		 print FILE $date_frag1.$mdy.$date_frag2;
 		 print FILE $html.$footer;
