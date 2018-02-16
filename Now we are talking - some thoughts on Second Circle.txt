@@ -28,7 +28,7 @@ I think I've used the cabbage example before, but it's the one that comes to min
 
 ![A Cabbage](cabbage.jpg)
 
-**Je vous ai apporté un chou**
+**Je vous ai apport&#0233; un chou**
 
 
 >Jane: I've brought you a cabbage
