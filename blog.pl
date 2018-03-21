@@ -1,4 +1,9 @@
 use warnings; 
+
+use Cwd;
+use lib cwd;
+
+
 use List::Util qw(shuffle);   
 use Text::Markdown 'markdown';
 use Net::FTP;
