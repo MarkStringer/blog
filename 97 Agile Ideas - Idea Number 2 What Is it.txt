@@ -1,4 +1,4 @@
-# 97 Agile Ideas - Idea Number 1
+# 97 Agile Ideas - Idea Number 2
 # What Is it?
 
 This is an idea from the great Taiichi Ohno, one of the thinkers behind the Toyota Production System.  Whatever kind of work place you're in, you should always be asking yourselves (and each other) what problem it is that you're solving. We're writing software.  But is that *really* the most important problem? Is the problem rather getting motivated and skilled developers at an affordable rate? Once that's fixed does the software writing become a much easier problem?  Is the problem having a full order book?
