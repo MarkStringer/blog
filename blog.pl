@@ -78,6 +78,16 @@ RSS
 my $index_string="";
 
 my $footer = <<FOOT;
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 </div>
 </body>
 </html>
