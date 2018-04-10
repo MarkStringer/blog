@@ -1,13 +1,13 @@
 # 97 Agile Ideas - Idea Number 7 
 # Slack 
 
-Perhaps the best way to explain the idea of slack is that it is the opposite of the idea that is pervasive in most work environments.
+Perhaps the best way to explain the idea of slack is that it is the opposite of the idea that is pervasive in most work environments:
 
-** Everyone must be busy all the time **
+***Everyone must be busy all the time.***
 
 The idea of slack is that organisations, especially software development organisations, are at their most effective when everyone *isn't* busy all the time. What slack is saying is:
 
-** Everyone *shouldn't* be busy all the time.**
+**Everyone *shouldn't* be busy all the time.**
 
 To some people this seems like the craziest idea that they've ever heard. They imagine entire teams of people lolling around doing nothing.  But there are at least four reasons. Why slack is a good idea.
 
