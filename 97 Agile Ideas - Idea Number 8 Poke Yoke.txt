@@ -1,5 +1,5 @@
-# 97 Agile Ideas - Idea Number 7 
-# Slack 
+# 97 Agile Ideas - Idea Number 8 
+# Poke Yoke 
 
 Poke Yoke is an idea that comes from Japanese manufacturing. It is the idea of constructing a series of small (originally) mechanical tests that make sure a task has been completed fully before a piece of work can move to the next stage of assembly. For example, if a washing machine needs four screws to attach a back panel a poke yoke device might start out with four metal screws in four recesses on a tray. Beneath each of the four recesses is a pressure sensitive switch. The worker who is attaching the back plate picks up each of the screws and screws them into the washing machine and then presses the button to move the washing machine to the next stage of production. But the poke yoke device is set up so that the washing machine will only *actually* removed if all four screws have been moved from their recesses. 
 
