@@ -1,7 +1,7 @@
 # 97 Agile Ideas - Idea Number 15 
 # Lightweight Methodology
 
-The group of people who met together in the ski lodge in Utah were working trying to use what they called "light" or "lightweight" methodologies. This is really a reaction to the kind of software development methodologies which were around at the time the Agile manifest was written, which most definitely weren't lightweight, such as "Lean Six Sigma."
+The group of people who met together in the ski lodge in Utah were working trying to use what they called "light" or "lightweight" methodologies. This is really a reaction to the kind of software development methodologies which were around at the time the Agile manifesto was written, which most definitely weren't lightweight, such as "Lean Six Sigma."
 
 This lightweight methodology aspect of Agile is reflected in the first value in the Agile manifesto.
 
