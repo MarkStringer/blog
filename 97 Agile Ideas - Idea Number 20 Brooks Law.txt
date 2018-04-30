@@ -1,0 +1,14 @@
+# 97 Agile Ideas - Idea Number 20
+# Brooks' Law
+
+Fred Brooks wrote one of the earliest books on project management for software development: The Mythical Man Month.
+
+And from that book comes Brooks' law:
+
+***Adding more people to a project makes the project go slower***
+
+Like the ideas of slack, sustainable pace and minimising the work not done, this idea seems totally crazy to a lot of people when they first hear about it. 
+
+Built into this surprise is a mistaken assumption that the kind of work that is being done is uniform and simple (in the Cynefin framework sense). But software development is never less than complex and is sometimes chaotic. Team members need to continuously share their experiences and check understanding.
+
+The bigger the team gets, the harder this is to do and the harder it is for any new information and understanding to reach everyone who needs to know.
