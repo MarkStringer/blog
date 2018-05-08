@@ -125,7 +125,7 @@ foreach my $file (@dir)
 	{
 		@text_files = (@text_files, $file); ## put together a list of text files
 	}
-	if ($file=~/(.*)\.(png|jpg|gif)$/)
+	if ($file=~/(.*)\.(png|jpg|gif|svg)$/)
 	{
 		@image_files = (@image_files, $file); ## put together a list of image files
 	}		
