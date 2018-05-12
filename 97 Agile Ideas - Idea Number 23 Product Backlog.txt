@@ -1,0 +1,30 @@
+# 97 Agile Ideas - Idea Number 23 
+# Product Backlog
+
+A product backlog is a list of things that need to go into a product. Manipulating the product backlog is one of the most powerful ways of controlling an Agile software development project.
+
+The are a number of ways you can manipulate the product backlog.
+
+### Collecting
+
+The first thing that you need to do with a product backlog is put something in it. You can run workshops, you can do user research, you can get ideas in the middle of the night. But in order to have a backlog you need items to put on it. One key difference between a product backlog and a requirements document is that adding things to the product backlog should be nearly cost free. When it's added to the product backlog, an idea can be just one line. There is really no need for a lot of detail.  Detailing the items in the product backlog comes later (see below).
+
+### Prioritising
+
+An important difference between a traditional requirements document and a product backlog is that the items in a product backlog can be ordered. Which items are put first can vary greatly from project to project. Sometimes it's best to do the simplest first, sometimes it's best to do the hardest and most scary.
+
+Sometimes there is a lot of dependency between items which means that once one item has been prioritised, there's a clear need for several other items to be done first.
+
+### Detailing 
+
+As discussed above, items can - and should - be added to the backlog with very sparse detail. But throughout the development process more detail should be added to the items which have been ordered near the top.  How far down the ordered list of items the detailing should go, and how granular the detailing should be will be different for every project.
+
+### Tracking Progress
+
+By tracking the progress through the items in the backlog
+
+### Complexity Estimation
+
+
+
+
