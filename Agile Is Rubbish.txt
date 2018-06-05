@@ -1,6 +1,10 @@
 # Why I hate Agile
 
-Note: I don't hate Agile. Agile literally changed my life. But I don't work as a developer on Agile teams.  This is a series of complaints from a friend of mine who's been working as a developer on Agile projects for years and years. And my attempts to provide some answers.
+Note: I don't hate Agile. Agile literally changed my life. 
+
+But I don't work as a developer on Agile teams.  i
+
+This is a series of complaints from a friend of mine who's been working as a developer on Agile projects for years and years. I've attempted to find some answers.  And then I'll give him a chance to respond. 
 
 >>1) Things are considered by those with the loudest voices/fastest responses, not necessarily the best placed to provide an answer.
 
@@ -8,9 +12,15 @@ Note: I don't hate Agile. Agile literally changed my life. But I don't work as a
 
 >>Just hold up your estimation card with an average value and nod along with the rest of the doomed.
 
-I'm not sure this is really a problem unique to Agile, but it's certainly a problem that Agile teams can be susceptible to. One of the things I seem to spend most time doing when coaching is persuading teams that they don't agree with each other and that it's OK to foreground the disagreements. Not all developers are introverts, not all developers are conflict averse but some of the ones with the best ideas are. If you think there's a conflict, look for places to make that clear. If you think your opinions aren't getting the consideration that they should, make that clear. Retrospectives are the right place from an Agile point of view. But there's also a lot of power in doing it in a "topical" way - i.e. when the thing that's bugging you happens.
+This isn't just a problem unique to Agile, but it's a problem that Agile teams can be susceptible to. 
 
-I used to say that there were no dumb questions until someone asked my wife (who's a London Blue Badge Tourist Guide) why they built Windsor castle so close to the airport. But if you think about it, even asking a dumb question like that reveals a fundamental misunderstading that needs correcting.  If you've got a dumb question, ask it. So very often when you ask these questions, it turns out nobody knows the answer.
+When I'm coaching I spend a lot of time persuading teams that they don't have agree with each other and that it's OK to foreground the disagreements. 
+
+Not all developers are introverts, not all developers are conflict averse but some of the ones with the best ideas are. If you think there's a conflict, look for places to make that clear preferably of course, quietly and politely. But if you think your opinions aren't getting the consideration that they should, make that clear. 
+
+Retrospectives are the right place from an Agile point of view. But there's also a lot of power in doing it in a "topical" way - i.e. when the thing that's bugging you happens.
+
+I used to say that there were no dumb questions until someone asked my wife (who's a London Blue Badge Tourist Guide) why they built Windsor castle so close to the airport. But if you think about it, even asking a dumb question like that reveals a fundamental misunderstading that needs correcting. If you've got a dumb question, ask it. You're a senior developer now, have the courage to ask the dumb questions and look dumb. Very often when you ask these questions, it turns out nobody knows the answer.
  
 >>2) Anybody can do anything at anytime.  Really ?
 >>Like so I want a house built, so I employ a load of builders and they want to build it on Agile principles.  Eric the electrician isn't available, but Pete the plasterer says he once saw a video on YouTube about wiring a house, so he'll give it a go.  
@@ -18,9 +28,9 @@ I used to say that there were no dumb questions until someone asked my wife (who
 >>But it might be seen as possible that a UI guy would craft some heavy-duty C# business logic ?
 >>Yeah, right.
 
-I know this gets said a lot. But I think it's essentially a misunderstanding of how Agile teams are supposed to work. Everybody is supposed to help out as much as they can.  And sometimes that might involve them doing things that are beyond their comfort zone and skill set, but it definitely doesn't mean that anybody can do anything. It doesn't even meant that there's an expectation that team members will normally be doing things that are out of their core skill set.
+This is a misunderstanding of how Agile teams are supposed to work. Yes, everybody is supposed to help out as much as they can, and sometimes that might involve them doing things that are beyond their comfort zone and skill set, but it definitely doesn't mean that anybody can do anything. It doesn't even mean that there's an expectation that team members will normally be doing things that aren't the thing they're good at.
 
-Software development is knowledge work. Team members are hired for their deep, subtle and rich skills and experience. The only way that you're going to get the best out of teams is to allow them to work to their strengths.  But let's be honest, there are some jobs that need doing as part of development that no one wants to do, or where the skills of the team are missing.  This is where everyone does need to help out a bit. The other thing that you really want to avoid is the crossed arms "I've  done my bit" kind of vibe and any kind of "throwing stuff over the fence" dynamic.
+Software development is knowledge work. Team members are hired for their deep, subtle and rich skills and experience. The only way that you're going to get the best out of teams is to allow them to work to their strengths.  But let's be honest, there are also some rubbish jobs that need doing as part of development that no one wants to do, or where the skills of the team are missing.  This is where everyone does need to help out a bit. The other thing that you really want to avoid is the crossed arms "I've  done my bit" kind of vibe and any kind of "throwing stuff over the fence" dynamic.
 
 >>3) The assumption that you have to be the fastest to market otherwise you would have failed.
 >>What if you're working on a product which is going to be released but there is no 'competitive marketplace' ?
