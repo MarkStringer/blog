@@ -1,10 +1,10 @@
-# Why I hate Agile
+# Why I hate Agile *
 
-Note: I don't hate Agile. Agile literally changed my life. 
+\* Note: I don't hate Agile. Agile literally changed my life. 
 
-But I don't work as a developer on Agile teams.  i
+But I don't work as a developer on Agile teams.  
 
-This is a series of complaints from a friend of mine who's been working as a developer on Agile projects for years and years. I've attempted to find some answers.  And then I'll give him a chance to respond. 
+This is a series of complaints from a friend of mine who's been working as a developer on Agile projects for years and years. I've attempted to find some answers and then I'll give him a chance to respond. 
 
 >>1) Things are considered by those with the loudest voices/fastest responses, not necessarily the best placed to provide an answer.
 
@@ -16,7 +16,7 @@ This isn't just a problem unique to Agile, but it's a problem that Agile teams c
 
 When I'm coaching I spend a lot of time persuading teams that they don't have agree with each other and that it's OK to foreground the disagreements. 
 
-Not all developers are introverts, not all developers are conflict averse but some of the ones with the best ideas are. If you think there's a conflict, look for places to make that clear preferably of course, quietly and politely. But if you think your opinions aren't getting the consideration that they should, make that clear. 
+Not all developers are introverts, not all developers are conflict averse, but some of the ones with the best ideas are. If you think there's a conflict, look for places to make that clear. Preferably of course, quietly and politely. If you think your opinions aren't getting the consideration that they should, you should also make that clear. 
 
 Retrospectives are the right place from an Agile point of view. But there's also a lot of power in doing it in a "topical" way - i.e. when the thing that's bugging you happens.
 
@@ -30,7 +30,7 @@ I used to say that there were no dumb questions until someone asked my wife (who
 
 This is a misunderstanding of how Agile teams are supposed to work. Yes, everybody is supposed to help out as much as they can, and sometimes that might involve them doing things that are beyond their comfort zone and skill set, but it definitely doesn't mean that anybody can do anything. It doesn't even mean that there's an expectation that team members will normally be doing things that aren't the thing they're good at.
 
-Software development is knowledge work. Team members are hired for their deep, subtle and rich skills and experience. The only way that you're going to get the best out of teams is to allow them to work to their strengths.  But let's be honest, there are also some rubbish jobs that need doing as part of development that no one wants to do, or where the skills of the team are missing.  This is where everyone does need to help out a bit. The other thing that you really want to avoid is the crossed arms "I've  done my bit" kind of vibe and any kind of "throwing stuff over the fence" dynamic.
+Software development is knowledge work. Team members are hired for their deep, subtle and rich skills and experience. The only way that you're going to get the best out of teams is to allow them to work to their strengths.  But let's be honest, there are also some rubbish jobs that need doing as part of development that no one wants to do, or where the skills of the team are missing.  This is where everyone *does* need to help out a bit. The other thing that you really want to avoid is the crossed arms "I've  done my bit" kind of vibe and any kind of "throwing stuff over the fence" dynamic.
 
 >>3) The assumption that you have to be the fastest to market otherwise you would have failed.
 >>What if you're working on a product which is going to be released but there is no 'competitive marketplace' ?
@@ -57,7 +57,7 @@ No idea.
 
 Purity appeals to people. But, you're right. It's bullshit. Scrum is a powerful, simple, set of heuristics (rules of thumb) that are just trying to realize an empirical process. Empirical process, that's the "purity" that Agile should be aspiring to (aspiring isn't the same as attaining). Empirical process is said to have 3 pillars: inspection, transparency and adaptation.  
 
-The whole point of the Scrum meetings is to provide inspection and transparency - the meetings are there so that the team (including the product Owner) can see what's going on and change what's happening if they see a problem (adaptation). That's also the point of things like physical Agile boards.
+The whole point of the Scrum meetings is to provide inspection, transparency and adaptation (the three pillars of the empirical process) - the meetings are there so that the team (including the product Owner) can see what's going on (inspection and transparency) and change what's happening if they see a problem (adaptation). That's also the point of things like physical Agile boards.
 
 If you're being honest with each other about how things are going (transparency); paying attention to what others are saying (inspection); and you're changing what you're doing in light of what you learn in those meetings (adaptation) *then* you're doing Agile.
 
@@ -72,7 +72,7 @@ If you're being honest with each other about how things are going (transparency)
 >>So basically I ended up making a defect tracking tool.
 >>Or I would have if I didn't have a brain - I used the defect tracking tool that was available. Job done.
 
-Individuals and interactions over processes and tools doesn't mean no processes and tools. But there's a danger with issue tracking systems and a tendency of developers that can combine in counterproductive ways. In my experience, many, many developers are of the opinion that if only they could get the right issue tracking system and put the right detail in the tickets, they need never talk to anyone again: *that's* what "Individuals and interactions..." is trying to counter.  By all means capture detail in some kind of electronic tool, but if you don't also talk about what you're capturing, ulitmately that's probably going to be a problem.
+Individuals and interactions over processes and tools doesn't mean no processes and tools. But there's a danger with issue tracking systems and a tendency of developers that can combine in counterproductive ways. In my experience, many, many developers are of the opinion that if only they could get the right issue tracking system and put the right detail in the tickets, they need never talk to anyone again: *that's* what "Individuals and interactions..." is trying to counter.  By all means capture detail in some kind of electronic tool, but if you don't also talk about what you're capturing, ulitmately that's going to be a problem.
 
 >>7) "Working software over comprehensive documentation."
 >>What that really means is no documentation, except for APIs.  
@@ -116,7 +116,7 @@ Obviously you can break things by changing them. You can also change what you as
 
 But if you don't incorporate the possibility of change in to process you reduce the chance of success to nearly nothing. 
 
-Most customers genuinely don't know what they want when a project starts, but Agile tries to stop that being a problem with its emphasis on working software (so the customer can see what it is they've asked for and then get an idea of what it is they *actually* want); constant collaboration with the customer and responding to change as the customer's understanding changes.
+Most customers genuinely don't know what they want when a project starts, but Agile tries to stop that being a problem with its emphasis on working software (so the customer can see what it is they've asked for and then get an idea of what it is they *actually* want). This means constant collaboration with the customer and responding to change as the customer's understanding changes.
 
 >>10) The fetishisation of non-tech solutions.
 I just don't get why, when you've got tools out there that do the job better, you have to use postits and whiteboards.
@@ -125,7 +125,7 @@ No-one notices, no-one cares.
 
 I prefer index cards with blue tac precisely for that reason. If no one is noticing and no one is caring then that's probably a sign that there's something wrong with the communication on the team. As a Scrum master keeping the board up to date gives me a chance to notice various things. Stories that are stuck - stories that nobody ever picks up, 11 stories in progress - 6 members of the team?
 
-The low tech board also helps with stand-up. Team members can point to what they're working on. And that results in conversation. And I know lots of developers who are firmly of the opinion that if only they can get the right fields and the right work flow in their life cycle management tool they need never speak to anyone ever again. Are you certain that you're resisting the low tech way of displaying what's going on in the sprint. Or are you really resisting having a conversation about what's going on in the sprint?
+The low tech board also helps with stand-up. Team members can point to what they're working on. And that results in conversation. And I know lots of developers who are firmly of the opinion that if only they can get the right fields and the right work flow in their life cycle management tool they need never speak to anyone ever again. Are you certain that you're resisting the low tech way of displaying what's going on in the sprint? Or are you really resisting having a conversation about what's going on in the sprint?
 
 I have to say I'm not precious about it - a big screen on a projector will do just as well provided that it can be set up in less than 20seconds.
 
