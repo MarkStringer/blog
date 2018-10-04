@@ -1,82 +1,94 @@
-Planning
-Retrospective
-Scrum Master
-Show and Tell
-Product Owner
-Individuals and Interactions over processes and tools
-Responding to change over following a plan
-Working software 
-Customer collaboration over contract negotiation
-Maximising the work not done
-Sustainable pace
-Stories
-BDD
-Pair programming
-Brooke's Law
-Seven plus or minus two
-Self-organising team
-Pigs and Chickens
-Extreme Programming
-Theory of constraints
-Waterfall
-Big design upfront
-Enough design upfront
-Complexity estimation
-Cynefin framework
-Refactoring
-The INVEST Acronym
-As an X I can Y so that Z
-The 3Cs
-Inspect and Adapt
-Empirical vs defined process
-Kaizen
-The andon line
-Kanban
-Dev Ops
-Infrastructure as code
-Application monitoring
-Agile at scale
-Blue Green release
-Containerisation
-Pivot
-Actionable metric
-Vanity metric
-Root cause analysis - the 5 whys
-Moscow prioritisation
-The system as imagined vs the system as found
-The product backlog
-Planning Poker
-No estimates
-Kano analysis
-The organisation as psychic prison
-The Gervaise principle
-Autonomation
-YAGNI
-Big Ball of Mud
-Build one to throw away
-A system of names
-Burger Method
-Plan, do, check, act
-snowflakes, pets, cattle
-Lean UX
-Value Stream Mapping
-Seven deadly wastes
-Seven deadly wastes of software
-Wicked problems
-Cone of uncertainty
-Programme anarchy
-Mob programming
-Fata Morgana
-Hiding Hand
-The inside view/the outside view
-The planning fallacy
-What you see is all there is
-Information radiators
-Colocation
-Whole Team
-Punctuated equilibria
-minimum viable product
-cycle time
-death march project
-Hyper-performing teams
-
+X	Continuous Integration - CI
+X	Planning
+X	Test Driven Development
+X	The OODA Loop
+X	Lightweight methodology
+O	Retrospective
+X	Scrum Master
+X	The Planning Fallacy
+X	Transparency
+O	Show and Tell
+O	Product Owner
+O	Individuals and Interactions over processes and tools
+O	Responding to change over following a plan
+X	Working software 
+O	Customer collaboration over contract negotiation
+O	Maximising the work not done
+X	Sustainable pace
+O	Stories
+O	BDD
+O	Pair programming
+X	Brooke's Law
+O	Seven plus or minus two
+O	Self-organising team
+O	Pigs and Chickens
+O	Extreme Programming
+O	Theory of constraints
+O	Waterfall
+O	Big design upfront
+O	Enough design upfront
+O	Complexity estimation
+X	Cynefin framework
+O	Refactoring
+O	The INVEST Acronym
+O	As an X I can Y so that Z
+O	The 3Cs
+O	Inspect and Adapt
+x	Empirical vs defined process
+O	Kaizen
+X	The andon line
+O	Kanban
+O	Dev Ops
+O	Infrastructure as code
+O	Application monitoring
+O	Agile at scale
+O	Blue Green release
+O	Containerisation
+O	Pivot
+O	Actionable metric
+O	Vanity metric
+O	Root cause analysis - the 5 whys
+O	Moscow prioritisation
+O	The system as imagined vs the system as found
+O	x	The product backlog
+O	Planning Poker
+O	No estimates
+O	Kano analysis
+O	The organisation as psychic prison
+O	The Gervaise principle
+O	Autonomation
+O	YAGNI
+O	Big Ball of Mud
+O	Build one to throw away
+O	A system of names
+O	Burger Method
+O	Plan, do, check, act
+O	snowflakes, pets, cattle
+O	Lean UX
+O	Value Stream Mapping
+O	Seven deadly wastes
+O	Seven deadly wastes of software
+O	Wicked problems
+O	Cone of uncertainty
+O	Programme anarchy
+O	Mob programming
+O	Fata Morgana
+O	Hiding Hand
+O	The inside view/the outside view
+O	The planning fallacy
+O	What you see is all there is
+O	Information radiators
+O	Colocation
+O	Whole Team
+O	Punctuated equilibria
+O	minimum viable product
+O	cycle time
+O	death march project
+O	Hyper-performing teams
+X	The Andon line
+X	What is it?
+X	Iteration
+X	Work in Progress
+X	Limiting Work in Progress
+X	Slack
+X	Feedback
