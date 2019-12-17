@@ -1,3 +1,4 @@
+#! /usr/local/bin/perl
 use warnings; 
 
 use Cwd;
@@ -10,7 +11,6 @@ use Net::FTP;
 use File::Copy;
 use Scalar::Util 'blessed';
 use URI::Escape;
-use XML::RSS::SimpleGen;
 use HTML::Entities;
 use XML::Twig;
 use Getopt::Long;
@@ -225,45 +225,5 @@ foreach my $put_file (@file_list)
 }
  (my $sec, my$min, my $hour,my $mday, my $mon, my $year, my $wday, my $yday, my $isdst) =
 localtime(time);
-## make an entry in the dropbox public folder, so we can do a post on IFTTT 
-if (-e $PUBLIC_DIRECTORY)
-{
-	open FILE, ">$PUBLIC_DIRECTORY$slash$year$mon$mday$sec\.txt" || die "No dropbox";
-	print FILE $header.$ul_frag1.$index_string.$ul_frag2.$footer;
-	close FILE;
-}
 
-get_url( $BLOG_URL );
- 
-## just put the most recent article in the RSS feed
-m{<li><a href="(.*?)">(.*?)</a></li>}sg;
-
-my $content_file = $1;
-my $content_title = $2;
-
-## screen  scrape the RSS
-rss_new( $BLOG_URL, "A Commonplace", "Thoughts about Agile and all Manner of Other Things" );
-rss_language( 'en' );
-rss_webmaster( 'mark.stringer@mumbly.co.uk' );
-rss_twice_daily();
-##get_url( $BLOG_URL );
-
-local $/=undef;
-
-open CONTENT, "<$content_file" || die "Failed to open $content_file";
-my $content = <CONTENT>;
-
-my $t= XML::Twig->new();
-$t->parse( '<d><title>title</title><para>p 1</para><para>p 2</para></d>');
-
-close CONTENT;
-
-rss_item($BLOG_URL.uri_escape($content_file), $content_title, $content);
-close CONTENT;
-
-die "No items in this content?! {{\n$_\n}}\nAborting"
-unless rss_item_count();
-rss_save( $RSS_FILE, 45 );
-#put this file on the server
-$ftp->put($RSS_FILE)||die "failed to put $RSS_FILE";
 $ftp->quit;

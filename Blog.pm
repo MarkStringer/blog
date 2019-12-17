@@ -8,7 +8,7 @@ package Blog;
   use File::Copy;
   use Scalar::Util 'blessed';
   use URI::Escape;
-  use XML::RSS::SimpleGen;
+##  use XML::RSS::SimpleGen;
   use HTML::Entities;
 
   use Exporter 'import'; # gives you Exporter's import() method directly

@@ -1,6 +1,6 @@
 body
 {
-	font-size: 16pt;
+	font-size: 24pt;
 	font-family: garamond, bookman, "times new roman", serif;
 }
 
@@ -9,7 +9,7 @@ blockquote
   background: #f9f9f9;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  font-size: 14pt;
+  font-size: 20pt;
   font-family: sans-serif;
   quotes: "\201C""\201D""\2018""\2019";
 }
@@ -19,7 +19,7 @@ a:link {text-decoration:none;}
 #content
 {
 	padding-left: 10pc;
-	width: 800px;
+	width: 1200px;
 	float: left;
 	display: inline;
 }
